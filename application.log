@@ -18102,3 +18102,23 @@ Caused by: java.net.ConnectException: Connection refused
 2022-11-17 18:05:10,600  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> LI POSP Certification displayed
 2022-11-17 18:05:10,620  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Training Page Displayed
 2022-11-17 18:05:10,641  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Since its non-verified user we see Get Certified for Free
+2023-02-13 13:18:06,371  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-13 13:18:07,058  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-13 13:18:07,083  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-13 13:18:17,690  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-13 13:18:31,443  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-13 13:18:31,457  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://app.mintpro.in/signup
+2023-02-13 13:19:20,152  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-13 13:19:20,811  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-13 13:19:20,834  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-13 13:19:31,390  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-13 13:19:39,339  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-13 13:19:39,363  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-13 13:19:39,795  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-13 13:19:39,836  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-13 13:19:45,011  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-13 13:19:45,963  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-13 13:19:52,811  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-13 13:19:53,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-13 13:19:53,138  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-13 13:20:10,990  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
