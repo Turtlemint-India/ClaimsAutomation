@@ -10,23 +10,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Set;
-
 public class LoginPage extends TestBase {
 
     public LoginPage() {
         PageFactory.initElements(driver, this);
     }
 
-
-    public String p;
-    public String c;
-
-    public String mintproW;
-    public String ninjaW;
-    public String ninjasignupW;
     public String SolvedID;
     public String SolvedOrderID;
 
@@ -60,8 +49,6 @@ public class LoginPage extends TestBase {
         String parent = driver.getWindowHandle();
         SignInbtn.click();
         LogUtils.info("Clicked on Sign In with Google Button");
-
-
         driver.getWindowHandles().forEach(tab -> driver.switchTo().window(tab));
         LogUtils.info("Switched to child window");
         Email.sendKeys(NinjaEmail);
@@ -107,7 +94,4 @@ public class LoginPage extends TestBase {
         WebCommands.staticSleep(1000);
         Assert.assertEquals(SolvedOrderID, uID);
     }
-
-
 }
-
