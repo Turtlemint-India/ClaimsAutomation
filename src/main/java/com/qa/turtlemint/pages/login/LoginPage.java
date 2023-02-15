@@ -79,10 +79,11 @@ public class LoginPage extends TestBase {
 
     public void ninja_Claims() throws Exception {
         NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
-        WebCommands.staticSleep(14000);
+        WebCommands.staticSleep(24000);
         TestUtil.getScreenShot();
         TestUtil.click(Claims, "Quote Request Selected");
-        WebCommands.staticSleep(20000);
+        WebCommands.staticSleep(5000);
+        driver.getWindowHandles().forEach(tab -> driver.switchTo().window(tab));
 
     }
 
