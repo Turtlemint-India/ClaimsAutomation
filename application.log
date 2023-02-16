@@ -18122,3 +18122,758 @@ Caused by: java.net.ConnectException: Connection refused
 2023-02-13 13:19:53,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
 2023-02-13 13:19:53,138  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
 2023-02-13 13:20:10,990  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-14 18:27:27,070  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:27:29,680  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:27:29,693  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:27:42,774  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:27:46,790  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:27:46,809  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-14 18:27:47,751  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:27:47,790  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:27:52,861  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:27:54,170  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:28:01,470  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:28:01,854  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:28:01,863  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:32:05,031  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:32:05,650  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:32:05,673  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:32:16,147  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:32:20,134  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:32:20,160  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-14 18:32:21,147  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:32:21,174  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:32:26,505  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:32:27,433  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:32:34,695  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:32:35,158  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:32:35,168  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:33:08,572  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:33:09,205  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:33:09,226  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:33:19,685  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:33:24,183  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:33:24,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:33:24,899  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:33:24,934  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:33:29,509  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:33:30,929  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:33:38,487  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:33:38,837  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:33:38,847  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:35:03,744  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:35:04,391  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:35:04,412  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:35:14,859  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:35:19,068  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:35:19,460  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:35:20,058  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:35:20,093  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:35:24,655  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:35:25,993  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:35:33,705  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:35:34,243  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:35:34,254  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:37:43,461  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:37:44,137  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:37:44,157  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:37:54,645  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:37:59,091  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:37:59,252  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:37:59,784  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:37:59,821  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:38:04,887  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:38:05,786  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:38:13,121  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:38:13,520  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:38:13,534  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:39:10,806  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:39:11,466  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:39:11,487  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:39:22,015  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:39:26,211  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:39:26,608  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:39:27,132  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:39:27,168  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:39:36,472  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:39:37,080  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:39:37,101  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:39:47,278  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:39:51,533  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:39:51,687  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:39:52,183  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:39:52,220  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:39:57,168  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:39:58,333  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:40:06,088  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:40:06,535  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:40:06,547  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:41:36,630  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:41:37,309  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:41:37,330  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:41:47,835  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:41:52,066  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:41:52,234  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:41:52,727  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:41:52,768  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:41:57,887  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:41:59,086  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:42:06,779  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:42:07,181  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:42:07,192  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:43:27,972  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:43:28,616  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:43:28,638  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:43:39,226  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:43:43,939  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:43:44,307  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:43:44,892  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:43:44,931  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:43:50,135  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:43:50,846  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:43:58,313  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:43:58,754  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:43:58,766  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:44:55,109  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:44:55,787  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:44:55,806  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:45:06,390  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:45:10,605  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:45:10,768  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:45:11,325  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:45:11,359  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:45:18,012  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:45:18,751  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:45:31,381  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:45:31,708  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:45:31,722  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:46:07,322  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-14 18:47:04,720  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:47:05,388  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:47:05,413  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:47:15,895  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:47:19,873  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:47:20,264  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:47:20,491  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:47:20,508  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:47:41,369  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-14 18:47:42,003  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-14 18:47:42,022  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-14 18:47:52,124  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-14 18:47:56,098  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-14 18:47:56,486  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-14 18:47:57,016  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-14 18:47:57,124  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-14 18:48:02,734  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-14 18:48:03,573  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-14 18:48:14,794  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-14 18:48:14,987  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-14 18:48:14,996  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-14 18:48:44,183  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:16:58,671  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:17:02,576  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:17:02,588  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:17:14,711  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:17:18,088  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:17:18,107  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:17:18,551  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:17:18,593  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:17:23,911  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:17:24,646  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:17:31,951  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:17:32,245  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:17:32,255  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:18:00,071  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:19:22,306  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:19:22,965  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:19:22,985  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:19:33,358  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:19:35,838  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:19:35,857  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:19:36,275  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:19:36,314  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:19:41,170  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:19:42,505  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:19:49,759  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:19:50,085  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:19:50,095  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:20:17,897  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:22:06,706  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:22:07,349  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:22:07,367  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:22:17,979  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:22:20,732  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:22:20,751  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:22:21,171  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:22:21,212  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:22:26,849  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:22:27,846  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:22:34,884  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:22:35,315  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:22:35,325  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:23:03,119  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:25:17,986  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:25:18,612  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:25:18,632  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:25:28,984  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:25:31,585  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:25:31,605  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:25:32,074  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:25:32,133  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:25:39,053  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:25:39,753  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:26:23,656  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:26:24,369  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:26:24,391  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:26:34,940  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:26:37,394  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:26:37,416  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:26:37,916  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:26:37,986  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:26:43,353  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:26:44,038  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:26:51,452  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:26:51,762  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:26:51,776  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:27:19,613  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:27:39,741  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> switched
+2023-02-15 11:28:21,859  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:28:22,523  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:28:22,542  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:28:32,985  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:28:35,585  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:28:35,609  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:28:36,019  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:28:36,055  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:28:41,022  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:28:42,181  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:28:49,638  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:28:49,870  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:28:49,880  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:29:17,676  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:29:37,762  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> switched
+2023-02-15 11:30:16,896  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:30:17,560  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:30:17,583  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:30:28,055  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:30:32,534  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:30:32,554  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:30:32,965  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:30:33,001  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:30:38,602  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:30:39,675  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:30:47,558  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:30:47,874  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:30:47,885  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:31:15,697  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:31:35,798  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> switched
+2023-02-15 11:32:28,430  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:32:29,080  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:32:29,100  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:32:39,628  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:32:42,545  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:32:42,564  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:32:42,977  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:32:43,015  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:32:48,254  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:32:49,354  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:32:56,722  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:32:57,037  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:32:57,048  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:33:24,899  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:33:45,007  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> switched
+2023-02-15 11:37:14,105  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:37:14,744  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:37:14,763  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:37:25,290  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:37:33,064  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:37:33,085  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:37:33,518  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:37:33,556  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:37:38,147  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:37:39,631  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:37:47,151  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:37:47,529  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:37:47,541  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:38:15,677  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:38:35,786  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> switched
+2023-02-15 11:39:17,644  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:39:18,315  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:39:18,334  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:39:28,811  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:39:30,712  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:39:30,780  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:39:30,995  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:39:31,011  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:41:36,754  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 11:41:37,436  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 11:41:37,459  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 11:41:47,504  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 11:41:52,300  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 11:41:52,320  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 11:41:52,758  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 11:41:52,800  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 11:42:00,104  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 11:42:00,827  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 11:42:08,096  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 11:42:08,449  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 11:42:08,459  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 11:42:36,350  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 11:43:01,598  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> switched
+2023-02-15 12:27:55,227  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 12:27:56,316  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 12:27:56,330  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 12:28:06,246  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 12:28:15,051  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:28:15,074  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 12:28:15,497  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 12:28:15,534  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 12:28:23,071  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 12:28:23,891  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 12:28:31,380  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 12:28:31,762  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 12:28:31,771  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 12:28:35,255  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:28:35,323  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: about:blank
+2023-02-15 12:30:04,558  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 12:30:05,228  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 12:30:05,249  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 12:30:15,370  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 12:30:23,648  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:30:23,721  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: about:blank
+2023-02-15 12:31:16,967  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 12:31:17,671  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 12:31:17,691  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 12:31:27,677  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 12:31:34,975  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:31:35,005  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 12:31:35,427  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 12:31:35,472  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 12:31:40,815  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 12:31:41,937  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 12:31:49,466  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 12:31:49,780  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 12:31:49,790  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 12:32:02,670  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> MIS Selected
+2023-02-15 12:32:22,844  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Plus Button clicked
+2023-02-15 12:32:24,271  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> 
+2023-02-15 12:32:24,273  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Product Category Selected
+2023-02-15 12:32:26,031  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==>  Policy Status Selected
+2023-02-15 12:32:26,031  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Now Waiting for a long time to select insurer
+2023-02-15 12:32:28,423  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Insurer Button clicked
+2023-02-15 12:32:28,639  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Finally Create Sale Clicked
+2023-02-15 12:32:30,093  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Broker Checkbox Clicked
+2023-02-15 12:32:30,229  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Business Type Clicked
+2023-02-15 12:32:31,343  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Channel Type Clicked
+2023-02-15 12:32:38,225  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Saved !!!
+2023-02-15 12:32:38,225  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Test Case Successfully completed
+2023-02-15 12:36:44,733  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 12:36:45,380  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 12:36:45,404  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 12:36:55,820  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 12:37:04,798  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:37:04,819  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 12:37:05,229  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 12:37:05,267  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 12:37:10,926  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 12:37:11,753  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 12:37:18,940  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 12:37:19,264  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 12:37:19,273  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 12:37:38,932  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> MIS Selected
+2023-02-15 12:49:30,910  WARN [wdm-shutdown-hook] WebDriverManager:953 - Exception closing ChromeDriver: chrome on MAC (null) (Timed out waiting for driver server to stop.
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Tejass-MacBook-Pro.local', ip: '10.10.10.139', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c7857aeaebe39f6fd99be56f846ebc9, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/lm/9s7m2nks0j3...}, goog:chromeOptions: {debuggerAddress: localhost:51786}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51786/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true})
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Tejass-MacBook-Pro.local', ip: '10.10.10.139', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c7857aeaebe39f6fd99be56f846ebc9, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/lm/9s7m2nks0j3...}, goog:chromeOptions: {debuggerAddress: localhost:51786}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51786/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:465)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:280)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:942)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:895)
+	at io.github.bonigarcia.wdm.WebDriverManager$1.run(WebDriverManager.java:1772)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Tejass-MacBook-Pro.local', ip: '10.10.10.139', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '17.0.1'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
+	... 10 more
+Caused by: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Tejass-MacBook-Pro.local', ip: '10.10.10.139', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '17.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:114)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:58466
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
+	... 4 more
+Caused by: java.net.ConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:58466
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:58466
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-15 12:49:37,529  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 12:49:38,289  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 12:49:38,309  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 12:49:48,842  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 12:49:52,373  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:49:52,394  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 12:49:52,818  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 12:49:52,862  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 12:49:58,100  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 12:49:59,555  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 12:50:06,910  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 12:50:07,198  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 12:50:07,209  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 12:50:35,016  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 12:50:46,446  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 12:50:46,579  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 12:50:47,870  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 12:54:07,273  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 12:54:07,941  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 12:54:07,962  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 12:54:18,467  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 12:54:21,116  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:54:21,143  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 12:54:21,560  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 12:54:21,604  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 12:54:27,141  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 12:54:28,028  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 12:54:35,367  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 12:54:35,823  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 12:54:35,835  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 12:55:03,668  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 12:55:15,088  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 12:55:15,225  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 12:55:16,625  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 12:56:18,999  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 12:56:19,669  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 12:56:19,689  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 12:56:30,165  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 12:56:32,977  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 12:56:32,997  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 12:56:33,412  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 12:56:33,445  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 12:56:38,633  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 12:56:39,476  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 12:56:47,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 12:56:47,650  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 12:56:47,661  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 12:57:15,451  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 12:57:26,911  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 12:57:27,065  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 12:57:28,531  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 13:29:25,166  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:29:26,721  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:29:26,733  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:29:37,217  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:29:40,116  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:29:40,138  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 13:29:40,558  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 13:29:40,596  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 13:29:45,643  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 13:29:46,600  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 13:29:53,691  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 13:29:54,138  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 13:29:54,150  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 13:30:22,023  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 13:30:33,474  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 13:30:33,598  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 13:30:34,977  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 13:35:58,616  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:35:59,286  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:35:59,307  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:36:09,833  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:36:12,073  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:36:12,092  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 13:36:36,976  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:36:37,662  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:36:37,681  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:36:47,806  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:36:49,558  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:36:49,577  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 13:37:21,177  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:37:21,822  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:37:21,842  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:37:32,297  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:37:34,767  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:37:34,786  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 13:41:37,255  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:41:37,965  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:41:37,985  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:41:48,551  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:41:51,308  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:41:51,327  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 13:41:51,751  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 13:41:51,790  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 13:41:57,063  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 13:41:57,774  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 13:42:04,984  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 13:42:05,422  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 13:42:05,434  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 13:42:33,252  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 13:42:44,713  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 13:42:44,904  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 13:42:46,247  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 13:42:47,301  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 13:42:47,624  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 13:42:47,801  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 13:44:26,267  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:44:26,893  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:44:26,912  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:44:37,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:44:40,508  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:44:40,528  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 13:44:40,944  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 13:44:40,985  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 13:44:46,149  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 13:44:47,226  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 13:44:54,458  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 13:44:54,794  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 13:44:54,806  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 13:45:22,574  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 13:45:34,041  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 13:45:34,154  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 13:45:35,490  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 13:45:36,524  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 13:45:36,841  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 13:45:37,036  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 13:46:21,225  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:46:21,865  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:46:21,885  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:46:32,403  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:46:35,098  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:46:35,117  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 13:46:35,543  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 13:46:35,584  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 13:46:41,473  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 13:46:42,272  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 13:46:49,517  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 13:46:49,845  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 13:46:49,855  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 13:47:17,684  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 13:47:29,133  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 13:47:29,274  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 13:47:30,592  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 13:47:31,576  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 13:47:31,983  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 13:47:32,176  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 13:47:32,454  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Enter Description Of Incident Enter
+2023-02-15 13:48:29,862  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:48:30,526  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:48:30,545  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:48:41,075  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:48:43,995  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:48:44,015  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 13:48:44,462  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 13:48:44,499  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 13:48:49,908  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 13:48:51,082  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 13:48:58,540  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 13:48:58,838  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 13:48:58,848  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 13:49:26,690  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 13:49:38,080  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 13:49:38,207  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 13:49:39,532  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 13:49:40,527  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 13:49:40,885  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 13:49:41,086  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 13:49:41,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Enter Description Of Incident Enter
+2023-02-15 13:49:41,555  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Claim Requester Button Clicked
+2023-02-15 13:49:41,792  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Partner Selected
+2023-02-15 13:51:35,580  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 13:51:36,287  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 13:51:36,306  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 13:51:46,748  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 13:51:50,033  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 13:51:50,055  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 13:51:50,486  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 13:51:50,523  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 13:51:55,940  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 13:51:56,629  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 13:52:04,329  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 13:52:04,831  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 13:52:04,841  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 13:52:32,676  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 13:52:44,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 13:52:44,238  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 13:52:45,613  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 13:52:46,693  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 13:52:47,270  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 13:52:47,464  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 13:52:47,726  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Enter Description Of Incident Enter
+2023-02-15 13:52:47,940  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Claim Requester Button Clicked
+2023-02-15 13:52:48,178  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Partner Selected
+2023-02-15 13:52:48,373  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Pine Code Enter
+2023-02-15 13:52:48,476  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> City where accident happened enter
+2023-02-15 13:52:48,668  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Partner Selected
+2023-02-15 13:52:48,831  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Own Damage Selected
+2023-02-15 13:52:48,946  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> No Selected
+2023-02-15 13:52:49,226  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Date And Time For Incident Clicked
+2023-02-15 14:07:29,863  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 14:07:30,557  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 14:07:30,580  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 14:07:41,278  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 14:07:44,552  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 14:07:44,572  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 14:07:45,028  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 14:07:45,066  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 14:07:49,645  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 14:07:50,976  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 14:07:58,302  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 14:07:58,848  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 14:07:58,860  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 14:08:26,703  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 14:08:38,125  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 14:08:38,242  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 14:08:39,600  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 14:08:40,615  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 14:08:40,947  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 14:08:41,045  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> alphabets Enter
+2023-02-15 14:08:42,072  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Error msg shown for alphabets
+2023-02-15 14:08:43,264  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 14:09:18,211  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 14:09:18,858  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 14:09:18,878  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 14:09:29,434  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 14:09:32,831  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 14:09:32,871  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 14:09:33,286  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 14:09:33,327  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 14:09:39,717  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 14:09:40,654  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 14:09:47,830  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 14:09:48,275  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 14:09:48,286  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 14:10:16,107  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 14:10:27,543  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 14:10:27,663  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 14:10:29,147  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 14:10:30,159  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 14:10:30,564  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 14:10:30,672  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> alphabets Enter
+2023-02-15 14:10:31,720  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Error msg shown for alphabets
+2023-02-15 14:10:32,810  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 14:11:00,586  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 14:11:01,162  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-15 14:11:01,182  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-15 14:11:11,219  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 14:11:15,212  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 14:11:15,232  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 14:11:15,671  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 14:11:15,718  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 14:11:21,576  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 14:11:22,398  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 14:11:29,084  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 14:11:29,455  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 14:11:29,472  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 14:11:57,436  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-15 14:12:08,922  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Add a New Claim Button
+2023-02-15 14:12:09,038  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Motor Button Clicked
+2023-02-15 14:12:09,864  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Car Button Clicked
+2023-02-15 14:12:11,051  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Zendesk ID 
+2023-02-15 14:12:11,549  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Name Enter
+2023-02-15 14:12:11,662  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> alphabets Enter
+2023-02-15 14:12:12,690  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Error msg shown for alphabets
+2023-02-15 14:12:13,822  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-15 14:12:14,866  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Error msg shown for 12345 numbers
+2023-02-15 14:12:16,096  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer Contact Number Enter
+2023-02-16 17:42:41,698  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 17:42:43,101  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-16 17:42:43,120  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-16 17:42:54,122  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 17:42:58,343  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 17:42:58,565  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 17:42:59,271  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 17:42:59,307  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 17:56:21,698  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 17:56:22,402  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-16 17:56:22,422  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-16 17:56:32,991  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 17:56:36,968  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 17:56:36,990  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-16 17:56:37,908  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 17:56:37,944  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 17:56:42,614  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 17:56:43,939  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 17:56:51,167  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 17:56:51,614  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 17:56:51,623  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 17:57:19,449  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-16 17:57:30,700  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Kabab Menu Button clicked
+2023-02-16 17:57:32,134  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Delete Button Clicked
+2023-02-16 18:03:37,254  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 18:03:37,896  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-16 18:03:37,923  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-16 18:03:48,586  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 18:03:52,588  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 18:03:52,607  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-16 18:03:53,206  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 18:03:53,222  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 18:07:15,082  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 18:07:15,761  INFO [main] WebDriverManager:1197 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-16 18:07:15,781  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/tejasbahadure/.cache/selenium/chromedriver/mac64/109.0.5414.74/chromedriver
+2023-02-16 18:07:26,341  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 18:07:30,583  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 18:07:30,749  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 18:07:31,267  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 18:07:31,303  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window

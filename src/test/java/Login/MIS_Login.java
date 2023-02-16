@@ -27,7 +27,7 @@ public class MIS_Login extends TestBase {
 
     @Test
     public void loginTest_MIS() throws Exception {
-        Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
+      //  Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
         mis.MISPolicyNumber();
     }

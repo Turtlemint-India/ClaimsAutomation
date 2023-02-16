@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
@@ -141,6 +142,13 @@ public class TestUtil {
             System.out.println(msg);
             return driver.findElement(element);
         });
+    }
+
+    public static boolean Assertchk(String Orginal, WebElement element, String msg) {
+        String Expected = element.getText();
+        Assert.assertEquals(Orginal, Expected);
+        LogUtils.info(msg);
+        return true;
     }
 
     public static void scroll(WebElement element) {

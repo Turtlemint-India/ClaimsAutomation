@@ -69,7 +69,7 @@ public class LoginPage extends TestBase {
 
 
     public void ninja_MIS() throws Exception {
-        driver.switchTo().newWindow(WindowType.WINDOW);
+        //driver.switchTo().newWindow(WindowType.WINDOW);
         NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         WebCommands.staticSleep(14000);
         TestUtil.getScreenShot();

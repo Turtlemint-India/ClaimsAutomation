@@ -25,6 +25,25 @@ public class IncidentDetailsTest extends TestBase {
     @Test
     public void CostomerContactNo_Test() {
         ID.CostomerContactNo();
+    }
 
+    @Test
+    public void CostomerPineCode_Test() {
+        ID.CostomerPineCode();
+    }
+
+    @Test
+    public void MultipleSelection_Test() {
+        ID.MultipleSelectionForDeleteClaims();
+    }
+
+    @Test
+    public void DeleteClaims_Test() {
+        ID.DeleteClaims();
+    }
+
+    @Test
+    public void DeleteClaimsCancel_Test() {
+        ID.DeleteClaimsCancel();
     }
 }
