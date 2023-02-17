@@ -18122,3 +18122,1617 @@ Caused by: java.net.ConnectException: Connection refused
 2023-02-13 13:19:53,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
 2023-02-13 13:19:53,138  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
 2023-02-13 13:20:10,990  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Quote Request Selected
+2023-02-13 16:22:14,091  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-13 16:22:14,813  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-13 16:22:14,819  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-13 16:22:15,925  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-13 16:22:23,005  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-13 16:22:23,008  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-13 16:22:23,256  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-13 16:22:23,280  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 16:41:54,880  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 16:41:55,480  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 16:41:55,486  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 16:41:56,673  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 16:42:02,349  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 16:42:02,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 16:42:02,755  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 16:42:02,760  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 16:46:30,142  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 16:46:30,282  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 16:46:30,288  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 16:46:31,483  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 16:47:15,746  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 16:47:15,899  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 16:47:15,904  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 16:47:16,796  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 16:47:21,808  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 16:47:21,811  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 16:47:22,057  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 16:47:22,063  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 16:49:19,533  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 16:49:19,688  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 16:49:19,693  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 16:49:20,814  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 16:49:25,277  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 16:49:25,280  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 16:49:25,321  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 16:49:29,367  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 16:49:29,445  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 16:49:29,476  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 16:49:31,059  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 16:49:31,262  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 16:49:31,281  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 16:51:04,992  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 16:51:05,146  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 16:51:05,152  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 16:51:06,058  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 16:51:11,076  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 16:51:11,079  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 16:51:11,287  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 16:51:15,344  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 16:51:15,415  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 16:51:15,451  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 16:51:17,064  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 16:51:17,264  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 16:51:17,267  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 16:51:44,614  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 18:41:13,191  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:41:13,730  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:41:13,736  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:41:14,749  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:41:21,235  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:41:21,239  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 18:41:21,719  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:41:25,742  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:44:23,791  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:44:23,937  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:44:23,942  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:44:25,089  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:44:33,025  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:44:33,028  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 18:44:33,486  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:44:37,500  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:46:17,807  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:46:17,958  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:46:17,963  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:46:18,871  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:46:27,029  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:46:27,032  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 18:46:27,225  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:46:31,278  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:46:35,372  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 18:46:35,404  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 18:46:37,322  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 18:46:37,526  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 18:46:37,529  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 18:47:04,897  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 18:47:09,990  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 18:47:13,060  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 18:47:14,110  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 18:51:35,164  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:51:35,310  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:51:35,316  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:51:36,439  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:51:41,831  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:51:41,834  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/
+2023-02-15 18:51:42,287  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:51:46,309  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:52:30,109  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:52:30,255  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:52:30,260  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:52:31,233  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:52:38,483  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:52:38,486  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 18:52:38,781  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:52:42,804  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:53:34,191  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:53:34,335  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:53:34,341  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:53:35,315  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:53:44,554  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:53:44,565  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 18:53:44,787  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:53:48,855  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:53:52,937  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 18:53:52,968  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 18:53:54,678  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 18:53:54,884  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 18:53:54,889  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 18:54:22,248  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 18:54:27,353  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 18:54:30,419  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 18:54:31,478  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 18:56:23,863  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:56:24,009  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:56:24,015  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:56:25,211  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:56:34,635  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:56:34,653  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 18:56:34,898  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:56:38,946  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:56:43,033  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 18:56:43,075  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 18:56:44,588  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 18:56:44,796  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 18:56:44,800  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 18:57:12,153  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 18:57:17,251  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 18:57:20,318  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 18:57:21,420  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 18:57:25,047  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 18:57:25,121  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 18:57:25,177  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 18:57:25,312  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 18:57:40,282  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 18:57:40,432  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 18:57:40,438  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 18:57:41,406  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 18:57:52,395  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 18:57:52,405  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 18:57:52,653  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 18:57:56,704  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 18:58:00,795  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 18:58:00,831  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 18:58:02,487  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 18:58:02,679  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 18:58:02,693  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 18:58:30,048  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 18:58:35,161  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 18:58:38,227  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 18:58:39,327  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 18:58:42,946  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 18:58:43,019  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 18:58:43,075  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 18:58:43,211  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 19:09:20,902  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 19:09:21,057  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 19:09:21,062  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 19:09:22,140  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 19:09:31,594  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 19:09:31,610  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 19:09:31,849  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 19:09:35,897  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 19:09:39,990  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 19:09:40,036  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 19:09:41,773  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 19:09:41,983  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 19:09:41,988  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 19:10:09,364  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 19:10:14,457  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 19:10:17,525  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 19:10:18,620  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 19:10:22,263  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 19:10:22,337  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 19:10:22,392  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 19:10:22,528  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 19:10:22,572  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 19:10:23,145  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 19:16:55,562  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 19:16:55,710  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 19:16:55,715  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 19:16:56,768  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 19:17:10,212  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 19:17:10,224  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 19:17:10,452  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 19:17:14,504  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 19:17:18,594  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 19:17:18,626  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 19:17:20,422  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 19:17:20,624  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 19:17:20,628  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 19:17:47,976  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 19:17:53,066  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 19:17:56,129  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 19:17:57,223  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 19:18:00,860  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 19:18:00,931  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 19:18:00,985  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 19:18:01,123  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 19:18:01,171  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 19:18:01,748  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 19:40:48,010  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 19:40:48,167  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 19:40:48,173  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 19:40:49,377  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 19:40:58,009  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 19:40:58,020  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 19:40:58,250  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 19:41:02,299  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 19:41:06,380  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 19:41:06,420  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 19:41:08,228  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 19:41:08,442  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 19:41:08,445  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 19:41:35,803  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 19:41:40,906  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 19:41:43,972  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 19:41:45,067  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 19:41:48,696  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 19:41:48,769  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 19:41:48,824  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 19:41:48,955  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 19:41:49,006  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 19:41:49,580  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 19:45:59,724  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 19:46:00,546  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 19:46:00,552  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 19:46:01,773  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 19:46:11,385  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 19:46:11,396  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 19:46:11,448  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 19:46:15,500  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 19:46:19,591  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 19:46:19,622  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 19:46:21,453  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 19:46:21,661  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 19:46:21,666  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 19:46:49,074  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 19:46:54,172  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 19:46:57,238  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 19:46:58,332  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 19:47:01,973  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 19:47:02,044  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 19:47:02,100  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 19:47:02,238  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 19:47:02,280  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 19:47:02,844  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 19:47:07,467  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 19:47:09,057  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 19:47:10,643  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 19:47:29,979  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 19:47:30,125  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 19:47:30,132  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 19:47:31,029  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 19:47:46,527  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 19:47:46,538  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 19:47:46,758  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 19:47:50,810  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 19:47:54,900  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 19:47:54,932  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 19:47:56,806  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 19:47:56,959  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 19:47:56,964  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 19:48:24,311  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 19:48:29,411  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 19:48:32,463  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 19:48:33,558  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 19:48:37,182  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 19:48:37,254  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 19:48:37,309  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 19:48:37,447  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 19:48:37,497  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 19:48:38,074  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 19:48:42,694  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 19:48:44,281  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 19:48:45,858  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 20:26:54,448  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 20:26:54,588  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 20:26:54,594  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 20:26:55,610  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 20:27:04,794  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 20:27:04,805  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 20:27:05,043  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 20:27:09,094  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 20:27:13,188  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 20:27:13,220  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 20:27:14,870  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 20:27:15,074  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 20:27:15,084  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 20:27:42,522  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 20:27:47,619  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 20:27:50,689  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 20:27:51,788  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 20:27:55,427  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 20:27:55,501  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 20:27:55,556  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 20:27:55,693  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 20:27:55,739  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 20:27:56,319  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 20:28:00,945  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 20:28:02,533  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 20:28:04,117  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 20:28:10,686  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 20:28:12,402  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 20:36:51,559  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 20:36:51,709  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 20:36:51,714  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 20:36:52,781  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 20:37:05,014  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 20:37:05,026  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 20:37:05,266  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 20:37:09,313  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 20:37:13,401  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 20:37:13,432  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 20:37:15,122  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 20:37:15,323  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 20:37:15,327  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 20:37:42,711  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 20:37:47,810  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 20:37:50,876  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 20:37:51,978  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 20:37:55,612  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 20:37:55,684  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 20:37:55,740  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 20:37:55,876  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 20:37:55,921  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 20:37:56,495  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 20:38:01,123  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 20:38:02,711  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 20:38:04,293  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 20:38:10,862  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 20:38:12,585  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 20:38:14,172  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 20:38:56,359  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 20:38:56,511  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 20:38:56,517  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 20:38:57,611  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 20:39:07,637  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 20:39:07,650  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 20:39:07,867  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 20:39:11,928  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 20:39:16,022  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 20:39:16,053  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 20:39:17,804  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 20:39:18,020  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 20:39:18,035  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 20:39:45,438  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 20:39:50,533  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 20:39:53,599  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 20:39:54,694  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 20:39:58,325  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 20:39:58,399  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 20:39:58,455  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 20:39:58,593  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 20:39:58,638  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 20:39:59,214  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 20:40:03,840  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 20:40:05,426  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 20:40:07,012  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 20:40:13,581  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 20:40:15,308  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 20:40:16,899  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 20:41:58,681  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 20:41:58,829  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 20:41:58,835  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 20:42:00,009  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 20:42:11,263  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 20:42:11,275  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 20:42:11,495  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 20:42:15,541  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 20:42:19,632  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 20:42:19,674  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 20:42:21,493  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 20:42:21,693  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 20:42:21,697  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 20:42:49,095  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 20:42:54,186  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 20:42:57,254  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 20:42:58,349  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 20:43:01,963  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 20:43:02,033  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 20:43:02,087  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 20:43:02,223  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 20:43:02,270  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 20:43:02,841  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 20:43:07,468  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 20:43:09,055  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 20:43:10,638  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 20:43:17,194  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 20:43:18,922  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 20:43:20,518  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 20:43:26,738  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finallu 
+2023-02-15 20:55:59,171  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 20:55:59,329  WARN [main] VersionDetector:326 - Error reading commands.properties, using local instead
+2023-02-15 20:55:59,352  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 20:55:59,356  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 20:56:00,459  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 20:56:36,226  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 20:56:36,373  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 20:56:36,378  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 20:56:37,292  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 20:56:49,047  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 20:56:49,057  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 20:56:49,271  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 20:56:53,322  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 20:56:57,414  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 20:56:57,445  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 20:56:59,524  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 20:56:59,731  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 20:56:59,737  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 20:57:27,121  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 20:57:32,222  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 20:57:35,284  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 20:57:36,378  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 20:57:40,012  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 20:57:40,085  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 20:57:40,143  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 20:57:40,278  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 20:57:40,321  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 20:57:40,901  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 20:57:45,526  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 20:57:47,115  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 20:57:48,697  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 20:57:55,265  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 20:57:56,982  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 20:57:58,548  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 20:58:05,781  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finallu 
+2023-02-15 20:58:10,405  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-15 20:58:11,977  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-15 21:44:37,986  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 21:44:38,129  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 21:44:38,134  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 21:44:39,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 21:44:55,675  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 21:44:55,687  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 21:44:55,914  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 21:44:59,961  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 21:45:04,045  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 21:45:04,077  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 21:45:06,013  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 21:45:06,213  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 21:45:06,219  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 21:45:33,594  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 21:45:38,681  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 21:45:41,745  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 21:45:42,842  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 21:45:46,472  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 21:45:46,543  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 21:45:46,599  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 21:45:46,735  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 21:45:46,779  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 21:45:47,357  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 21:45:51,975  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 21:45:53,560  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 21:45:55,136  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 21:46:01,708  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 21:46:03,432  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 21:46:05,028  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 21:46:12,265  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finallu 
+2023-02-15 21:46:16,892  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-15 21:46:18,465  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-15 21:49:53,970  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 21:49:54,123  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 21:49:54,128  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 21:49:55,197  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 21:50:07,329  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 21:50:07,339  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 21:50:07,553  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 21:50:11,609  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 21:50:15,703  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 21:50:15,734  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 21:50:17,408  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 21:50:17,613  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 21:50:17,617  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 21:50:44,965  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 21:50:50,062  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 21:50:53,132  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 21:50:54,229  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 21:50:57,865  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 21:50:57,936  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 21:50:57,992  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 21:50:58,130  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 21:50:58,180  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 21:50:58,757  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 21:51:03,383  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 21:51:04,971  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 21:51:06,555  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 21:51:13,130  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 21:51:14,856  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 21:51:16,448  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 21:51:23,679  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-15 21:51:28,309  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-15 21:51:29,882  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-15 21:52:48,017  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 21:52:48,164  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 21:52:48,170  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 21:52:49,259  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 21:53:00,513  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 21:53:00,524  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 21:53:00,749  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 21:53:04,799  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 21:53:08,884  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 21:53:08,916  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 21:53:10,665  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 21:53:10,875  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 21:53:10,890  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 21:53:38,264  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 21:53:43,364  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 21:53:46,431  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 21:53:47,528  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 21:53:51,151  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 21:53:51,221  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 21:53:51,277  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 21:53:51,413  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 21:53:51,452  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 21:53:52,042  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 21:53:56,669  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 21:53:58,260  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 21:53:59,839  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 21:54:06,411  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 21:54:08,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 21:54:09,738  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 21:54:16,972  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-15 21:54:21,601  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-15 21:54:23,174  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-15 22:00:44,251  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-15 22:00:44,816  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-15 22:00:44,821  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-15 22:00:45,966  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-15 22:01:02,135  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-15 22:01:02,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-15 22:01:02,373  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-15 22:01:06,423  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-15 22:01:10,516  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-15 22:01:10,547  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-15 22:01:13,107  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-15 22:01:13,312  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-15 22:01:13,317  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-15 22:01:43,696  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-15 22:01:48,785  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-15 22:01:51,851  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-15 22:01:52,951  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-15 22:01:56,574  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-15 22:01:56,649  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-15 22:01:56,704  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-15 22:01:56,837  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-15 22:01:56,887  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-15 22:01:57,460  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-15 22:02:02,075  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-15 22:02:03,662  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-15 22:02:05,239  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-15 22:02:11,807  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-15 22:02:13,525  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-15 22:02:15,114  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-15 22:02:22,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-15 22:02:26,981  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-15 22:02:28,553  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 12:50:17,748  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 12:50:18,391  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 12:50:18,396  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 12:50:19,356  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 12:50:28,769  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 12:50:28,792  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 12:50:29,011  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 12:50:33,060  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 12:50:37,150  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 12:50:37,181  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 12:50:38,690  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 12:50:38,900  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 12:50:38,906  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 12:51:06,274  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 12:51:11,369  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 12:51:14,433  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 12:51:15,530  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 12:51:19,162  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 12:51:19,235  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 12:51:19,290  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 12:51:19,425  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 12:51:19,465  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 12:51:20,054  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 12:51:24,678  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 12:51:26,265  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 12:51:27,833  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 12:51:34,386  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 12:51:36,097  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 12:51:37,684  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 12:51:44,907  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 12:51:49,534  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 12:51:51,111  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 13:20:26,572  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 13:20:26,718  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 13:20:26,724  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 13:20:27,630  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 13:20:37,869  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 13:20:37,880  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 13:20:38,098  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 13:20:42,152  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 13:20:46,247  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 13:20:46,278  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 13:20:47,680  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 13:20:47,874  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 13:20:47,878  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 13:21:15,263  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 13:21:20,358  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 13:21:23,427  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 13:21:24,520  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 13:21:28,150  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 13:21:28,224  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 13:21:28,279  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 13:21:28,417  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 13:21:28,458  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 13:21:29,049  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 13:21:33,687  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 13:21:35,280  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 13:21:36,864  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 13:21:43,436  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 13:21:45,162  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 13:25:31,699  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 13:25:31,835  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 13:25:31,841  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 13:25:32,803  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 13:25:42,613  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 13:25:42,624  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 13:25:42,857  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 13:25:46,908  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 13:25:51,002  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 13:25:51,043  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 13:25:52,458  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 13:25:52,655  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 13:25:52,660  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 13:26:20,034  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 13:26:25,125  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 13:26:28,194  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 13:26:29,295  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 13:26:32,924  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 13:26:32,996  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 13:26:33,050  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 13:26:33,184  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 13:26:33,227  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 13:26:33,784  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 13:26:38,413  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 13:26:39,999  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 13:26:41,582  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 13:26:48,153  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 13:26:49,875  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 13:26:51,465  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 13:26:58,689  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 13:27:03,323  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 13:27:04,895  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 13:27:24,955  WARN [AsyncHttpClient-1-4] WebSocketHandler:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-16 16:58:09,378  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 16:58:10,042  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 16:58:10,047  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 16:58:11,176  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 16:58:19,651  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 16:58:19,662  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 16:58:19,885  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 16:58:23,949  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 16:58:28,025  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 16:58:28,060  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 16:58:30,061  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 16:58:30,263  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 16:58:30,266  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 16:59:44,473  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 16:59:44,623  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 16:59:44,630  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 16:59:45,556  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 16:59:53,437  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 16:59:53,448  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 16:59:53,685  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 16:59:57,737  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 17:00:01,828  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 17:00:01,861  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 17:00:03,889  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 17:00:04,097  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 17:00:04,101  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 17:01:03,889  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 17:01:04,030  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 17:01:04,036  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 17:01:05,124  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 17:01:11,947  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 17:01:11,958  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 17:01:12,185  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 17:01:16,231  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 17:01:20,319  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 17:01:20,350  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 17:01:22,705  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 17:01:22,906  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 17:01:22,911  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:08:55,905  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:08:56,502  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:08:56,508  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:08:57,487  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:09:07,747  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:09:07,758  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:09:07,978  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:09:12,034  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:09:16,130  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:09:16,156  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:09:17,807  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:09:18,015  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:09:18,030  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:09:45,411  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:09:50,528  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:09:53,595  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:09:54,692  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:09:58,322  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:09:58,397  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:09:58,455  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:09:58,591  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:09:58,639  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:09:59,220  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:10:03,828  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:10:05,419  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:10:06,994  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:10:13,567  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:10:15,296  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:10:16,879  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:10:24,118  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:10:28,743  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:10:30,315  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:15:51,016  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:15:51,162  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:15:51,167  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:15:52,291  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:16:04,122  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:16:04,134  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:16:04,375  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:16:08,428  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:16:12,519  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:16:12,545  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:16:14,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:16:14,325  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:16:14,328  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:16:41,694  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:16:46,790  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:16:49,857  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:16:50,950  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:16:54,583  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:16:54,659  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:16:54,715  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:16:54,851  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:16:54,891  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:16:55,478  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:17:00,103  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:17:01,692  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:17:03,278  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:17:09,854  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:17:11,587  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:17:13,179  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:17:20,396  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:17:25,029  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:17:26,600  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:18:52,577  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:18:52,733  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:18:52,738  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:18:53,843  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:19:03,117  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:19:03,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:19:03,424  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:19:07,490  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:19:11,579  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:19:11,611  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:19:13,408  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:19:13,610  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:19:13,613  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:19:40,976  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:19:46,073  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:19:49,141  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:19:50,240  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:19:53,878  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:19:53,951  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:19:54,005  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:19:54,144  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:19:54,195  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:19:54,775  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:19:59,402  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:20:00,989  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:20:02,571  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:20:09,142  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:20:10,856  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:20:12,447  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:20:19,674  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:20:24,308  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:20:25,880  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:23:45,125  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:23:45,270  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:23:45,276  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:23:46,349  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:23:55,862  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:23:55,873  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:23:56,099  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:24:00,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:24:04,221  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:24:04,251  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:24:06,022  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:24:06,233  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:24:06,238  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:24:33,578  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:24:38,666  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:24:41,733  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:24:42,822  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:24:46,453  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:24:46,528  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:24:46,583  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:24:46,713  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:24:46,763  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:24:47,338  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:24:51,943  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:24:53,534  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:24:55,082  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:25:01,649  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:25:03,369  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:25:04,961  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:25:12,203  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:25:16,836  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:25:18,410  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:25:32,973  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 19:25:42,508  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 19:28:16,159  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:28:16,305  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:28:16,310  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:28:17,368  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:28:25,931  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:28:25,942  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:28:26,157  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:28:30,203  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:28:34,294  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:28:34,320  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:28:36,125  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:28:36,334  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:28:36,340  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:29:03,702  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:29:08,796  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:29:11,864  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:29:12,959  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:29:16,598  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:29:16,672  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:29:16,725  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:29:16,860  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:29:16,899  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:29:17,483  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:29:22,106  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:29:23,699  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:29:25,286  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:29:31,858  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:29:33,577  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:29:35,167  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:29:42,405  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:29:47,034  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:29:48,608  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:30:03,172  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 19:30:12,707  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 19:36:43,375  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:36:43,518  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:36:43,524  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:36:44,709  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:36:54,475  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:36:54,486  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:36:54,707  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:36:58,755  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:37:02,846  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:37:02,871  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:37:04,579  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:37:04,781  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:37:04,785  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:37:32,135  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:37:37,235  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:37:40,306  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:37:41,399  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:37:45,032  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:37:45,105  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:37:45,163  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:37:45,297  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:37:45,339  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:37:45,928  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:37:50,552  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:37:52,142  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:37:53,728  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:38:00,300  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:38:02,001  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:38:03,588  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:38:10,827  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:38:15,457  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:38:17,032  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:38:31,593  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 19:38:41,125  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 19:43:16,051  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:43:16,200  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:43:16,206  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:43:17,332  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:43:27,939  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:43:27,950  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:43:28,190  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:43:32,242  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:43:36,331  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:43:36,355  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:43:37,990  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:43:38,206  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:43:38,209  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:44:05,581  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:44:10,675  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:44:13,740  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:44:14,842  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:44:18,453  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:44:18,524  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:44:18,578  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:44:18,709  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:44:18,757  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:44:19,335  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:44:23,962  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:44:25,550  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:44:27,134  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:44:33,704  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:44:35,436  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:44:37,025  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:44:44,262  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:44:48,895  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:44:50,471  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:45:05,030  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 19:45:14,562  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 19:50:56,816  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:50:56,958  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:50:56,963  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:50:58,078  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:51:16,228  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:51:16,240  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:51:16,477  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:51:20,525  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:51:24,611  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:51:24,643  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:51:26,452  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:51:26,658  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:51:26,661  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:51:54,033  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:51:59,115  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:52:02,180  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:52:03,272  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:52:06,914  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:52:06,989  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:52:07,043  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:52:07,178  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:52:07,227  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:52:07,809  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:52:12,427  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:52:14,015  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:52:15,589  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:52:22,158  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:52:23,883  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:52:25,475  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:52:32,688  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:52:37,320  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:52:38,893  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:52:53,467  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 19:53:03,004  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 19:57:10,894  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 19:57:11,042  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 19:57:11,049  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 19:57:12,176  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 19:57:23,483  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 19:57:23,494  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 19:57:23,720  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 19:57:27,768  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 19:57:31,859  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 19:57:31,899  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 19:57:33,757  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 19:57:33,958  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 19:57:33,962  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 19:58:01,314  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 19:58:06,413  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 19:58:09,483  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 19:58:10,583  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 19:58:14,218  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 19:58:14,292  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 19:58:14,346  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 19:58:14,482  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 19:58:14,531  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 19:58:15,111  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 19:58:19,736  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 19:58:21,325  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 19:58:22,908  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 19:58:29,478  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 19:58:31,186  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 19:58:32,776  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 19:58:40,007  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 19:58:44,633  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 19:58:46,207  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 19:59:00,767  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 22:04:13,288  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:04:13,842  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:04:13,848  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:04:14,967  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:04:25,169  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 22:04:25,177  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 22:04:25,396  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 22:04:29,449  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 22:04:33,520  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 22:04:33,552  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 22:04:35,428  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 22:04:35,631  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 22:04:35,640  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 22:05:02,998  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 22:05:08,091  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 22:05:11,156  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 22:05:12,253  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 22:05:15,875  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 22:05:15,950  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 22:05:16,004  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 22:05:16,137  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 22:05:16,186  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 22:05:16,766  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 22:05:21,395  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 22:05:22,980  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 22:05:24,555  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 22:05:31,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 22:05:32,844  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 22:05:34,437  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 22:05:41,659  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 22:05:46,293  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 22:05:47,866  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 22:06:02,416  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 22:06:11,951  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 22:08:30,175  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:08:30,327  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:08:30,332  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:08:31,540  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:08:43,255  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 22:08:43,266  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 22:08:43,488  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 22:08:47,538  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 22:08:51,628  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 22:08:51,663  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 22:08:53,173  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 22:08:53,374  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 22:08:53,379  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 22:09:20,766  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 22:09:25,871  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 22:09:28,938  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 22:09:30,037  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 22:09:33,668  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 22:09:33,743  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 22:09:33,798  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 22:09:33,938  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 22:09:33,988  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 22:09:34,562  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 22:09:39,187  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 22:09:40,772  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 22:09:42,358  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 22:09:48,927  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 22:09:50,659  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 22:09:52,245  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 22:09:59,478  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 22:10:04,106  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 22:10:05,679  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 22:10:20,239  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 22:10:29,775  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 22:18:50,973  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:18:51,120  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:18:51,125  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:18:52,078  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:19:04,688  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:19:04,850  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:19:04,856  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:19:05,721  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:19:23,230  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 22:19:23,240  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 22:19:23,460  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 22:19:27,506  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 22:19:31,594  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 22:19:31,625  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 22:19:33,216  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 22:19:33,418  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 22:19:33,422  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 22:20:00,786  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 22:20:05,882  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 22:20:08,943  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 22:20:10,044  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 22:20:13,674  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 22:20:13,747  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 22:20:13,802  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 22:20:13,938  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 22:20:13,976  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 22:20:14,567  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 22:20:19,185  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 22:20:20,776  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 22:20:22,349  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 22:20:28,918  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 22:20:30,645  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 22:20:32,232  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 22:20:39,481  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 22:20:44,109  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 22:20:45,683  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 22:21:24,566  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:21:24,721  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:21:24,727  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:21:25,825  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:21:37,002  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 22:21:37,013  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 22:21:37,238  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 22:21:41,289  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 22:21:45,378  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 22:21:45,421  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 22:21:47,340  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 22:21:47,547  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 22:21:47,550  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 22:22:14,923  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 22:22:20,022  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 22:22:23,089  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 22:22:24,186  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 22:22:27,811  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 22:22:27,886  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 22:22:27,941  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 22:22:28,082  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 22:22:28,123  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 22:22:28,715  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 22:22:33,322  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 22:22:34,913  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 22:22:36,495  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 22:22:43,065  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 22:22:44,792  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 22:22:46,380  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 22:22:53,600  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 22:22:58,232  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 22:22:59,801  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 22:23:14,363  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 22:23:23,897  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 22:29:17,830  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:29:17,979  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:29:17,985  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:29:19,106  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:29:28,756  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 22:29:28,767  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 22:29:28,992  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 22:29:33,040  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 22:29:37,134  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 22:29:37,173  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 22:29:39,007  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 22:29:39,206  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 22:29:39,209  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 22:30:06,556  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 22:30:11,656  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 22:30:14,727  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 22:30:15,825  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 22:30:19,459  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 22:30:19,530  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 22:30:19,584  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 22:30:19,722  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 22:30:19,762  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 22:30:20,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 22:30:24,975  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 22:30:26,562  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 22:30:28,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 22:30:34,716  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 22:30:36,442  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 22:30:38,028  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 22:30:45,256  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 22:30:49,890  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 22:30:51,462  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 22:31:06,038  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 22:31:15,571  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 22:33:14,567  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:33:14,713  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:33:14,718  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:33:15,815  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:33:33,537  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 22:33:33,549  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 22:33:33,779  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 22:33:37,834  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 22:33:41,925  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 22:33:41,966  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 22:33:43,742  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 22:33:43,945  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 22:33:43,950  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 22:34:11,329  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 22:34:16,426  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 22:34:19,492  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 22:34:20,589  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 22:34:24,224  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 22:34:24,300  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 22:34:24,357  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 22:34:24,505  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 22:34:24,544  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 22:34:25,109  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 22:34:29,725  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 22:34:31,317  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 22:34:32,892  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 22:34:39,461  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 22:34:41,178  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 22:34:42,768  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 22:34:50,007  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 22:34:54,638  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 22:34:56,213  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 22:35:10,784  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 22:35:20,318  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 22:36:45,925  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 22:36:46,072  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 22:36:46,078  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 22:36:47,223  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 22:37:28,162  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 22:37:28,173  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 22:37:28,390  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 22:37:32,438  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 22:37:36,530  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 22:37:36,561  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 22:37:38,179  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 22:37:38,384  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 22:37:38,388  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 22:38:23,481  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 22:38:28,698  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 22:38:31,765  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 22:38:32,861  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 22:38:36,483  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 22:38:36,555  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 22:38:36,609  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 22:38:36,739  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 22:38:36,778  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 22:38:37,359  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 22:38:41,982  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 22:38:43,569  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 22:38:45,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 22:38:51,715  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 22:38:53,448  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 22:38:55,040  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 22:39:02,281  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 22:39:06,923  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 22:39:08,504  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 22:39:23,064  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 22:39:32,600  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 23:23:36,973  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 23:23:37,519  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 23:23:37,524  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 23:23:38,518  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 23:23:49,818  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 23:23:49,830  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 23:23:50,067  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 23:23:54,122  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 23:23:58,214  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 23:23:58,246  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 23:23:59,915  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 23:24:00,118  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 23:24:00,123  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 23:24:27,504  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 23:24:32,600  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 23:24:35,664  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 23:24:36,757  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 23:24:40,391  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 23:24:40,464  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 23:24:40,521  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 23:24:40,658  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 23:24:40,705  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 23:24:41,280  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 23:24:45,906  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 23:24:47,496  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 23:24:49,081  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 23:24:55,649  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 23:24:57,386  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 23:24:58,975  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 23:25:06,208  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 23:25:10,839  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 23:25:12,412  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 23:25:26,971  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 23:26:35,653  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 23:26:35,799  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 23:26:35,804  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 23:26:36,955  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 23:26:47,709  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 23:26:47,719  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 23:26:47,936  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 23:26:51,982  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 23:26:56,073  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 23:26:56,104  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 23:26:57,766  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 23:26:57,972  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 23:26:57,979  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 23:27:25,334  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 23:27:30,426  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 23:27:33,493  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 23:27:34,590  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 23:27:38,228  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 23:27:38,298  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 23:27:38,354  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 23:27:38,490  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 23:27:38,538  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 23:27:39,096  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 23:27:43,719  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 23:27:45,311  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 23:27:46,895  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 23:27:53,445  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 23:27:55,166  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 23:27:56,760  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 23:28:03,997  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 23:28:08,627  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 23:28:10,202  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 23:28:24,768  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 23:28:34,304  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 23:28:38,876  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-16 23:30:32,378  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 23:30:32,522  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 23:30:32,528  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 23:30:33,629  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 23:30:44,317  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 23:30:44,329  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 23:30:44,566  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 23:30:48,615  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 23:30:52,704  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 23:30:52,748  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 23:30:54,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 23:30:54,350  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 23:30:54,354  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 23:31:21,722  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 23:31:26,816  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 23:31:29,887  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 23:31:30,985  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 23:31:34,614  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 23:31:34,685  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 23:31:34,740  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 23:31:34,875  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 23:31:34,922  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 23:31:35,503  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 23:31:40,129  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 23:31:41,711  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 23:31:43,296  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 23:31:49,869  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 23:31:51,584  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 23:31:53,179  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 23:32:00,418  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 23:32:05,058  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 23:32:06,644  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 23:32:21,192  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 23:32:30,726  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 23:32:35,302  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-16 23:36:01,454  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 23:36:01,600  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 23:36:01,605  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 23:36:02,769  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 23:36:11,956  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 23:36:11,967  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 23:36:12,196  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 23:36:16,262  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 23:36:20,355  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 23:36:20,390  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 23:36:22,045  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 23:36:22,251  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 23:36:22,257  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 23:36:49,635  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 23:36:54,730  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 23:36:57,799  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 23:36:58,900  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 23:37:02,528  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 23:37:02,598  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 23:37:02,654  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 23:37:02,792  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 23:37:02,837  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 23:37:03,418  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 23:37:08,042  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 23:37:09,631  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 23:37:11,214  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 23:37:17,790  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 23:37:19,520  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 23:37:21,114  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 23:37:28,354  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 23:37:32,988  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 23:37:34,558  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 23:37:49,120  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 23:37:58,655  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 23:38:03,224  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-16 23:41:20,085  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 23:41:20,227  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 23:41:20,232  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 23:41:21,342  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 23:41:33,594  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 23:41:33,605  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 23:41:33,833  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 23:41:37,884  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 23:41:41,974  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 23:41:42,006  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 23:41:43,787  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 23:41:44,001  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 23:41:44,005  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 23:42:11,360  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 23:42:16,451  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 23:42:19,517  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 23:42:20,617  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 23:42:24,252  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 23:42:24,326  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 23:42:24,387  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 23:42:24,527  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 23:42:24,570  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 23:42:25,148  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 23:42:29,769  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 23:42:31,359  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 23:42:32,945  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 23:42:39,514  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 23:42:41,225  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 23:42:42,799  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 23:42:50,046  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 23:42:54,686  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 23:42:56,259  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 23:43:47,127  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 23:43:47,274  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 23:43:47,279  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 23:43:48,399  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 23:43:56,876  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 23:43:56,887  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 23:43:57,184  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 23:44:01,230  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 23:44:05,319  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 23:44:05,358  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 23:44:06,995  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 23:44:07,193  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 23:44:07,197  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 23:44:34,543  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 23:44:39,636  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 23:44:42,706  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 23:44:43,801  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 23:44:47,440  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 23:44:47,512  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 23:44:47,568  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 23:44:47,704  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 23:44:47,753  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 23:44:48,328  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 23:44:52,952  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 23:44:54,541  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 23:44:56,125  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 23:45:02,695  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 23:45:04,425  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 23:45:06,019  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 23:45:13,261  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 23:45:17,892  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 23:45:19,466  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 23:45:34,032  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 23:45:43,566  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 23:45:48,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-16 23:45:51,723  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> EmergencyLocation is Entered
+2023-02-16 23:49:59,327  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-16 23:49:59,476  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-16 23:49:59,482  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-16 23:50:00,610  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-16 23:50:08,336  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-16 23:50:08,347  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-16 23:50:08,563  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-16 23:50:12,613  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-16 23:50:16,701  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-16 23:50:16,738  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-16 23:50:18,233  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-16 23:50:18,428  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-16 23:50:18,432  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-16 23:50:45,802  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-16 23:50:50,897  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-16 23:50:53,964  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-16 23:50:55,058  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-16 23:50:58,685  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-16 23:50:58,756  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-16 23:50:58,811  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-16 23:50:58,948  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-16 23:50:58,987  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-16 23:50:59,575  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-16 23:51:04,201  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-16 23:51:05,791  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-16 23:51:07,377  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-16 23:51:13,926  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-16 23:51:15,649  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-16 23:51:17,240  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-16 23:51:24,478  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-16 23:51:29,111  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-16 23:51:30,684  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-16 23:51:45,234  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-16 23:51:54,766  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-16 23:51:59,345  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-16 23:52:02,919  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> EmergencyLocation is Entered
+2023-02-16 23:52:02,968  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on NearEmergencyLocation Radio button
+2023-02-17 00:16:10,040  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-17 00:16:10,191  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-17 00:16:10,197  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-17 00:16:11,348  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-17 00:16:22,279  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-17 00:16:22,290  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-17 00:16:22,512  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-17 00:16:26,559  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-17 00:16:30,653  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-17 00:16:30,685  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-17 00:16:32,214  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-17 00:16:32,413  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-17 00:16:32,416  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-17 00:16:59,811  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-17 00:17:04,911  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-17 00:17:07,978  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-17 00:17:09,075  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-17 00:17:12,705  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-17 00:17:12,777  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-17 00:17:12,832  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-17 00:17:12,968  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-17 00:17:13,017  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-17 00:17:13,585  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-17 00:17:18,213  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-17 00:17:19,802  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-17 00:17:21,388  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-17 00:17:27,958  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-17 00:17:29,682  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-17 00:17:31,271  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-17 00:17:38,480  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-17 00:17:43,110  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-17 00:17:44,685  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-17 00:17:59,247  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-17 00:18:08,782  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-17 00:18:13,352  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-17 00:18:16,927  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> EmergencyLocation is Entered
+2023-02-17 00:18:16,937  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> NearEmergencyLocation is visible
+2023-02-17 00:18:16,976  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on NearEmergencyLocation Radio button
+2023-02-17 00:18:17,020  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on CustomerPinCodebox
+2023-02-17 00:18:17,061  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CustomerPinCode is Entered
+2023-02-17 00:23:09,382  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-17 00:23:09,526  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-17 00:23:09,532  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-17 00:23:10,676  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-17 00:23:19,481  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-17 00:23:19,492  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-17 00:23:19,711  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-17 00:23:23,759  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-17 00:23:27,847  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-17 00:23:27,878  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-17 00:23:29,400  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-17 00:23:29,602  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-17 00:23:29,608  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-17 00:23:56,979  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-17 00:24:02,071  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-17 00:24:05,141  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-17 00:24:06,236  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-17 00:24:09,867  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-17 00:24:09,939  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-17 00:24:09,994  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-17 00:24:10,131  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-17 00:24:10,170  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-17 00:24:10,762  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-17 00:24:15,391  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-17 00:24:16,981  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-17 00:24:18,555  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-17 00:24:25,124  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-17 00:24:26,829  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-17 00:24:28,423  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-17 00:24:35,616  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-17 00:24:40,264  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-17 00:24:41,834  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-17 00:24:56,399  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-17 00:25:05,934  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-17 00:25:10,510  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-17 00:25:14,085  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> EmergencyLocation is Entered
+2023-02-17 00:25:14,095  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> NearEmergencyLocation is visible
+2023-02-17 00:25:14,134  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on NearEmergencyLocation Radio button
+2023-02-17 00:25:14,181  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on CustomerPinCodebox
+2023-02-17 00:25:14,219  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CustomerPinCode is Entered
+2023-02-17 00:33:03,351  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Browser name: chrome
+2023-02-17 00:33:04,084  INFO [main] WebDriverManager:1197 - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+2023-02-17 00:33:04,090  INFO [main] WebDriverManager:1252 - Exporting webdriver.chrome.driver as /Users/hemantpatil/.cache/selenium/chromedriver/mac-arm64/110.0.5481.77/chromedriver
+2023-02-17 00:33:05,197  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> osName: Mac OS X
+2023-02-17 00:33:12,735  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Ninja Website Opened
+2023-02-17 00:33:12,746  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Opened Website: https://ninja.sanity.turtle-feature.com/login
+2023-02-17 00:33:12,977  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Sign In with Google Button
+2023-02-17 00:33:17,025  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched to child window
+2023-02-17 00:33:21,112  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Email Entered
+2023-02-17 00:33:21,143  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button
+2023-02-17 00:33:22,558  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Password entered
+2023-02-17 00:33:22,769  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Next button after password
+2023-02-17 00:33:22,774  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Switched Back to Parent window
+2023-02-17 00:33:50,146  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims
+2023-02-17 00:33:55,248  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Claims button
+2023-02-17 00:33:58,315  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Motor
+2023-02-17 00:33:59,410  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on Car
+2023-02-17 00:34:03,045  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> ZENDESK ID IS ENTERED
+2023-02-17 00:34:03,119  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Customer name is Entered
+2023-02-17 00:34:03,176  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CutomerContactNo is Entered
+2023-02-17 00:34:03,312  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Description og Incident is sended
+2023-02-17 00:34:03,353  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on ClaimRequestorDropdown
+2023-02-17 00:34:03,939  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Select Insure from dropdownlist
+2023-02-17 00:34:08,567  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Accident city is enter
+2023-02-17 00:34:10,156  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> PinCode is Entered
+2023-02-17 00:34:11,741  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Nature of Incidence is selected
+2023-02-17 00:34:18,308  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Click on Nature of loss
+2023-02-17 00:34:20,030  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time box
+2023-02-17 00:34:21,618  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date
+2023-02-17 00:34:28,828  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on date and time finally 
+2023-02-17 00:34:33,457  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Registration Number is entered
+2023-02-17 00:34:35,030  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Fetching started
+2023-02-17 00:34:49,598  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on medical Assitance
+2023-02-17 00:34:59,134  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> TC1:-Assertion Passed for Medical Assitance Page display
+2023-02-17 00:35:03,708  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on EmergencyLocation tab
+2023-02-17 00:35:07,279  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> EmergencyLocation is Entered
+2023-02-17 00:35:07,289  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> NearEmergencyLocation is visible
+2023-02-17 00:35:07,317  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on NearEmergencyLocation Radio button
+2023-02-17 00:35:07,373  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> Clicked on CustomerPinCodebox
+2023-02-17 00:35:07,414  INFO [main] LogUtils:26 -  AUTOMATION_LOG: ==> CustomerPinCode is Entered
