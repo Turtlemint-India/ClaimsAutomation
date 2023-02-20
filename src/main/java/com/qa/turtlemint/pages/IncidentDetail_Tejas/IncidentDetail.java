@@ -4,6 +4,7 @@ import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.commands.WebCommands;
 import com.qa.turtlemint.util.LogUtils;
 import com.qa.turtlemint.util.TestUtil;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -68,7 +69,7 @@ public class IncidentDetail extends TestBase {
     WebElement Fire;
 
     @FindBy(xpath = "//button[text()='Own Damage']")
-    WebElement OwnDamage ;
+    WebElement OwnDamage;
 
     @FindBy(xpath = "//button[text()='Third Party']")
     WebElement ThirdParty;
@@ -127,7 +128,7 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//button[text()='Cancel']")
     WebElement Cancel;
 
-    @FindBy(xpath = "//p[text()='Claim Details /Incident Details']//parent::div//div//p")
+    @FindBy(xpath = "//p[text()='Claim Details /Incident Details']//parent::div//div//div//p")
     WebElement statusdropdown;
 
     @FindBy(xpath = "//p[text()='Closed']")
@@ -145,6 +146,17 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//label[text()='Enter Settled Amount']//parent::div//input")
     WebElement EnterSettledAmount;
 
+    @FindBy(xpath = "//label[text()='Settlement Date']//parent::div//input")
+    WebElement settlmentDate;
+
+    @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]")
+    WebElement TodayDateSettlment;
+
+    @FindBy(xpath = "//span[text()=\"Insured\"]")
+    WebElement Insured;
+
+    @FindBy(xpath = "//button[text()=\"Mark Status Closed\"]")
+    WebElement MarkAsClosed;
 
 
     @FindBy(xpath = "//button[text()='Closed']")
@@ -153,17 +165,19 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//button[text()='Repudation']")
     WebElement Repudation;
 
-
-
     @FindBy(xpath = "//p[text()='Pending']")
     WebElement Pending;
 
     @FindBy(xpath = "//p[text()='On Hold']")
     WebElement OnHold;
 
+    @FindBy(xpath = "//*[text()='Add Status']")
+    WebElement AddStatus;
+
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
 
-    public void CostomerContactNo() {
+    public void CustomerContactNo() {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
@@ -174,16 +188,17 @@ public class IncidentDetail extends TestBase {
         TestUtil.sendKeys(CustomerName, "Testing Test", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "a", "alphabets Enter");
         WebCommands.staticSleep(1000);
-        TestUtil.Assertchk("Please Enter Number Only",errorPleaseEnterNumberOnly,"Error msg shown for alphabets");
+        TestUtil.Assertchk("Please Enter Number Only", errorPleaseEnterNumberOnly, "Error msg shown for alphabets");
         WebCommands.staticSleep(1000);
         TestUtil.sendKeys(CustomerContactNumber, "1122", "Customer Contact Number Enter");
         WebCommands.staticSleep(1000);
-        TestUtil.Assertchk("Please enter valid Mobile Number.",errorPleaseentervalidMobileNumber,"Error msg shown for 12345 numbers");
+        TestUtil.Assertchk("Please enter valid Mobile Number.", errorPleaseentervalidMobileNumber, "Error msg shown for 12345 numbers");
         WebCommands.staticSleep(1000);
         TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
 
     }
-    public void CostomerPineCode() {
+
+    public void CustomerPinCode() {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
@@ -193,10 +208,12 @@ public class IncidentDetail extends TestBase {
         TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
         TestUtil.sendKeys(CustomerName, "Testing Test", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
-        TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing", "Enter Description Of Incident Enter");
+        TestUtil.sendKeys(EnterDescriptionOfIncident, "Customer Pin Code Test Testing", "Enter Description Of Incident Enter");
         TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
         TestUtil.click(Partner, "Partner Selected");
         TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
+        TestUtil.click(SaveasDraft, "Save Draft clicked");
+
 //        TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
 //        TestUtil.click(Accident, "Partner Selected");
 //        TestUtil.click(OwnDamage, "Own Damage Selected");
@@ -213,6 +230,7 @@ public class IncidentDetail extends TestBase {
         LogUtils.info("Multiple selections");
 
     }
+
     public void DeleteClaims() {
         TestUtil.click(KababMenu, "Kabab Menu Button clicked");
         TestUtil.click(deleteClaims, "Delete Button Clicked");
@@ -231,17 +249,17 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Cancel, "Cancel Button Clicked");
     }
 
-    public void Status() {
+    public void StatusClosed() {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
         TestUtil.click(Car, "Car Button Clicked");
 //        TestUtil.click(Bike,"Bike Button Clicked");
 //        TestUtil.click(CV,"CV Button Clicked");
-        TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
-        TestUtil.sendKeys(CustomerName, "Testing Test", "Customer Name Enter");
+        TestUtil.sendKeys(ZendeskID, "TestClosed1234", "Zendesk ID ");
+        TestUtil.sendKeys(CustomerName, "Closed Status Test", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
-        TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing", "Enter Description Of Incident Enter");
+        TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing Closed Status Checking", "Enter Description Of Incident Enter");
         TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
         TestUtil.click(Partner, "Partner Selected");
         TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
@@ -250,11 +268,23 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(OwnDamage, "Own Damage Selected");
         TestUtil.click(No, "No Selected");
         TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
-        TestUtil.click(calandericon, "");
+//        TestUtil.click(calandericon, "");
         TestUtil.click(TodayDateSelect, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.sendKeys(RegNo, "Test123", "Reg No enter");
         TestUtil.click(SaveasDraft, "Save Draft clicked");
+        js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+        WebCommands.staticSleep(4000);
+        TestUtil.click(statusdropdown, "Dropdown open");
+        TestUtil.click(Closed, "Closed status clicked ");
+        TestUtil.click(Paid, "Paid clicked ");
+        TestUtil.click(Cashless, "Cashless clicked ");
+        TestUtil.sendKeys(EnterSettledAmount, "1000", "Enter Settled Amount ");
+        TestUtil.click(settlmentDate, "");
+        TestUtil.click(TodayDateSettlment, "Settlement date select");
+        TestUtil.click(Insured, "Insured clicked ");
+        TestUtil.click(MarkAsClosed, "Mark As Closed clicked ");
+        TestUtil.getScreenShot();
     }
 }

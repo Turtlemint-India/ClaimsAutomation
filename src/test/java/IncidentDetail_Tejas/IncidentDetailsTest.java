@@ -24,12 +24,12 @@ public class IncidentDetailsTest extends TestBase {
 
     @Test
     public void CostomerContactNo_Test() {
-        ID.CostomerContactNo();
+        ID.CustomerContactNo();
     }
 
     @Test
     public void CostomerPineCode_Test() {
-        ID.CostomerPineCode();
+        ID.CustomerPinCode();
     }
 
     @Test
@@ -45,5 +45,10 @@ public class IncidentDetailsTest extends TestBase {
     @Test
     public void DeleteClaimsCancel_Test() {
         ID.DeleteClaimsCancel();
+    }
+
+    @Test
+    public void StatusClosed_Test() {
+        ID.StatusClosed();
     }
 }
