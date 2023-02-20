@@ -1,4 +1,4 @@
-package com.qa.turtlemint.pages.IncidentDetail;
+package com.qa.turtlemint.pages.IncidentDetail_Tejas;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.commands.WebCommands;
@@ -91,10 +91,10 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//button[text()='OK']")
     WebElement Ok;
 
-    @FindBy(xpath = "//label[text()='Registration Number']")
+    @FindBy(xpath = "//label[text()='Registration Number']//parent::div//input")
     WebElement RegNo;
 
-    @FindBy(xpath = "//label[text()='Policy Number']")
+    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//input")
     WebElement PolicyNo;
 
     @FindBy(xpath = "//button[text()='Save as Draft']")
@@ -112,10 +112,10 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//*[text()=\"Delete Claims\"]")
     WebElement deleteClaims;
 
-    @FindBy(xpath = "//input[@type=\"checkbox\"]")
+    @FindBy(xpath = "//input[@type=\"checkbox\"]//parent::span")
     WebElement CheckBox;
 
-    @FindBy(xpath = "(//input[@type=\"checkbox\"])[1]")
+    @FindBy(xpath = "(//input[@type=\"checkbox\"]//parent::span)[1]")
     WebElement CheckBox2;
 
     @FindBy(xpath = "//button[text()='Delete Claims']")
@@ -126,6 +126,40 @@ public class IncidentDetail extends TestBase {
 
     @FindBy(xpath = "//button[text()='Cancel']")
     WebElement Cancel;
+
+    @FindBy(xpath = "//p[text()='Claim Details /Incident Details']//parent::div//div//p")
+    WebElement statusdropdown;
+
+    @FindBy(xpath = "//p[text()='Closed']")
+    WebElement Closed;
+
+    @FindBy(xpath = "//button[text()='Paid']")
+    WebElement Paid;
+
+    @FindBy(xpath = "//span[text()='Cashless']")
+    WebElement Cashless;
+
+    @FindBy(xpath = "//span[text()='Reimbursement']")
+    WebElement Reimbursement;
+
+    @FindBy(xpath = "//label[text()='Enter Settled Amount']//parent::div//input")
+    WebElement EnterSettledAmount;
+
+
+
+    @FindBy(xpath = "//button[text()='Closed']")
+    WebElement Closedbtn;
+
+    @FindBy(xpath = "//button[text()='Repudation']")
+    WebElement Repudation;
+
+
+
+    @FindBy(xpath = "//p[text()='Pending']")
+    WebElement Pending;
+
+    @FindBy(xpath = "//p[text()='On Hold']")
+    WebElement OnHold;
 
 
 
@@ -195,5 +229,32 @@ public class IncidentDetail extends TestBase {
         LogUtils.info("Multiple selections");
         TestUtil.click(DeleteClaimsButton, "Delete Claims Button Clicked");
         TestUtil.click(Cancel, "Cancel Button Clicked");
+    }
+
+    public void Status() {
+
+        TestUtil.click(AddANewClaim, "Add a New Claim Button");
+        TestUtil.click(Motor, "Motor Button Clicked");
+        TestUtil.click(Car, "Car Button Clicked");
+//        TestUtil.click(Bike,"Bike Button Clicked");
+//        TestUtil.click(CV,"CV Button Clicked");
+        TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
+        TestUtil.sendKeys(CustomerName, "Testing Test", "Customer Name Enter");
+        TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
+        TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing", "Enter Description Of Incident Enter");
+        TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
+        TestUtil.click(Partner, "Partner Selected");
+        TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
+        TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
+        TestUtil.click(Accident, "Partner Selected");
+        TestUtil.click(OwnDamage, "Own Damage Selected");
+        TestUtil.click(No, "No Selected");
+        TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
+        TestUtil.click(calandericon, "");
+        TestUtil.click(TodayDateSelect, "Today Date Select");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.sendKeys(RegNo, "Test123", "Reg No enter");
+        TestUtil.click(SaveasDraft, "Save Draft clicked");
     }
 }
