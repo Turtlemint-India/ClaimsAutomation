@@ -16,7 +16,7 @@ public class TrackFunctionalityPage extends TestBase{
     }
 
 
-    @FindBy(xpath = "//img[@class=\"MuiBox-root css-4g6ai3\"]")
+    @FindBy(xpath = "//div[@class='MuiBox-root css-1d6k1hz']//div[1]//div[6]//img[1]")
     WebElement SelectClaim;
     @FindBy(xpath = "//div[@class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary  css-xzjwhy\"]")
     WebElement SelectClaimDropDown;
@@ -26,6 +26,8 @@ public class TrackFunctionalityPage extends TestBase{
     WebElement SelectPendingFromInsurer;
     @FindBy(xpath = "//textarea[@id=':r35:']")
     WebElement EnterText;
+    @FindBy(xpath = "//button[text()='Mark Status ']")
+    WebElement ClickOnmarkStatusPending;
 
 
     public void DropDown(){
@@ -35,6 +37,7 @@ public class TrackFunctionalityPage extends TestBase{
         TestUtil.click(SelectPending,"Select Pending From DropDown");
         TestUtil.click(SelectPendingFromInsurer,"Select Pending From Insurer");
         TestUtil.sendKeys(EnterText,"Pending","Pending From Insurer");
+        TestUtil.click(ClickOnmarkStatusPending,"Click on Mark Status Pending button");
 
 
 
