@@ -61,7 +61,7 @@ public class TestUtil {
         return timeStamp;
     }
 
-    public void GenerateRegNo() {
+    public String GenerateRegNo() {
         int alpha1 = 'A' + (int) (Math.random() * ('Z' - 'A'));
         int alpha2 = 'A' + (int) (Math.random() * ('Z' - 'A'));
         // int alpha3 = 'A' + (int)(Math.random() * ('Z' - 'A'));
@@ -72,6 +72,7 @@ public class TestUtil {
         RegNo = ("MH39" + (char) (alpha1) + ((char) (alpha2)) +
                 +digit1 + digit2 + digit3 + digit4);
         System.out.println(RegNo + "IN test UTIL");
+        return RegNo;
     }
 
     public static void click(WebElement element, String msg) {
@@ -220,6 +221,12 @@ public class TestUtil {
 
     public static String ninjaFutureDate(int days) {
         LocalDateTime currentDateTime = LocalDateTime.now().plusDays(days);
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
+        return dateTimeFormatter.format(currentDateTime);
+    }
+
+    public static String ninjaPastDate(int days) {
+        LocalDateTime currentDateTime = LocalDateTime.now().minusDays(days);
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
         return dateTimeFormatter.format(currentDateTime);
     }

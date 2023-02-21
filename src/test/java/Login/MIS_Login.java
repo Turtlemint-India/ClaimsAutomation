@@ -11,6 +11,7 @@ import static com.qa.turtlemint.base.TestBase.initialization;
 
 public class MIS_Login extends TestBase {
 
+    public String misPolicy;
     LoginPage Loginpage;
     MIS mis;
 
@@ -30,6 +31,8 @@ public class MIS_Login extends TestBase {
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
         mis.MISPolicyNumber();
+        misPolicy = mis.policyNumber();
+        System.out.println(misPolicy);
     }
 
 
