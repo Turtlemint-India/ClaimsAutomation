@@ -29,7 +29,7 @@ public class INIT_TC extends TestBase
             "Tc2:-To verify if the user is able to move forward after filling the required fields " +
             "Tc3:-To verify the visibility of Continue to Workshop button."
             ,enabled = true)
-    public void MedTC1() throws Exception
+    public void MedicalAssistanceTest() throws Exception
     {
         Loginpage.ninja_Claims();
         ClaimHm.SetupIncidentDetailPage();
@@ -42,7 +42,7 @@ public class INIT_TC extends TestBase
             "Tc3:-To Verify the Select Workshop field functionality" +
             "Tc4:-To verify the functionality of  'Save & Proceed' button"
             ,enabled = true)
-    public void Workshop() throws Exception
+    public void WorkshopSelectionTest() throws Exception
     {
         Loginpage.ninja_Claims();
         ClaimHm.SetupIncidentDetailPage();
@@ -57,16 +57,20 @@ public class INIT_TC extends TestBase
             "Tc3:-Functionality of the \"Save & Proceed\" button present on the 'Intimate Insurer'- 'Quick Preview' page." +
             "Tc4:-Functionality of the \"Skip and Continue\" button present on the 'Intimate Insurer'- 'Quick Preview' page."
             ,enabled = true)
-    public void IntiMateInsurer() throws Exception
+    public void IntiMateInsurerTest() throws Exception
     {
         Loginpage.ninja_Claims();
         ClaimHm.SetupIncidentDetailPage();
         Med.MedicalAsitancePage();
         Wrk.WorkShopPageFill();
-        INIT.VerifyQuickPreviewPage();//Tc1
-        INIT.VerifySubmitClaim();//Tc2
-        INIT.SkipAndContinue();//Tc3
-        INIT.SaveAndContinue();//Tc4
+        INIT.VerifyQuickPreviewPage();//Tc1 Assertion Point.
+        INIT.VerifySubmitClaim();//Tc2 Assertion Point.
+        INIT.SkipAndContinue();//Tc3 Assertion Point.
+        INIT.SaveAndContinue();//Tc4 Assertion Point.
+    }
+    public void teardown()
+    {
+        driver.quit();
     }
 
 }

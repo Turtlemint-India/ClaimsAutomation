@@ -170,10 +170,5 @@ public class ClaimsHomePG extends TestBase
         TestUtil.click(MedicalAssitanceButton,"Clicked on medical Assitance");
 
         Thread.sleep(9500);
-
-
-
-
-
     }
 }

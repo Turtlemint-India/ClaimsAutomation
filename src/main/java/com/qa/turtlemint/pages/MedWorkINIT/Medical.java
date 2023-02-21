@@ -3,6 +3,7 @@ package com.qa.turtlemint.pages.MedWorkINIT;
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.util.LogUtils;
 import com.qa.turtlemint.util.TestUtil;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -26,10 +27,17 @@ public class Medical extends TestBase
     @FindBy(xpath = "//input[@class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq']")
     WebElement CustomerPinCode;
 
-    @FindBy(xpath = "//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo']")
+ //   @FindBy(xpath = "//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo']")
+ //   WebElement CustomerPinCodeTap;
+
+    @FindBy(xpath = "//p[text()='Select Hospital']//following::div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo'][1]")
     WebElement CustomerPinCodeTap;
-    @FindBy(xpath = "//p[text()='Medical Assistance']//following::div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo'][2]")
+
+
+    @FindBy(xpath = "//p[text()='Select Hospital']//following::div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo'][2]")
     WebElement HospitalNameTap;
+
+
 
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::input[@class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq'][2]")
     WebElement HospitalName;
@@ -70,33 +78,28 @@ public class Medical extends TestBase
         Thread.sleep(4500);
      //   TestUtil.IsDisplayed(EmergencyLocation,"EmergencyLocation field is displayed");
         TestUtil.click(EmergencyLocation,"Clicked on EmergencyLocation tab");
-        Thread.sleep(3500);
         TestUtil.sendKeys(EmergencyLctSend,"Mumbai","EmergencyLocation is Entered");
         TestUtil.waitUntilVisibilityOfElement(NearEmergencyLocation);
         LogUtils.info("NearEmergencyLocation is visible");
         TestUtil.click(NearEmergencyLocation,"Clicked on NearEmergencyLocation Radio button");
-      //  TestUtil.waitUntilVisibilityOfElement(CustomerPinCode);
-     //   TestUtil.IsDisplayed(CustomerPinCode,"CustomerPinCode is displayed");
         TestUtil.click(CustomerPinCodeTap,"Clicked on CustomerPinCodebox");
         TestUtil.sendKeys(CustomerPinCode,"401209","CustomerPinCode is Entered");
-      //  TestUtil.waitUntilVisibilityOfElement(HospitalNameTap);
-     //   TestUtil.IsDisplayed(HospitalName,"HospitalName is displayed ");
         Thread.sleep(1500);
-        TestUtil.click(HospitalNameTap,"Clicked on HospitalNameBox");
+        CustomerPinCode.sendKeys(Keys.TAB);
         TestUtil.sendKeys(HospitalName,"Tata Hospital","HospitalName is Entered");
-     //   TestUtil.waitUntilVisibilityOfElement(HospitalAddress);
-     //   TestUtil.IsDisplayed(HospitalAddress,"HospitalAddress is displayed ");
         TestUtil.click(HospitalAddressTap,"Clicked on HospitalAddress");
         TestUtil.sendKeys(HospitalAddress," Sv Road ,Tutu Road","HospitalAddress is Entered");
-        TestUtil.waitUntilVisibilityOfElement(PickupYes);
+     //   TestUtil.waitUntilVisibilityOfElement(PickupYes);
      //   TestUtil.IsDisplayed(PickupYes,"PickupYes is displayed ");
-        TestUtil.click(PickupYes,"Clicked on Pickup--->Yes Radio button");
+        Thread.sleep(1500);
+     //   TestUtil.click(PickupYes,"Clicked on Pickup--->Yes Radio button");
+        Actions ac=new Actions(driver);
+        ac.moveToElement(PickupYes).click().build().perform();
         LogUtils.info("Have Successfully filled all the detail with Move-forward approach ");
     }
 
     public void VerifyWorkShopButton()
     {
-        TestUtil.waitUntilVisibilityOfElement(WorkshopSelection);
         TestUtil.IsDisplayed(WorkshopSelection,"WorkshopSelection button is displayed");
         if(WorkshopSelection.isEnabled())
         {
@@ -110,25 +113,24 @@ public class Medical extends TestBase
 
     public void MedicalAsitancePage()throws Exception
     {
-        TestUtil.IsDisplayed(EmergencyLocation,"EmergencyLocation field is displayed");
-        TestUtil.sendKeys(EmergencyLocation,"Mumbai","EmergencyLocation is Entered");
+        Thread.sleep(1500);
+        //   TestUtil.IsDisplayed(EmergencyLocation,"EmergencyLocation field is displayed");
+        TestUtil.click(EmergencyLocation,"Clicked on EmergencyLocation tab");
+        TestUtil.sendKeys(EmergencyLctSend,"Mumbai","EmergencyLocation is Entered");
         TestUtil.waitUntilVisibilityOfElement(NearEmergencyLocation);
-        TestUtil.IsDisplayed(NearEmergencyLocation,"NearEmergencyLocation field is displayed");
-        TestUtil.sendKeys(NearEmergencyLocation,"Borivali","NearEmergencyLocation is Entered");
-        TestUtil.waitUntilVisibilityOfElement(CustomerPinCode);
-        TestUtil.IsDisplayed(CustomerPinCode,"CustomerPinCode is displayed");
+        LogUtils.info("NearEmergencyLocation is visible");
+        TestUtil.click(NearEmergencyLocation,"Clicked on NearEmergencyLocation Radio button");
+        TestUtil.click(CustomerPinCodeTap,"Clicked on CustomerPinCodebox");
         TestUtil.sendKeys(CustomerPinCode,"401209","CustomerPinCode is Entered");
-        TestUtil.waitUntilVisibilityOfElement(HospitalName);
-        TestUtil.IsDisplayed(HospitalName,"HospitalName is displayed ");
+        Thread.sleep(1500);
+        CustomerPinCode.sendKeys(Keys.TAB);
         TestUtil.sendKeys(HospitalName,"Tata Hospital","HospitalName is Entered");
-        TestUtil.waitUntilVisibilityOfElement(HospitalAddress);
-        TestUtil.IsDisplayed(HospitalAddress,"HospitalAddress is displayed ");
+        TestUtil.click(HospitalAddressTap,"Clicked on HospitalAddress");
         TestUtil.sendKeys(HospitalAddress," Sv Road ,Tutu Road","HospitalAddress is Entered");
-        TestUtil.waitUntilVisibilityOfElement(PickupYes);
-        TestUtil.IsDisplayed(PickupYes,"PickupYes is displayed ");
-        TestUtil.click(PickupYes,"Clicked on Pickup--->Yes Radio button");
-        TestUtil.waitUntilVisibilityOfElement(WorkshopSelection);
-        TestUtil.IsDisplayed(WorkshopSelection,"WorkshopSelection button is displayed");
+        Thread.sleep(1500);
+        Actions ac=new Actions(driver);
+        LogUtils.info("Clicked on Pickup--->Yes Radio button");
+        ac.moveToElement(PickupYes).click().build().perform();
         TestUtil.click(WorkshopSelection,"Clicked on WorkshopSelection Button");
         Thread.sleep(2500);
 
