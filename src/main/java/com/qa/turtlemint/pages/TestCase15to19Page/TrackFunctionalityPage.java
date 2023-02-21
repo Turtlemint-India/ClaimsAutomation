@@ -20,7 +20,6 @@ public class TrackFunctionalityPage extends TestBase{
 
     @FindBy(xpath = "//div[@class='MuiBox-root css-1d6k1hz']//div[1]//div[6]//img[1]")
     WebElement SelectClaim;
-
     @FindBy(xpath = "//p[text()='Claim Details /Incident Details']//parent::div//div//div//p")
     WebElement SelectClaimDropDown;
     @FindBy(xpath = "//p[normalize-space()='Pending']")
@@ -31,6 +30,10 @@ public class TrackFunctionalityPage extends TestBase{
     WebElement EnterText;
     @FindBy(xpath = "//button[text()='Mark Status ']")
     WebElement ClickOnmarkStatusPending;
+    @FindBy(xpath = "//p[normalize-space()='On Hold']")
+    WebElement SelectOnHold;
+    @FindBy(xpath = "//button[normalize-space()='Mark Status On Hold']")
+    WebElement MarkStatusOnHold;
 
 
     JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -38,7 +41,6 @@ public class TrackFunctionalityPage extends TestBase{
 
     public void DropDown(){
         TestUtil.click(SelectClaim,"Select Any Claim");
-
        // js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
         WebCommands.staticSleep(3000);
         TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
@@ -48,6 +50,15 @@ public class TrackFunctionalityPage extends TestBase{
         TestUtil.sendKeys(EnterText,"Pending","Pending From Insurer");
         WebCommands.staticSleep(3000);
         TestUtil.click(ClickOnmarkStatusPending,"Click on Mark Status Pending button");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
+        TestUtil.click(SelectOnHold," Select on Hold From Drop Down");
+        TestUtil.sendKeys(EnterText,"On Hold","Mark Status On Hold");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(MarkStatusOnHold,"Mark Status On Hold");
+
+
+
 
 
     }
