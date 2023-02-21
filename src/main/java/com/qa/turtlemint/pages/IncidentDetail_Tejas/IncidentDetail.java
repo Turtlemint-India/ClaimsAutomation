@@ -320,6 +320,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(TwoDayBeforedate, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
+        WebCommands.staticSleep(2000);
         TestUtil.Assertchk("The delta for raising this claim is 2 days, please specify the reason for the delay.", DeltaMsg, "The delta msg print");
         TestUtil.sendKeys(Reasonfordelay, "Two Day before Date enter Testing", "Reason entered for Delay");
         TestUtil.click(SaveDraft, "Save Draft clicked");
