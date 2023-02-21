@@ -83,6 +83,7 @@ public class LoginPage extends TestBase {
         TestUtil.getScreenShot();
         TestUtil.click(Claims, "Quote Request Selected");
         WebCommands.staticSleep(20000);
+        driver.getWindowHandles().forEach(tab -> driver.switchTo().window(tab));
 
     }
 
