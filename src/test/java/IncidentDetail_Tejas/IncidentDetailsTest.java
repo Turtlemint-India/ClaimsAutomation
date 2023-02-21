@@ -3,6 +3,7 @@ package IncidentDetail_Tejas;
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.IncidentDetail_Tejas.IncidentDetail;
 import com.qa.turtlemint.pages.login.LoginPage;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -28,7 +29,7 @@ public class IncidentDetailsTest extends TestBase {
     }
 
     @Test
-    public void CostomerPineCode_Test() {
+    public void CustomerPineCode_Test() {
         ID.CustomerPinCode();
     }
 
@@ -50,5 +51,17 @@ public class IncidentDetailsTest extends TestBase {
     @Test
     public void StatusClosed_Test() {
         ID.StatusClosed();
+    }
+
+    @Test
+    public void TwoDayBeforDate_Test() {
+        ID.TwoDayBeforDate();
+    }
+
+
+
+    @AfterMethod
+    public void Close() {
+        driver.quit();
     }
 }

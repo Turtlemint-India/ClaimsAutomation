@@ -89,6 +89,15 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]")
     WebElement TodayDateSelect;
 
+    @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]//parent::div//parent::div//div")
+    WebElement  TwoDayBeforedate;
+
+    @FindBy(xpath = "//p[text()='The delta for raising this claim is 2 days, please specify the reason for the delay.']")
+    WebElement DeltaMsg;
+
+    @FindBy(xpath = "//label[text()='Reason for delay']//parent::div//input")
+    WebElement Reasonfordelay;
+
     @FindBy(xpath = "//button[text()='OK']")
     WebElement Ok;
 
@@ -99,7 +108,7 @@ public class IncidentDetail extends TestBase {
     WebElement PolicyNo;
 
     @FindBy(xpath = "//button[text()='Save as Draft']")
-    WebElement SaveasDraft;
+    WebElement SaveDraft;
 
     @FindBy(xpath = "//*[@aria-label=\"Copied\"]")
     WebElement TM_MIS_ID;
@@ -185,7 +194,7 @@ public class IncidentDetail extends TestBase {
 //        TestUtil.click(Bike,"Bike Button Clicked");
 //        TestUtil.click(CV,"CV Button Clicked");
         TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
-        TestUtil.sendKeys(CustomerName, "Testing Test", "Customer Name Enter");
+        TestUtil.sendKeys(CustomerName, "Mobile number Testing", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "a", "alphabets Enter");
         WebCommands.staticSleep(1000);
         TestUtil.Assertchk("Please Enter Number Only", errorPleaseEnterNumberOnly, "Error msg shown for alphabets");
@@ -206,13 +215,13 @@ public class IncidentDetail extends TestBase {
 //        TestUtil.click(Bike,"Bike Button Clicked");
 //        TestUtil.click(CV,"CV Button Clicked");
         TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
-        TestUtil.sendKeys(CustomerName, "Testing Test", "Customer Name Enter");
+        TestUtil.sendKeys(CustomerName, "Pin Code Testing", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
         TestUtil.sendKeys(EnterDescriptionOfIncident, "Customer Pin Code Test Testing", "Enter Description Of Incident Enter");
         TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
         TestUtil.click(Partner, "Partner Selected");
         TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
-        TestUtil.click(SaveasDraft, "Save Draft clicked");
+        TestUtil.click(SaveDraft, "Save Draft clicked");
 
 //        TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
 //        TestUtil.click(Accident, "Partner Selected");
@@ -273,7 +282,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.sendKeys(RegNo, "Test123", "Reg No enter");
-        TestUtil.click(SaveasDraft, "Save Draft clicked");
+        TestUtil.click(SaveDraft, "Save Draft clicked");
         js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
         WebCommands.staticSleep(4000);
         TestUtil.click(statusdropdown, "Dropdown open");
@@ -286,5 +295,33 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Insured, "Insured clicked ");
         TestUtil.click(MarkAsClosed, "Mark As Closed clicked ");
         TestUtil.getScreenShot();
+    }
+
+    public void TwoDayBeforDate() {
+
+        TestUtil.click(AddANewClaim, "Add a New Claim Button");
+        TestUtil.click(Motor, "Motor Button Clicked");
+        TestUtil.click(Car, "Car Button Clicked");
+//        TestUtil.click(Bike,"Bike Button Clicked");
+//        TestUtil.click(CV,"CV Button Clicked");
+        TestUtil.sendKeys(ZendeskID, "TestClosed1234", "Zendesk ID ");
+        TestUtil.sendKeys(CustomerName, "Closed Status Test", "Customer Name Enter");
+        TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
+        TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing Closed Status Checking", "Enter Description Of Incident Enter");
+        TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
+        TestUtil.click(Partner, "Partner Selected");
+        TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
+        TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
+        TestUtil.click(Accident, "Partner Selected");
+        TestUtil.click(OwnDamage, "Own Damage Selected");
+        TestUtil.click(No, "No Selected");
+        TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
+//        TestUtil.click(calandericon, "");
+        TestUtil.click(TwoDayBeforedate, "Today Date Select");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.Assertchk("The delta for raising this claim is 2 days, please specify the reason for the delay.", DeltaMsg, "The delta msg print");
+        TestUtil.sendKeys(Reasonfordelay, "Two Day before Date enter Testing", "Reason entered for Delay");
+        TestUtil.click(SaveDraft, "Save Draft clicked");
     }
 }
