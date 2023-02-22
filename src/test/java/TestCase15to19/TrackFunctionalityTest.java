@@ -28,7 +28,9 @@ public class TrackFunctionalityTest extends TestBase {
     @Test
     public void Track(){
 
-        Track.DropDown();
+        Track.DropDownHOLD_PENDING();
+        Track.DropDownClosed();
+        Track.ViewClaim();
 
     }
 
