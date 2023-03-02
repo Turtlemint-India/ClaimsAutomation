@@ -66,15 +66,16 @@ public class ClaimsHomePG extends TestBase
     @FindBy(xpath = "//span[text()='2023']//following::button[text()='OK']")
     WebElement OkTime;
 
+//    @FindBy(xpath = "//button[@aria-label='Feb 7, 2023']")
+//    WebElement DateSelect;
 
-
-    @FindBy(xpath = "//button[@aria-label='Feb 7, 2023']")
+    @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]")
     WebElement DateSelect;
 
     @FindBy(xpath = "//input[@id=':ra:']")
     WebElement RegistrationNo;
 
-    @FindBy(xpath = "//input[@id=':ra:']//following::button[text()='Fetch details'][1]")
+    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//button[text()='Fetch details']")
     WebElement FetchDetail;
 
     @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='yes'][1]")
@@ -85,6 +86,10 @@ public class ClaimsHomePG extends TestBase
 
     @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='yes'][3]")
     WebElement WorkshopYes;
+
+
+    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//input")
+    WebElement PolicyNo;
 
 
 
@@ -120,7 +125,7 @@ public class ClaimsHomePG extends TestBase
         Thread.sleep(1000);
     }
 
-    public void SetupIncidentDetailPage() throws Exception
+    public void SetupIncidentDetailPage(String PolicyNumber) throws Exception
     {
         AddClaim();
         MotorTap();
@@ -152,7 +157,7 @@ public class ClaimsHomePG extends TestBase
         Thread.sleep(2500);
         TestUtil.click(OkTime,"Clicked on date and time finally ");
         Thread.sleep(4500);
-        TestUtil.sendKeys(RegistrationNo,"MH03RR3333","Registration Number is entered");
+        TestUtil.sendKeys(PolicyNo,PolicyNumber,"Policy Number is entered");
         Thread.sleep(1500);
         TestUtil.click(FetchDetail,"Fetching started");
         Thread.sleep(9500);
