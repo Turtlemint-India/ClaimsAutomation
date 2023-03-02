@@ -164,12 +164,7 @@ public class TestUtil {
         }
     }
 
-    public static boolean Assertchk(String Orginal, WebElement element, String msg) {
-        String Expected = element.getText();
-        Assert.assertEquals(Orginal, Expected);
-        LogUtils.info(msg);
-        return true;
-    }
+
 
     public static void selectValueFromDropDown(@NotNull List<WebElement> elementList, String value) {
         elementList.stream().filter(obj -> obj.getText().equals(value)).findAny().ifPresent(element -> {

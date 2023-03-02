@@ -261,7 +261,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Cancel, "Cancel Button Clicked");
     }
 
-    public void StatusClosed(String  policyNumber) {
+    public void StatusClosed() {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
@@ -284,7 +284,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(TodayDateSelect, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
-        TestUtil.sendKeys(PolicyNo, policyNumber, "Reg No enter");
+        TestUtil.sendKeys(PolicyNo, "12345656", "Reg No enter");
         TestUtil.click(FetchDetails, "Fetch Details Clicked");
 
         WebCommands.staticSleep(1000000);
