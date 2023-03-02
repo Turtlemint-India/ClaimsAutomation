@@ -107,6 +107,9 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//label[text()='Policy Number']//parent::div//input")
     WebElement PolicyNo;
 
+    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//button[text()='Fetch details']")
+    WebElement FetchDetails;
+
     @FindBy(xpath = "//button[text()='Save as Draft']")
     WebElement SaveDraft;
 
@@ -258,7 +261,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Cancel, "Cancel Button Clicked");
     }
 
-    public void StatusClosed() {
+    public void StatusClosed(String  policyNumber) {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
@@ -281,8 +284,14 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(TodayDateSelect, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
-        TestUtil.sendKeys(RegNo, "Test123", "Reg No enter");
+        TestUtil.sendKeys(PolicyNo, policyNumber, "Reg No enter");
+        TestUtil.click(FetchDetails, "Fetch Details Clicked");
+
+        WebCommands.staticSleep(1000000);
         TestUtil.click(SaveDraft, "Save Draft clicked");
+
+
+
         js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
         WebCommands.staticSleep(4000);
         TestUtil.click(statusdropdown, "Dropdown open");
@@ -324,5 +333,33 @@ public class IncidentDetail extends TestBase {
         TestUtil.Assertchk("The delta for raising this claim is 2 days, please specify the reason for the delay.", DeltaMsg, "The delta msg print");
         TestUtil.sendKeys(Reasonfordelay, "Two Day before Date enter Testing", "Reason entered for Delay");
         TestUtil.click(SaveDraft, "Save Draft clicked");
+    }
+    public void MIS_Policy_Fetch(String  policyNumber) {
+
+        TestUtil.click(AddANewClaim, "Add a New Claim Button");
+        TestUtil.click(Motor, "Motor Button Clicked");
+        TestUtil.click(Car, "Car Button Clicked");
+//        TestUtil.click(Bike,"Bike Button Clicked");
+//        TestUtil.click(CV,"CV Button Clicked");
+        TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
+        TestUtil.sendKeys(CustomerName, "CAuto Testa TestER", "Customer Name Enter");
+        TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
+        TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing Closed Status Checking", "Enter Description Of Incident Enter");
+        TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
+        TestUtil.click(Partner, "Partner Selected");
+        TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
+        TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
+        TestUtil.click(Accident, "Partner Selected");
+        TestUtil.click(OwnDamage, "Own Damage Selected");
+        TestUtil.click(No, "No Selected");
+        TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
+//        TestUtil.click(calandericon, "");
+        TestUtil.click(TodayDateSelect, "Today Date Select");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.sendKeys(PolicyNo, policyNumber, "Reg No enter");
+        TestUtil.click(FetchDetails, "Fetch Details Clicked");
+        WebCommands.staticSleep(3000);
+        LogUtils.info("Fetching policy number in Claims Successfully done");
     }
 }
