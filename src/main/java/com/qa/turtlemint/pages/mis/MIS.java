@@ -120,7 +120,10 @@ public class MIS extends TestBase {
     @FindBy(xpath = "//input[@id='netPremium']")
     WebElement NetPremium;
 
-    @FindBy(xpath = "//span[@data-auto='intermediaryName-mr automation test-autocomplete']")
+//    @FindBy(xpath = "//span[@data-auto='intermediaryName-mr automation test-autocomplete']")
+//    WebElement DpNameSelect;
+
+    @FindBy(xpath = "//span[@title=\"automation testing - [DP - 1585924]\"]")
     WebElement DpNameSelect;
 
     @FindBy(xpath = "//input[@id='intermediaryLoginId']")
@@ -131,6 +134,15 @@ public class MIS extends TestBase {
 
     @FindBy(xpath = "//span[@class='pageTitle ng-binding']")
     WebElement ReadPolicyNumber;
+
+    @FindBy(xpath = "//button[@data-auto=\"goback-button\"]")
+    WebElement gobackbutton;
+
+    @FindBy(xpath = "//div[@data-auto=\"ham-menu\"]")
+    WebElement menu;
+
+    @FindBy(xpath = "//a[@data-auto=\"home-menu\"]")
+    WebElement HomePageNinja;
 
 
     public MIS() {
@@ -210,10 +222,22 @@ public class MIS extends TestBase {
         TestUtil.click(MrSelected,"Mr Selected");
         TestUtil.sendKeys(ProposerFName,"AutomationTest","Proposer First Name Entered");
         TestUtil.sendKeys(ProposerLName,"SixNineNine"," Proposer Last Name Entered");
-        TestUtil.click(riskStartDate, "");
+
+//        TestUtil.click(riskStartDate, "");
+//        WebCommands.staticSleep(2000);
+//        TestUtil.click(Today, "Selected for risk start date");
+//        WebCommands.staticSleep(3000);
+
+
         WebCommands.staticSleep(2000);
-        TestUtil.click(Today, "Selected for risk start date");
-        WebCommands.staticSleep(3000);
+        riskStartDate.click();
+        WebCommands.staticSleep(2000);
+        riskStartDate.sendKeys(Keys.ESCAPE);
+        riskStartDate.sendKeys(TestUtil.ninjaPastDate(1));
+        WebCommands.staticSleep(2000);
+        riskStartDate.sendKeys(Keys.RETURN);
+        WebCommands.staticSleep(4000);
+
         riskEndDate.click();
         WebCommands.staticSleep(1000);
         riskEndDate.sendKeys(Keys.ESCAPE);
@@ -227,8 +251,9 @@ public class MIS extends TestBase {
         TestUtil.sendKeys(NetPremium,"2000","Net Premium Filled");
         WebCommands.staticSleep(2000);
         SaveMIS.click();
-        DpName.click();
         WebCommands.staticSleep(2000);
+        DpName.click();
+        WebCommands.staticSleep(3000);
         DpNameSelect.click();
         WebCommands.staticSleep(2000);
         SaveMIS.click();
@@ -239,6 +264,16 @@ public class MIS extends TestBase {
     public String policyNumber(){
         policyNo = ReadPolicyNumber.getText();
         return policyNo;
+    }
+
+    public void BackTo_Claims(){
+        WebCommands.staticSleep(2000);
+        TestUtil.click(gobackbutton,"goback-button Clicked");
+        WebCommands.staticSleep(2000);
+        TestUtil.click(menu,"menu-button Clicked");
+        WebCommands.staticSleep(2000);
+        TestUtil.click(HomePageNinja,"Home Page Ninja-button Clicked");
+        WebCommands.staticSleep(2000);
     }
 
     public void vertical_list() {

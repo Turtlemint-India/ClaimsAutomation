@@ -1,7 +1,7 @@
 package IncidentDetail;
 
 import com.qa.turtlemint.base.TestBase;
-import com.qa.turtlemint.pages.IncidentDetail.IncidentDetail;
+import com.qa.turtlemint.pages.IncidentDetail_Tejas.IncidentDetail;
 import com.qa.turtlemint.pages.login.LoginPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -24,7 +24,7 @@ public class IncidentDetailsTest extends TestBase {
 
     @Test
     public void CostomerContactNo_Test() {
-        ID.CostomerContactNo();
+        ID.TwoDayBeforDate();
 
     }
 }
