@@ -87,6 +87,9 @@ public class Incident_Details_Page extends TestBase {
     @FindBy(xpath = "//input[@id=':ra:']")
     WebElement RegistrationNo;
 
+    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//input")
+    WebElement PolicyNo;
+
     @FindBy(xpath = "//input[@id=':rb:']")
     WebElement RegistrationNoYes;
     @FindBy(xpath = "//input[@id=':ra:']//following::button[text()='Fetch details'][1]")
@@ -170,7 +173,7 @@ public class Incident_Details_Page extends TestBase {
         Thread.sleep(1000);
     }
 
-    public void incidentDetails_raised_claimNO() throws Exception {
+    public void incidentDetails_raised_claimNO(String PolicyNumber) throws Exception {
             AddClaim();
             MotorTap();
             CarSelct();
@@ -202,7 +205,7 @@ public class Incident_Details_Page extends TestBase {
             TestUtil.click(OkTime1, "Clicked on date and time ");
             Thread.sleep(4500);
        //   TestUtil.sendKeys(RegistrationNo, "MH03RR3333", "Registration Number is entered");
-            TestUtil.sendKeys(RegistrationNo, "Dfsf123", "Registration Number is entered");
+            TestUtil.sendKeys(PolicyNo, PolicyNumber, "Registration Number is entered");
             Thread.sleep(1500);
             TestUtil.click(FetchDetail, "Fetching started");
             Thread.sleep(9500);
@@ -234,7 +237,7 @@ public class Incident_Details_Page extends TestBase {
             TestUtil.click(Save_draft, "Clicked on continue to workshop selection");
             TestUtil.IsDisplayed(details_saved_popup,"details saved flash displayed ");
         }
-    public void incidentDetails_raised_claimYes() throws Exception {
+    public void incidentDetails_raised_claimYes(String PolicyNumber) throws Exception {
         AddClaim();
         MotorTap();
         CarSelct();
@@ -269,7 +272,7 @@ public class Incident_Details_Page extends TestBase {
         TestUtil.click(OkTime, "Clicked on date and time ");
         Thread.sleep(4500);
  //     TestUtil.sendKeys(RegistrationNoYes, "MH03RR3333", "Registration Number is entered");
-        TestUtil.sendKeys(RegistrationNoYes, "Dfsf123", "Registration Number is entered");
+        TestUtil.sendKeys(PolicyNo, PolicyNumber, "Registration Number is entered");
         Thread.sleep(1500);
         TestUtil.click(FetchDetailyes, "Fetching started");
         Thread.sleep(10000);
