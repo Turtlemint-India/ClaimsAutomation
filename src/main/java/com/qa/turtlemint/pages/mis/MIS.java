@@ -120,7 +120,10 @@ public class MIS extends TestBase {
     @FindBy(xpath = "//input[@id='netPremium']")
     WebElement NetPremium;
 
-    @FindBy(xpath = "//span[@data-auto='intermediaryName-mr automation test-autocomplete']")
+//    @FindBy(xpath = "//span[@data-auto='intermediaryName-mr automation test-autocomplete']")
+//    WebElement DpNameSelect;
+
+    @FindBy(xpath = "//span[@title=\"automation testing - [DP - 1585924]\"]")
     WebElement DpNameSelect;
 
     @FindBy(xpath = "//input[@id='intermediaryLoginId']")
@@ -227,8 +230,9 @@ public class MIS extends TestBase {
         TestUtil.sendKeys(NetPremium,"2000","Net Premium Filled");
         WebCommands.staticSleep(2000);
         SaveMIS.click();
-        DpName.click();
         WebCommands.staticSleep(2000);
+        DpName.click();
+        WebCommands.staticSleep(3000);
         DpNameSelect.click();
         WebCommands.staticSleep(2000);
         SaveMIS.click();

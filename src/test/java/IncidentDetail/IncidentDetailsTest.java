@@ -24,7 +24,7 @@ public class IncidentDetailsTest extends TestBase {
 
     @Test
     public void CostomerContactNo_Test() {
-        ID.CostomerContactNo();
+        ID.TwoDayBeforDate();
 
     }
 }

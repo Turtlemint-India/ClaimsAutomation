@@ -1,8 +1,11 @@
 package Login;
 
 import com.qa.turtlemint.base.TestBase;
+import com.qa.turtlemint.commands.WebCommands;
+import com.qa.turtlemint.pages.IncidentDetail_Tejas.IncidentDetail;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,6 +18,8 @@ public class MIS_Login extends TestBase {
     LoginPage Loginpage;
     MIS mis;
 
+    IncidentDetail ID;
+
     public MIS_Login() {
         super();
     }
@@ -24,6 +29,9 @@ public class MIS_Login extends TestBase {
         initialization();
         Loginpage = new LoginPage();
         mis = new MIS();
+
+
+        ID = new IncidentDetail();
     }
 
     @Test
@@ -33,8 +41,16 @@ public class MIS_Login extends TestBase {
         mis.MISPolicyNumber();
         misPolicy = mis.policyNumber();
         System.out.println(misPolicy);
+        WebCommands.staticSleep(2000);
+        driver.findElement(By.xpath("//button[@data-auto=\"goback-button\"]")).click();
+        WebCommands.staticSleep(2000);
+        driver.findElement(By.xpath("//div[@data-auto=\"ham-menu\"]")).click();
+        WebCommands.staticSleep(2000);
+        driver.findElement(By.xpath("//a[@data-auto=\"home-menu\"]")).click();
+        WebCommands.staticSleep(2000);
+        Loginpage.ninja_MIS_claims();
+        ID.StatusClosed(misPolicy);
     }
-
 
     @AfterMethod
     public void Close() {
