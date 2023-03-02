@@ -20,6 +20,7 @@ public class IncidentDetailsTest extends TestBase {
         Loginpage = new LoginPage();
         ID = new IncidentDetail();
         Loginpage.ninja_Claims();
+
     }
 
     @Test
