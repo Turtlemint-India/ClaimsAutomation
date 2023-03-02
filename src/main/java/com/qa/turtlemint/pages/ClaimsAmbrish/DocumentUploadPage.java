@@ -110,7 +110,7 @@ public class DocumentUploadPage extends TestBase {
 
     public void Doc()
     {
-        ele.click(); // This path will be changed written only to execute start the flow.
+      //  ele.click(); // This path will be changed written only to execute start the flow.
         docupload.click();
         WebCommands.staticSleep(1000);
         DLFileUpload.sendKeys("/home/ubuntu/storage/DL.jpeg");
