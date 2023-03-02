@@ -41,22 +41,13 @@ public class MIS_Login extends TestBase {
         mis.MISPolicyNumber();
         misPolicy = mis.policyNumber();
         System.out.println(misPolicy);
-        WebCommands.staticSleep(2000);
-        driver.findElement(By.xpath("//button[@data-auto=\"goback-button\"]")).click();
-        WebCommands.staticSleep(2000);
-        driver.findElement(By.xpath("//div[@data-auto=\"ham-menu\"]")).click();
-        WebCommands.staticSleep(2000);
-        driver.findElement(By.xpath("//a[@data-auto=\"home-menu\"]")).click();
-        WebCommands.staticSleep(2000);
+        mis.BackTo_Claims();
         Loginpage.ninja_MIS_claims();
-        ID.StatusClosed(misPolicy);
+        ID.MIS_Policy_Fetch(misPolicy);
     }
 
     @AfterMethod
     public void Close() {
         driver.quit();
     }
-
 }
-
-
