@@ -29,9 +29,9 @@ public class MIS_Login extends TestBase {
         initialization();
         Loginpage = new LoginPage();
         mis = new MIS();
-
-
         ID = new IncidentDetail();
+
+
     }
 
     @Test
@@ -42,7 +42,7 @@ public class MIS_Login extends TestBase {
         misPolicy = mis.policyNumber();
         System.out.println(misPolicy);
         mis.BackTo_Claims();
-        Loginpage.ninja_MIS_claims();
+
         ID.MIS_Policy_Fetch(misPolicy);
     }
 

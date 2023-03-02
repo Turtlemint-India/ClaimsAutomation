@@ -144,6 +144,9 @@ public class MIS extends TestBase {
     @FindBy(xpath = "//a[@data-auto=\"home-menu\"]")
     WebElement HomePageNinja;
 
+    @FindBy(xpath = "//a[@data-auto=\"lifeOps-module\"]//following::a[@data-auto=\"claims-module\"]")
+    WebElement Claims;
+
 
     public MIS() {
         PageFactory.initElements(driver, this);
@@ -211,6 +214,7 @@ public class MIS extends TestBase {
         TestUtil.sendKeys(DpName,"automation test","DP Name entered");
         TestUtil.sendKeys(DPLoginID,"5c90df45e4b0f2135296ddd7","Dp Login ID Entered");
         TestUtil.sendKeys(DPNumber,"DP - 402392","DP Number entered");
+        WebCommands.staticSleep(1000);
         SaleCloseDate.click();
         WebCommands.staticSleep(1000);
         SaleCloseDate.sendKeys(Keys.ESCAPE);
@@ -274,6 +278,9 @@ public class MIS extends TestBase {
         WebCommands.staticSleep(2000);
         TestUtil.click(HomePageNinja,"Home Page Ninja-button Clicked");
         WebCommands.staticSleep(2000);
+        TestUtil.click(Claims, "Claims Selected");
+        WebCommands.staticSleep(2000);
+        driver.getWindowHandles().forEach(tab -> driver.switchTo().window(tab));
     }
 
     public void vertical_list() {
