@@ -43,14 +43,19 @@ public class LoginPage extends TestBase {
 
 
     public void NinjaLogin(String NinjaEmail, String NinjaPassword) throws Exception {
+
+     //   driver.get(prop.getProperty("localninjaurl"));
+        WebCommands.staticSleep(4000);
         LogUtils.info("Ninja Website Opened");
         String strUrl = driver.getCurrentUrl();
         LogUtils.info("Opened Website: " + strUrl);
         String parent = driver.getWindowHandle();
         SignInbtn.click();
         LogUtils.info("Clicked on Sign In with Google Button");
+        WebCommands.staticSleep(4000);
         driver.getWindowHandles().forEach(tab -> driver.switchTo().window(tab));
         LogUtils.info("Switched to child window");
+        WebCommands.staticSleep(4000);
         Email.sendKeys(NinjaEmail);
         LogUtils.info("Email Entered");
         Nextbtn1.click();
@@ -81,7 +86,7 @@ public class LoginPage extends TestBase {
         NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         WebCommands.staticSleep(24000);
         TestUtil.getScreenShot();
-        TestUtil.click(Claims, "Quote Request Selected");
+        TestUtil.click(Claims, "Clicked on Claims");
         WebCommands.staticSleep(5000);
         driver.getWindowHandles().forEach(tab -> driver.switchTo().window(tab));
 
