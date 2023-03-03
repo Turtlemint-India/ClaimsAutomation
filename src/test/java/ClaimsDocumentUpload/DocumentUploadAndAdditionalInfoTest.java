@@ -69,6 +69,7 @@ public class DocumentUploadAndAdditionalInfoTest extends TestBase {
         INIT.VerifySubmitClaim();//Tc2 Assertion Point.
         INIT.SkipAndContinue();//Tc3 Assertion Point.
         INIT.SaveAndContinue();//Tc4 Assertion Point.
+
         dup.DocUpload();
         aip.SurveyorDetails();
     }

@@ -81,7 +81,7 @@ public class Incident_Details_Page extends TestBase {
     @FindBy(xpath = "(//button[@type='button'][@tabindex='0'])[19]")
     WebElement OkTime;
 
-    @FindBy(xpath = "//button[@aria-label='Feb 7, 2023']")
+    @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]")
     WebElement DateSelect;
 
     @FindBy(xpath = "//input[@id=':ra:']")
@@ -177,20 +177,20 @@ public class Incident_Details_Page extends TestBase {
             AddClaim();
             MotorTap();
             CarSelct();
-            Thread.sleep(2500);
+            Thread.sleep(1500);
             TestUtil.sendKeys(ZendeskId, "8888888888", "ZENDESK ID IS ENTERED");
             TestUtil.sendKeys(customerName, "TestAutomationClaims", "Customer name is Entered");
             TestUtil.sendKeys(CustomerContactNo, "7200243562", "CutomerContactNo is Entered");
             TestUtil.sendKeys(DiscriptionOfIncident, "We are Doing Automation of claims automationn platform", "Description og Incident is sended");
             TestUtil.click(ClaimRequester, "Clicked on ClaimRequestorDropdown");
             TestUtil.click(InsuredSlt, "Select Insure from dropdownlist");
-            Thread.sleep(4500);
+            Thread.sleep(2000);
             TestUtil.sendKeys(AccidentCity, "Borivali City", "Accident city is enter");
             Thread.sleep(1500);
             TestUtil.sendKeys(Pincode, "401203", "PinCode is Entered");
             Thread.sleep(1500);
             TestUtil.click(NatureOfIncidence, "Nature of Incidence is selected");
-            Thread.sleep(6500);
+            Thread.sleep(2000);
             TestUtil.click(NatureOfLoss, "Click on Nature of loss");
             Actions Ac = new Actions(driver);
             Ac.moveToElement(ClaimRadioNo).click().build().perform();
@@ -198,7 +198,7 @@ public class Incident_Details_Page extends TestBase {
             TestUtil.click(DateAndTimeBox, "Clicked on date and time box");
             Thread.sleep(1500);
             TestUtil.click(DateSelect, "Clicked on date");
-            Thread.sleep(4500);
+            Thread.sleep(2000);
             Actions ac2 = new Actions(driver);
             ac2.moveToElement(Timeselector).click().build().perform();
             Thread.sleep(2500);
@@ -208,12 +208,12 @@ public class Incident_Details_Page extends TestBase {
             TestUtil.sendKeys(PolicyNo, PolicyNumber, "Registration Number is entered");
             Thread.sleep(1500);
             TestUtil.click(FetchDetail, "Fetching started");
-            Thread.sleep(9500);
+            Thread.sleep(2000);
             Actions ac22 = new Actions(driver);
             ac22.moveToElement(AreYouInjYes).click().build().perform();
-            Thread.sleep(9500);
+            Thread.sleep(2000);
             TestUtil.IsDisplayed(need_ambulance_question,"need ambulance question is displayed");
-            Thread.sleep(4000);
+            Thread.sleep(2000);
             Actions ac3 = new Actions(driver);
             ac3.moveToElement(AreYouInjNo1).click().build().perform();
             Thread.sleep(1500);
@@ -248,13 +248,13 @@ public class Incident_Details_Page extends TestBase {
         TestUtil.sendKeys(DiscriptionOfIncident, "We are Doing Automation of claims automationn platform", "Description og Incident is sended");
         TestUtil.click(ClaimRequester, "Clicked on ClaimRequestorDropdown");
         TestUtil.click(InsuredSlt, "Select Insure from dropdownlist");
-        Thread.sleep(4500);
+        Thread.sleep(3000);
         TestUtil.sendKeys(AccidentCity, "Borivali City", "Accident city is enter");
         Thread.sleep(1500);
         TestUtil.sendKeys(Pincode, "401203", "PinCode is Entered");
         Thread.sleep(1500);
         TestUtil.click(NatureOfIncidence, "Nature of Incidence is selected");
-        Thread.sleep(6500);
+        Thread.sleep(2000);
         TestUtil.click(NatureOfLoss, "Click on Nature of loss");
         Actions Ac = new Actions(driver);
         Ac.moveToElement(ClaimRadioYes).click().build().perform();
@@ -262,7 +262,7 @@ public class Incident_Details_Page extends TestBase {
         TestUtil.click(DateAndTimeBox, "Clicked on date and time box");
         Thread.sleep(1500);
         TestUtil.click(DateSelect, "Clicked on date");
-        Thread.sleep(4500);
+        Thread.sleep(3000);
         Actions ac2 = new Actions(driver);
         ac2.moveToElement(Date_and_Timeselector).click().build().perform();
         Thread.sleep(2500);
@@ -270,26 +270,26 @@ public class Incident_Details_Page extends TestBase {
         ac20.moveToElement(DateSelectyes).click().build().perform();
         Thread.sleep(2500);
         TestUtil.click(OkTime, "Clicked on date and time ");
-        Thread.sleep(4500);
+        Thread.sleep(2000);
  //     TestUtil.sendKeys(RegistrationNoYes, "MH03RR3333", "Registration Number is entered");
         TestUtil.sendKeys(PolicyNo, PolicyNumber, "Registration Number is entered");
         Thread.sleep(1500);
         TestUtil.click(FetchDetailyes, "Fetching started");
-        Thread.sleep(10000);
+        Thread.sleep(1000);
         Actions ac22 = new Actions(driver);
         ac22.moveToElement(taken_WorkshopYes).click().build().perform();
-        Thread.sleep(9500);
+        Thread.sleep(2000);
         Actions ac23 = new Actions(driver);
         ac23.moveToElement(taken_WorkshopNO).click().build().perform();
         TestUtil.sendKeys(claimno,"87654256","claim no entered");
         TestUtil.click(select_cust_query, "query dropdown click");
-        Thread.sleep(9500);
+        Thread.sleep(4000);
         TestUtil.click(select_doc_failed, "doc failed query selected");
-        Thread.sleep(9500);
+        Thread.sleep(3000);
         TestUtil.click(continuebtn, "continue btn click");
-        Thread.sleep(9500);
+        Thread.sleep(3000);
         TestUtil.sendKeys(add_query_request,"automation claim query","claim no entered");
-        Thread.sleep(9500);
+        Thread.sleep(3000);
         TestUtil.click(Save_draft, "Clicked on save draft");
         TestUtil.IsDisplayed(details_saved_popup,"details saved flash displayed ");
     }

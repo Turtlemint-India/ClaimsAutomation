@@ -145,7 +145,7 @@ public class TestUtil {
         });
     }
 
-    public static boolean Assertchk(String Orginal, WebElement element, String msg) {
+    public static boolean Assertchk(String Orginal, @NotNull WebElement element, String msg) {
         String Expected = element.getText();
         Assert.assertEquals(Orginal, Expected);
         LogUtils.info(msg);
