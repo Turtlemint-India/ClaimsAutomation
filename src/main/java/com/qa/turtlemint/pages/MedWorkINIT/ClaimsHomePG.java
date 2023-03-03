@@ -75,7 +75,7 @@ public class ClaimsHomePG extends TestBase
     @FindBy(xpath = "//input[@id=':ra:']")
     WebElement RegistrationNo;
 
-    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//button[text()='Fetch details']")
+    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//button[text()='Fetch details']//span ")
     WebElement FetchDetail;
 
     @FindBy(xpath = "//button[text()='Save as Draft']")
