@@ -8,6 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
+@Test(groups = {"RaisedClaim", "ClaimsFull"})
 public class Incident_Details_Test extends TestBase {
 
 

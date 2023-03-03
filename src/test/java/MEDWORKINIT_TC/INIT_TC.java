@@ -10,6 +10,9 @@ import com.qa.turtlemint.pages.mis.MIS;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
+@Test(groups = {"Workshop", "ClaimsFull"})
+
 public class INIT_TC extends TestBase {
     LoginPage Loginpage;
     ClaimsHomePG ClaimHm;

@@ -20,8 +20,11 @@
                     </run>
                 </groups>
         <classes>
-            <class name="Login.ClaimsLogin"></class>
-            <class name="Login.MIS_Login"></class>
+            <class name="Claim_deatails.Incident_Details_Test"></class>
+            <class name="ClaimsDocumentUpload.DocumentUploadAndAdditionalInfoTest"></class>
+            <class name="IncidentDetail_Customer.IncidentDetailsTest"></class>
+            <class name="MEDWORKINIT_TC.INIT_TC"></class>
+            <class name="TrackFuction.TrackFunctionalityTest"></class>
 
         </classes>
 

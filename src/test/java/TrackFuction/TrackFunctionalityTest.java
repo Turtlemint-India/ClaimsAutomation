@@ -1,14 +1,15 @@
-package TestCase15to19;
+package TrackFuction;
 
-import Login.MIS_Login;
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.IncidentDetail_Customer.IncidentDetail;
 import com.qa.turtlemint.pages.TestCase15to19Page.TrackFunctionalityPage;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
-import com.qa.turtlemint.util.TestUtil;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+
+@Test(groups = {"Track", "ClaimsFull"})
 
 public class TrackFunctionalityTest extends TestBase {
 

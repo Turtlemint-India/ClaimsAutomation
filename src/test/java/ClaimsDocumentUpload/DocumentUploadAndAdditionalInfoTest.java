@@ -13,11 +13,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/**
- * @author Ambrish Balde 29/06/2022
- * @author ambrish.balde
- * @Project Turtlemint Frontend Automation
- */
+
+@Test(groups = {"Docupload", "ClaimsFull"})
+
 public class DocumentUploadAndAdditionalInfoTest extends TestBase {
 
     LoginPage Loginpage;
