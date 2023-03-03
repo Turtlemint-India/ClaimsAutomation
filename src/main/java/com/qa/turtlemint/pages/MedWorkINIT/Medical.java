@@ -15,7 +15,7 @@ public class Medical extends TestBase
     public Medical() {
         PageFactory.initElements(driver, this);
     }
-    @FindBy(xpath = "//div[@class='MuiFormControl-root MuiTextField-root css-1e5j6jq']")
+    @FindBy(xpath = "//label[text()='Emergency location ']//following::div//textarea[1]")
     WebElement EmergencyLocation;
 
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::textarea[@class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiInputBase-inputAdornedEnd css-v59wfm'][1]")
@@ -41,7 +41,7 @@ public class Medical extends TestBase
 
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::input[@class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq'][2]")
     WebElement HospitalName;
-    @FindBy(xpath = "//p[text()='Medical Assistance']//following::div[@class='MuiFormControl-root MuiTextField-root css-1e5j6jq'][4]")
+    @FindBy(xpath = "//label[text()='Enter Hospital Address']//following::div//textarea[1]")
     WebElement HospitalAddressTap;
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::textarea[@class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiInputBase-inputAdornedEnd css-v59wfm'][3]")
     WebElement HospitalAddress;
@@ -55,6 +55,8 @@ public class Medical extends TestBase
     @FindBy(xpath = "//p[text()='Incident Details']//following::p[text()='Medical Assistance'][1]")
     WebElement Assert1test;
 
+    @FindBy(xpath = "//button[text()='Continue to Workshop Selection']")
+    WebElement WorkShop;
 
 
 
@@ -134,5 +136,10 @@ public class Medical extends TestBase
         TestUtil.click(WorkshopSelection,"Clicked on WorkshopSelection Button");
         Thread.sleep(2500);
 
+    }
+
+    public void WorkShop()
+    {
+        TestUtil.click(WorkshopSelection, "Clicked on Workshop selection button");
     }
 }
