@@ -46,7 +46,6 @@ public class Incident_Details_Test extends TestBase {
         Incident_Details_Page.incidentDetails_raised_claimYes(misPolicy);
     }
 
-
     @AfterMethod
     public void Close() {
         driver.quit();
