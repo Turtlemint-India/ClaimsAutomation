@@ -78,6 +78,9 @@ public class ClaimsHomePG extends TestBase
     @FindBy(xpath = "//label[text()='Policy Number']//parent::div//button[text()='Fetch details']")
     WebElement FetchDetail;
 
+    @FindBy(xpath = "//button[text()='Save as Draft']")
+    WebElement SaveDraft;
+
     @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='yes'][1]")
     WebElement AreYouInjYes;
 
@@ -164,6 +167,7 @@ public class ClaimsHomePG extends TestBase
         TestUtil.waitUntilVisibilityOfElement(PolicyNo);
         TestUtil.sendKeys(PolicyNo,PolicyNumber,"Policy Number is entered");
       //  Thread.sleep(1500);
+        TestUtil.click(SaveDraft, "Save Draft clicked");
         TestUtil.click(FetchDetail,"Fetching started");
         Thread.sleep(3000);
         TestUtil.waitUntilVisibilityOfElement(AreYouInj);
