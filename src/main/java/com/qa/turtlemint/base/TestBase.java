@@ -38,7 +38,7 @@ public class TestBase {
         String browserName = prop.getProperty("browser");
         LogUtils.info("Browser name: " + browserName);
         if (browserName.equals("chrome")) {
-            driver = WebDriverManager.chromedriver().create();
+            //         driver = WebDriverManager.chromedriver().create();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("start-maximized"); // open Browser in maximized mode
             options.addArguments("--incognito");
@@ -60,7 +60,7 @@ public class TestBase {
 //				WebDriver driver = new ChromeDriver(options);
 
             }
-     //          driver = new ChromeDriver(options);
+            driver = new ChromeDriver(options);
 
             Dimension newDimension = new Dimension(1200, 800);
             driver.manage().window().setSize(newDimension);
@@ -74,7 +74,10 @@ public class TestBase {
             driver.manage().timeouts().pageLoadTimeout(TestUtil.Page_load_time, TimeUnit.SECONDS);
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.implicit_wait));
 
-            driver.get(prop.getProperty("url"));
+
+            driver.get(System.getProperty("url")); // Only for Jenkins Uncomment this line
+            //  driver.get(prop.getProperty("loacalurl"));
+
         }
     }
 }
