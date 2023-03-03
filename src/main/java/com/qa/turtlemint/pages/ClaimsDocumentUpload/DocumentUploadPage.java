@@ -1,4 +1,4 @@
-package com.qa.turtlemint.pages.ClaimsAmbrish;
+package com.qa.turtlemint.pages.ClaimsDocumentUpload;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.commands.WebCommands;
@@ -108,10 +108,8 @@ public class DocumentUploadPage extends TestBase {
     @FindBy(xpath = "//button[text()='Confirm']")
     WebElement confirm;
 
-    public void Doc()
+    public void DocUpload()
     {
-      //  ele.click(); // This path will be changed written only to execute start the flow.
-        docupload.click();
         WebCommands.staticSleep(1000);
         DLFileUpload.sendKeys("/home/ubuntu/storage/DL.jpeg");
         WebCommands.staticSleep(1000);

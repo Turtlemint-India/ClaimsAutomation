@@ -15,7 +15,7 @@ public class Medical extends TestBase
     public Medical() {
         PageFactory.initElements(driver, this);
     }
-    @FindBy(xpath = "//div[@class='MuiFormControl-root MuiTextField-root css-1iwqo40']")
+    @FindBy(xpath = "//label[text()='Emergency location ']//following::div//textarea[1]")
     WebElement EmergencyLocation;
 
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::textarea[@class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiInputBase-inputAdornedEnd css-v59wfm'][1]")
@@ -41,7 +41,7 @@ public class Medical extends TestBase
 
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::input[@class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq'][2]")
     WebElement HospitalName;
-    @FindBy(xpath = "//p[text()='Medical Assistance']//following::div[@class='MuiFormControl-root MuiTextField-root css-1e5j6jq'][4]")
+    @FindBy(xpath = "//label[text()='Enter Hospital Address']//following::div//textarea[1]")
     WebElement HospitalAddressTap;
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::textarea[@class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiInputBase-inputAdornedEnd css-v59wfm'][3]")
     WebElement HospitalAddress;
@@ -54,6 +54,10 @@ public class Medical extends TestBase
 
     @FindBy(xpath = "//p[text()='Incident Details']//following::p[text()='Medical Assistance'][1]")
     WebElement Assert1test;
+
+    @FindBy(xpath = "//button[text()='Continue to Workshop Selection']")
+    WebElement WorkShop;
+
 
 
     @FindBy(xpath = "")
@@ -85,8 +89,7 @@ public class Medical extends TestBase
         Thread.sleep(1500);
         CustomerPinCode.sendKeys(Keys.TAB);
         TestUtil.sendKeys(HospitalName,"Tata Hospital","HospitalName is Entered");
-        HospitalName.sendKeys(Keys.TAB);
-      //  TestUtil.click(HospitalAddressTap,"Clicked on HospitalAddress");
+        TestUtil.click(HospitalAddressTap,"Clicked on HospitalAddress");
         TestUtil.sendKeys(HospitalAddress," Sv Road ,Tutu Road","HospitalAddress is Entered");
      //   TestUtil.waitUntilVisibilityOfElement(PickupYes);
      //   TestUtil.IsDisplayed(PickupYes,"PickupYes is displayed ");
@@ -124,8 +127,7 @@ public class Medical extends TestBase
         Thread.sleep(1500);
         CustomerPinCode.sendKeys(Keys.TAB);
         TestUtil.sendKeys(HospitalName,"Tata Hospital","HospitalName is Entered");
-      //  TestUtil.click(HospitalAddressTap,"Clicked on HospitalAddress");
-        HospitalName.sendKeys(Keys.TAB);
+        TestUtil.click(HospitalAddressTap,"Clicked on HospitalAddress");
         TestUtil.sendKeys(HospitalAddress," Sv Road ,Tutu Road","HospitalAddress is Entered");
         Thread.sleep(1500);
         Actions ac=new Actions(driver);
@@ -134,5 +136,10 @@ public class Medical extends TestBase
         TestUtil.click(WorkshopSelection,"Clicked on WorkshopSelection Button");
         Thread.sleep(2500);
 
+    }
+
+    public void WorkShop()
+    {
+        TestUtil.click(WorkshopSelection, "Clicked on Workshop selection button");
     }
 }

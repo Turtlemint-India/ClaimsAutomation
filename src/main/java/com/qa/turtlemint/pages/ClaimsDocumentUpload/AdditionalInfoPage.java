@@ -1,10 +1,9 @@
-package com.qa.turtlemint.pages.ClaimsAmbrish;
+package com.qa.turtlemint.pages.ClaimsDocumentUpload;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.commands.WebCommands;
 import com.qa.turtlemint.util.TestUtil;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -35,9 +34,6 @@ public class AdditionalInfoPage extends TestBase {
     @FindBy(xpath = "//label[text()='Enter Surveyor Email ID']//parent::div//input")
     WebElement SurveyorEmail;
 
-    @FindBy(xpath = "//input[@id=':r2k:']")
-    WebElement SurveyorAppDate;
-
     @FindBy(xpath = "//label[text()='Enter Estimated Amount']//parent::div//input")
     WebElement WorkShopBill;
 
@@ -53,29 +49,16 @@ public class AdditionalInfoPage extends TestBase {
     @FindBy(xpath = "//p[text()= 'Claim Reported']")
     WebElement ClaimReportedText;
 
-    @FindBy(xpath = "//button[text()='Add Status']")
-    WebElement AddStatusBtn;
-
-    @FindBy(xpath = "//p[text()='Additional Information']")
-    WebElement InfoPage;
-
-    @FindBy(xpath = "//p[text()='Upload Documents']")
-    WebElement docupload;
-
     Date myDate;
 
     public void SurveyorDetails()
     {
         WebCommands.staticSleep(1000);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
-        TestUtil.click(InfoPage, "Clicked on Information option");
-        WebCommands.staticSleep(3000);
         TestUtil.sendKeys(SurveyorName, "Test Name", "Name is entered");
         TestUtil.sendKeys(SurveyorNumber, "6999912345", "Mobile number entered");
         TestUtil.sendKeys(SurveyorEmail, "test@example.com", "Email entered");
         driver.findElement(By.xpath("//label[text()='Surveyor Appointment Date']//parent::div//input")).sendKeys(TomorrowDate(1));
-        TestUtil.sendKeys(WorkShopBill, "TR73819", "Bill Number entered");
+        TestUtil.sendKeys(WorkShopBill, "TR73819", "ShopBill entered");
         TestUtil.sendKeys(BillAmount, "2000", "Bill Amount entered");
         TestUtil.click(skip, "Clicked on Skip button");
 
