@@ -66,8 +66,8 @@ public class ClaimsHomePG extends TestBase
     @FindBy(xpath = "//span[text()='2023']//following::button[text()='OK']")
     WebElement OkTime;
 
-//    @FindBy(xpath = "//button[@aria-label='Feb 7, 2023']")
-//    WebElement DateSelect;
+    @FindBy(xpath = "//p[text()='Are you injured?']")
+    WebElement AreYouInj;
 
     @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]")
     WebElement DateSelect;
@@ -95,6 +95,9 @@ public class ClaimsHomePG extends TestBase
 
     @FindBy(xpath = "//button[text()='Continue to Medical Assistance']")
     WebElement MedicalAssitanceButton;
+
+    @FindBy(xpath = "//p[text()='Incident Details']//following::p[text()='Medical Assistance'][1]")
+    WebElement Assert1test;
 
 
 
@@ -130,50 +133,50 @@ public class ClaimsHomePG extends TestBase
         AddClaim();
         MotorTap();
         CarSelct();
-        Thread.sleep(2500);
+        TestUtil.waitUntilVisibilityOfElement(ZendeskId);
         TestUtil.sendKeys(ZendeskId,"1234567890","ZENDESK ID IS ENTERED");
         TestUtil.sendKeys(customerName,"TestAutomationClaims","Customer name is Entered");
         TestUtil.sendKeys(CustomerContactNo,"7200243562","CutomerContactNo is Entered");
         TestUtil.sendKeys(DiscriptionOfIncident,"We are Doing Automation of claims automationn platform","Description og Incident is sended");
         TestUtil.click(ClaimRequester,"Clicked on ClaimRequestorDropdown");
         TestUtil.click(InsuredSlt,"Select Insure from dropdownlist");
-        Thread.sleep(4500);
+        TestUtil.waitUntilVisibilityOfElement(AccidentCity);
         TestUtil.sendKeys(AccidentCity,"Borivali City","Accident city is enter");
-        Thread.sleep(1500);
+        TestUtil.waitUntilVisibilityOfElement(Pincode);
         TestUtil.sendKeys(Pincode,"401203","PinCode is Entered");
-        Thread.sleep(1500);
+        TestUtil.waitUntilVisibilityOfElement(NatureOfIncidence);
         TestUtil.click(NatureOfIncidence,"Nature of Incidence is selected");
-        Thread.sleep(6500);
+        TestUtil.waitUntilVisibilityOfElement(NatureOfLoss);
         TestUtil.click(NatureOfLoss,"Click on Nature of loss");
         Actions Ac=new Actions(driver);
         Ac.moveToElement(ClaimRadioNo).click().build().perform();
         Thread.sleep(1500);
         TestUtil.click(DateAndTimeBox,"Clicked on date and time box");
-        Thread.sleep(1500);
+        TestUtil.waitUntilVisibilityOfElement(DateSelect);
+      //  Thread.sleep(1500);
         TestUtil.click(DateSelect,"Clicked on date");
-        Thread.sleep(4500);
+        Thread.sleep(2500);
         Actions ac2=new Actions(driver);
         ac2.moveToElement(Timeselector).click().build().perform();
         Thread.sleep(2500);
         TestUtil.click(OkTime,"Clicked on date and time finally ");
-        Thread.sleep(4500);
+      //  Thread.sleep(4500);
+        TestUtil.waitUntilVisibilityOfElement(PolicyNo);
         TestUtil.sendKeys(PolicyNo,PolicyNumber,"Policy Number is entered");
-        Thread.sleep(1500);
+      //  Thread.sleep(1500);
         TestUtil.click(FetchDetail,"Fetching started");
-        Thread.sleep(9500);
-      //  TestUtil.IsDisplayed(AreYouInjYes,"Radio button is displayed");
+        TestUtil.waitUntilVisibilityOfElement(AreYouInj);
         Actions ac3=new Actions(driver);
-     //   TestUtil.click(AreYouInjYes,"Clicked on Are you injured?");
         ac3.moveToElement(AreYouInjYes).click().build().perform();
-        Thread.sleep(1500);
+      //  Thread.sleep(1500);
         Actions ac4=new Actions(driver);
         ac4.moveToElement(AmbulanceYes).click().build().perform();
-        Thread.sleep(1500);
+      //  Thread.sleep(1500);
         Actions ac5=new Actions(driver);
         ac5.moveToElement(WorkshopYes).click().build().perform();
-        Thread.sleep(1500);
+      //  Thread.sleep(1500);
         TestUtil.click(MedicalAssitanceButton,"Clicked on medical Assitance");
+        TestUtil.waitUntilVisibilityOfElement(Assert1test);
 
-        Thread.sleep(9500);
     }
 }
