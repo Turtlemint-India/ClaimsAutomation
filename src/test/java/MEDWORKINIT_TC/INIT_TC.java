@@ -8,9 +8,11 @@ import com.qa.turtlemint.pages.MedWorkINIT.Workshop;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import util.iTestListener;
 
-
+@Listeners(iTestListener.class)
 @Test(groups = {"Workshop", "ClaimsFull"})
 
 public class INIT_TC extends TestBase {

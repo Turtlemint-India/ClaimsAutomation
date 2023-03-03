@@ -5,9 +5,11 @@ import com.qa.turtlemint.pages.IncidentDetail_Customer.IncidentDetail;
 import com.qa.turtlemint.pages.login.LoginPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import util.iTestListener;
 
-
+@Listeners(iTestListener.class)
 @Test(groups = {"CustomerIncident", "ClaimsFull"})
 
 public class IncidentDetailsTest extends TestBase {

@@ -38,7 +38,6 @@ public class Medical extends TestBase
     WebElement HospitalNameTap;
 
 
-
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::input[@class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq'][2]")
     WebElement HospitalName;
     @FindBy(xpath = "//label[text()='Enter Hospital Address']//following::div//textarea[1]")

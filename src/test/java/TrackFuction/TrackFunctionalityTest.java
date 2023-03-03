@@ -6,9 +6,11 @@ import com.qa.turtlemint.pages.TestCase15to19Page.TrackFunctionalityPage;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import util.iTestListener;
 
-
+@Listeners(iTestListener.class)
 @Test(groups = {"Track", "ClaimsFull"})
 
 public class TrackFunctionalityTest extends TestBase {
