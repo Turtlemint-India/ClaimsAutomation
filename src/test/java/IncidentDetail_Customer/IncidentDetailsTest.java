@@ -1,7 +1,7 @@
-package IncidentDetail_Tejas;
+package IncidentDetail_Customer;
 
 import com.qa.turtlemint.base.TestBase;
-import com.qa.turtlemint.pages.IncidentDetail_Tejas.IncidentDetail;
+import com.qa.turtlemint.pages.IncidentDetail_Customer.IncidentDetail;
 import com.qa.turtlemint.pages.login.LoginPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

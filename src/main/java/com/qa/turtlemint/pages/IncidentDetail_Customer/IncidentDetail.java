@@ -1,4 +1,4 @@
-package com.qa.turtlemint.pages.IncidentDetail_Tejas;
+package com.qa.turtlemint.pages.IncidentDetail_Customer;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.commands.WebCommands;
@@ -285,12 +285,9 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.sendKeys(PolicyNo, "12345656", "Reg No enter");
-        TestUtil.click(FetchDetails, "Fetch Details Clicked");
 
         WebCommands.staticSleep(1000000);
         TestUtil.click(SaveDraft, "Save Draft clicked");
-
-
 
         js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
         WebCommands.staticSleep(4000);
