@@ -279,9 +279,8 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(TodayDateSelect, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
-        TestUtil.sendKeys(PolicyNo, "12345656", "Reg No enter");
-
-        WebCommands.staticSleep(1000000);
+        TestUtil.sendKeys(PolicyNo, "12345656", "Plocy No enter");
+        WebCommands.staticSleep(1000);
         TestUtil.click(SaveDraft, "Save Draft clicked");
 
         js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
