@@ -9,10 +9,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class TrackFunctionalityPage extends TestBase{
+public class TrackFunctionalityPage extends TestBase {
 
 
-    public TrackFunctionalityPage(){
+    public TrackFunctionalityPage() {
 
         PageFactory.initElements(driver, this);
     }
@@ -68,102 +68,96 @@ public class TrackFunctionalityPage extends TestBase{
     WebElement ClickonNewAssignee;
     @FindBy(xpath = "//input[@class=\"PrivateSwitchBase-input css-1m9pwf3\"]//parent::span")
     WebElement Selectassignee;
-    @FindBy(xpath = "//button[normalize-space()='Open']")
+    @FindBy(xpath = "//p[text()='Claim Details /Incident Details']//parent::div//div//div//p")
     WebElement ClickonOpenButton;
 
     JavascriptExecutor js = (JavascriptExecutor) driver;
 
 
-
-    public void DropDownHOLD_PENDING(String pn){
-        TestUtil.sendKeys(ClickonSearch,pn,"Search using policy Number");
-        TestUtil.click(EnterSearchButton,"Enter Search Button");
-
-       TestUtil.click(SelectClaim,"Select Any Claim");
-       // js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+    public void DropDownHOLD_PENDING(String pn) {
+        WebCommands.staticSleep(10000);
+        TestUtil.click(ClickOnViewClaims, "Click on View Cliams Button");
         WebCommands.staticSleep(3000);
+        TestUtil.sendKeys(ClickonSearch, pn, "Search using policy Number");
+        TestUtil.click(EnterSearchButton, "Enter Search Button");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(SelectClaim, "Select Any Claim");
+        js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+        WebCommands.staticSleep(2000);
         TestUtil.click(ClickonOpenButton, "Click on Oprn button");
-        TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
+        //  TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
         LogUtils.info("Observed the DropDown");
-        TestUtil.click(SelectPending,"Select Pending From DropDown");
-        TestUtil.click(SelectPendingFromInsurer,"Select Pending From Insurer");
-        TestUtil.sendKeys(EnterText,"Pending","Pending From Insurer");
+        TestUtil.click(SelectPending, "Select Pending From DropDown");
+        TestUtil.click(SelectPendingFromInsurer, "Select Pending From Insurer");
+        TestUtil.sendKeys(EnterText, "Pending", "Pending From Insurer");
         WebCommands.staticSleep(3000);
-        TestUtil.click(ClickOnmarkStatusPending,"Click on Mark Status Pending button");
+        TestUtil.click(ClickOnmarkStatusPending, "Click on Mark Status Pending button");
         WebCommands.staticSleep(3000);
-        TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
-        TestUtil.click(SelectOnHold," Select on Hold From Drop Down");
-        TestUtil.sendKeys(EnterText,"On Hold","Mark Status On Hold");
+        TestUtil.click(SelectClaimDropDown, "Select Claim Drop Down");
+        TestUtil.click(SelectOnHold, " Select on Hold From Drop Down");
+        TestUtil.sendKeys(EnterText, "On Hold", "Mark Status On Hold");
         WebCommands.staticSleep(3000);
-        TestUtil.click(MarkStatusOnHold,"Mark Status On Hold");
+        TestUtil.click(MarkStatusOnHold, "Mark Status On Hold");
         WebCommands.staticSleep(3000);
-
 
 
     }
 
-       public void DropDownClosed(){
+    public void DropDownClosed() {
 
-        TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
-           TestUtil.click(SelectOpen,"Select OPen");
-           TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
-           TestUtil.click(SelectClosed,"Select Closed DropDown");
-           WebCommands.staticSleep(3000);
-           TestUtil.click(SelectPaid,"Select Paid");
-           TestUtil.click(SelectCashless,"Select Cashless");
-           TestUtil.sendKeys(EnterAmount,"200","Enter Amount");
-           WebCommands.staticSleep(3000);
-           TestUtil.sendKeys(SettlementDate,TestUtil.PresentDate(),"Send Date");
-           WebCommands.staticSleep(3000);
-           TestUtil.click(SelectInsured,"Select Insured");
-           TestUtil.click(StatusClosed,"Status Closed");
-           WebCommands.staticSleep(3000);
-           TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
-           TestUtil.click(SelectOpen,"Select OPen");
-           TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
-           TestUtil.click(SelectClosed,"Select Closed DropDown");
-           TestUtil.click(SelectClosedbutton,"Select Closed Button");
-           TestUtil.click(ReasonforClosure,"Reason For closure");
-           TestUtil.sendKeys(SelectReasonforClosure,"Status Mark as closed","Closing the request");
-           TestUtil.click(StatusClosed,"Status Closed");
-           WebCommands.staticSleep(3000);
-           TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
-           TestUtil.click(SelectOpen,"Select OPen");
-           TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
-           TestUtil.click(SelectClosed,"Select Closed DropDown");
-           TestUtil.click(SelectRepudation,"Select Repudation");
-           TestUtil.click(ReasonforClosure,"Reason For closure");
-           TestUtil.sendKeys(SelectReasonforClosure,"Status Mark as closed","Closing the request");
-           TestUtil.click(StatusClosed,"Status Closed");
-           WebCommands.staticSleep(3000);
+        TestUtil.click(SelectClaimDropDown, "Select Claim Drop Down");
+        TestUtil.click(SelectOpen, "Select OPen");
+        TestUtil.click(SelectClaimDropDown, "Select Claim Drop Down");
+        TestUtil.click(SelectClosed, "Select Closed DropDown");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(SelectPaid, "Select Paid");
+        TestUtil.click(SelectCashless, "Select Cashless");
+        TestUtil.sendKeys(EnterAmount, "200", "Enter Amount");
+        WebCommands.staticSleep(3000);
+        TestUtil.sendKeys(SettlementDate, TestUtil.PresentDate(), "Send Date");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(SelectInsured, "Select Insured");
+        TestUtil.click(StatusClosed, "Status Closed");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(SelectClaimDropDown, "Select Claim Drop Down");
+        TestUtil.click(SelectOpen, "Select OPen");
+        TestUtil.click(SelectClaimDropDown, "Select Claim Drop Down");
+        TestUtil.click(SelectClosed, "Select Closed DropDown");
+        TestUtil.click(SelectClosedbutton, "Select Closed Button");
+        TestUtil.click(ReasonforClosure, "Reason For closure");
+        TestUtil.sendKeys(SelectReasonforClosure, "Status Mark as closed", "Closing the request");
+        TestUtil.click(StatusClosed, "Status Closed");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(SelectClaimDropDown, "Select Claim Drop Down");
+        TestUtil.click(SelectOpen, "Select OPen");
+        TestUtil.click(SelectClaimDropDown, "Select Claim Drop Down");
+        TestUtil.click(SelectClosed, "Select Closed DropDown");
+        TestUtil.click(SelectRepudation, "Select Repudation");
+        TestUtil.click(ReasonforClosure, "Reason For closure");
+        TestUtil.sendKeys(SelectReasonforClosure, "Status Mark as closed", "Closing the request");
+        TestUtil.click(StatusClosed, "Status Closed");
+        WebCommands.staticSleep(3000);
 
-       }
-
-
-       public void ViewClaim(){
-
-           TestUtil.click(ClickOnViewClaims,"Click on View Cliams Button");
-           TestUtil.getScreenShot();
-           WebCommands.staticSleep(4000);
-           TestUtil.sendKeys(ClickonSearch,"dfsf123","Search using policy Number");
-           TestUtil.click(EnterSearchButton,"Enter Search Button");
-           TestUtil.getScreenShot();
-           WebCommands.staticSleep(4000);
-           TestUtil.click(ClickonNewAssignee,"Click on Assignee");
-           WebCommands.staticSleep(2000);
-           TestUtil.click(Selectassignee,"Select New Assignee");
-           WebCommands.staticSleep(2000);
-           LogUtils.info("New assinee assigned");
+    }
 
 
+    public void ViewClaim() {
+
+        TestUtil.click(ClickOnViewClaims, "Click on View Cliams Button");
+        TestUtil.getScreenShot();
+        WebCommands.staticSleep(4000);
+        TestUtil.sendKeys(ClickonSearch, "dfsf123", "Search using policy Number");
+        TestUtil.click(EnterSearchButton, "Enter Search Button");
+        TestUtil.getScreenShot();
+        WebCommands.staticSleep(4000);
+        TestUtil.click(ClickonNewAssignee, "Click on Assignee");
+        WebCommands.staticSleep(2000);
+        TestUtil.click(Selectassignee, "Select New Assignee");
+        WebCommands.staticSleep(2000);
+        LogUtils.info("New assinee assigned");
 
 
-
-
-
-       }
-
-
+    }
 
 
 }

@@ -225,12 +225,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Partner, "Partner Selected");
         TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
         TestUtil.click(SaveDraft, "Save Draft clicked");
-
-//        TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
-//        TestUtil.click(Accident, "Partner Selected");
-//        TestUtil.click(OwnDamage, "Own Damage Selected");
-//        TestUtil.click(No, "No Selected");
-//        TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
+        WebCommands.staticSleep(3000);
     }
 
     public void MultipleSelectionForDeleteClaims() {
@@ -339,7 +334,7 @@ public class IncidentDetail extends TestBase {
 //        TestUtil.click(Bike,"Bike Button Clicked");
 //        TestUtil.click(CV,"CV Button Clicked");
         TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
-        TestUtil.sendKeys(CustomerName, "CAuto Testa TestER", "Customer Name Enter");
+        TestUtil.sendKeys(CustomerName, "Auto Test Tester", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
         TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing Closed Status Checking", "Enter Description Of Incident Enter");
         TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
@@ -355,8 +350,11 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.sendKeys(PolicyNo, policyNumber, "Reg No enter");
+        WebCommands.staticSleep(3000);
+        TestUtil.click(SaveDraft, "Save Draft clicked");
         TestUtil.click(FetchDetails, "Fetch Details Clicked");
         WebCommands.staticSleep(3000);
+        TestUtil.click(SaveDraft, "Save Draft clicked");
         LogUtils.info("Fetching policy number in Claims Successfully done");
     }
 }

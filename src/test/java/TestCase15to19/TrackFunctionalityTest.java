@@ -2,6 +2,7 @@ package TestCase15to19;
 
 import Login.MIS_Login;
 import com.qa.turtlemint.base.TestBase;
+import com.qa.turtlemint.pages.IncidentDetail_Customer.IncidentDetail;
 import com.qa.turtlemint.pages.TestCase15to19Page.TrackFunctionalityPage;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
@@ -11,44 +12,38 @@ import org.testng.annotations.Test;
 
 public class TrackFunctionalityTest extends TestBase {
 
-    public TrackFunctionalityTest(){
+    public TrackFunctionalityTest() {
         super();
     }
 
-
-
     LoginPage Loginpage;
     TrackFunctionalityPage Track;
-   // MIS_Login mis;
+    IncidentDetail ID;
     MIS mis;
     public String misPolicy;
+
     @BeforeMethod()
     public void start() throws Exception {
         initialization();
         Loginpage = new LoginPage();
         Track = new TrackFunctionalityPage();
-       // mislogin = new MIS_Login();
         mis = new MIS();
+        ID = new IncidentDetail();
 
+        Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
+        Loginpage.ninja_MIS();
+        mis.MISPolicyNumber();
+        misPolicy = mis.policyNumber();
+        System.out.println(misPolicy);
+        mis.BackTo_Claims();
+        ID.MIS_Policy_Fetch(misPolicy);
 
     }
 
     @Test
     public void Track() throws Exception {
-        //mis.loginTest_MIS();
-
-       Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
-        Loginpage.ninja_MIS();
-        mis.MISPolicyNumber();
-        misPolicy = mis.policyNumber();
-        Loginpage.ninja_Claims();
         Track.DropDownHOLD_PENDING(misPolicy);
         Track.DropDownClosed();
         Track.ViewClaim();
-
-
-
     }
-
-
 }
