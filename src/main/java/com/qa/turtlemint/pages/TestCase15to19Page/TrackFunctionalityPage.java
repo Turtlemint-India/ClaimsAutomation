@@ -68,16 +68,21 @@ public class TrackFunctionalityPage extends TestBase{
     WebElement ClickonNewAssignee;
     @FindBy(xpath = "//input[@class=\"PrivateSwitchBase-input css-1m9pwf3\"]//parent::span")
     WebElement Selectassignee;
+    @FindBy(xpath = "//button[normalize-space()='Open']")
+    WebElement ClickonOpenButton;
 
     JavascriptExecutor js = (JavascriptExecutor) driver;
 
 
 
-    public void DropDownHOLD_PENDING(){
+    public void DropDownHOLD_PENDING(String pn){
+        TestUtil.sendKeys(ClickonSearch,pn,"Search using policy Number");
+        TestUtil.click(EnterSearchButton,"Enter Search Button");
 
-        TestUtil.click(SelectClaim,"Select Any Claim");
+       TestUtil.click(SelectClaim,"Select Any Claim");
        // js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
         WebCommands.staticSleep(3000);
+        TestUtil.click(ClickonOpenButton, "Click on Oprn button");
         TestUtil.click(SelectClaimDropDown,"Select Claim Drop Down");
         LogUtils.info("Observed the DropDown");
         TestUtil.click(SelectPending,"Select Pending From DropDown");

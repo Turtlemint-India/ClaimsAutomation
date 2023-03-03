@@ -5,6 +5,7 @@ import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.TestCase15to19Page.TrackFunctionalityPage;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
+import com.qa.turtlemint.util.TestUtil;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -41,9 +42,11 @@ public class TrackFunctionalityTest extends TestBase {
         mis.MISPolicyNumber();
         misPolicy = mis.policyNumber();
         Loginpage.ninja_Claims();
-        Track.DropDownHOLD_PENDING();
+        Track.DropDownHOLD_PENDING(misPolicy);
         Track.DropDownClosed();
         Track.ViewClaim();
+
+
 
     }
 
