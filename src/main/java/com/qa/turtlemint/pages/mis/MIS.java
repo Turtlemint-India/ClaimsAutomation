@@ -177,10 +177,10 @@ public class MIS extends TestBase {
 
         InsurerDropdown.click();
         TestUtil.click(InsurerList, "Insurer Button clicked");
-
+        WebCommands.staticSleep(2000);
         CreateSale.click();
         LogUtils.info("Create Sale Clicked");
-        WebCommands.staticSleep(1000);
+        WebCommands.staticSleep(3000);
         TestUtil.click(SwitchToManual,"Switched to Manual Mode");
         WebCommands.staticSleep(2000);
         TestUtil.click(BrokerCheckBox, "Broker Checkbox Clicked");
