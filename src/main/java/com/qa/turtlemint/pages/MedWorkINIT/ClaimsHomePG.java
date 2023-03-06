@@ -172,8 +172,9 @@ public class ClaimsHomePG extends TestBase
       //  TestUtil.click(SaveDraft, "Save Draft clicked");
         TestUtil.getScreenShot();
         Thread.sleep(3000);
-        TestUtil.click(FetchDetail,"Fetching started");
-        TestUtil.getScreenShot();
+        FetchDetail.click();
+        WebCommands.staticSleep(500);
+        TestUtil.getFullPageScreenShot();
         Thread.sleep(3000);
     //    TestUtil.click(FetchDetail,"Fetching started");
         TestUtil.waitUntilVisibilityOfElement(AreYouInj);
