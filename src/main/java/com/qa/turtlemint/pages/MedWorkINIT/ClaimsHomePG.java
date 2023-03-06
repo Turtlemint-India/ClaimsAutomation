@@ -2,6 +2,7 @@ package com.qa.turtlemint.pages.MedWorkINIT;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.util.TestUtil;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -111,7 +112,7 @@ public class ClaimsHomePG extends TestBase
 //    WebElement ;
 
 
-
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
     public void AddClaim() throws Exception
     {
@@ -168,8 +169,9 @@ public class ClaimsHomePG extends TestBase
         TestUtil.sendKeys(PolicyNo,PolicyNumber,"Policy Number is entered");
       //  Thread.sleep(1500);
         TestUtil.click(SaveDraft, "Save Draft clicked");
-        Thread.sleep(2000);
-        TestUtil.click(FetchDetail,"Fetching started");
+        Thread.sleep(3000);
+      //  TestUtil.click(FetchDetail,"Fetching started");
+        js.executeScript("arguments[0].click();", FetchDetail);
         Thread.sleep(3000);
         TestUtil.waitUntilVisibilityOfElement(AreYouInj);
         Actions ac3=new Actions(driver);
