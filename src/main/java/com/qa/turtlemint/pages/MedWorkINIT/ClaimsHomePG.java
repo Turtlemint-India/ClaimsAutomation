@@ -172,8 +172,8 @@ public class ClaimsHomePG extends TestBase
         Thread.sleep(3000);
         TestUtil.click(FetchDetail,"Fetching started");
         Thread.sleep(3000);
-        TestUtil.click(FetchDetail,"Fetching started");
-     //   js.executeScript("arguments[0].click();", FetchDetail);
+    //    TestUtil.click(FetchDetail,"Fetching started");
+        js.executeScript("arguments[0].click();", FetchDetail);
         Thread.sleep(3000);
         TestUtil.waitUntilVisibilityOfElement(AreYouInj);
         Actions ac3=new Actions(driver);
