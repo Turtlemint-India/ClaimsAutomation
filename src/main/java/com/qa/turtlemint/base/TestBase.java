@@ -62,7 +62,7 @@ public class TestBase {
             }
             driver = new ChromeDriver(options);
 
-            Dimension newDimension = new Dimension(1400, 800);
+            Dimension newDimension = new Dimension(800, 1200);
             driver.manage().window().setSize(newDimension);
             Dimension currentDimension = driver.manage().window().getSize();
             int height = currentDimension.getHeight();
