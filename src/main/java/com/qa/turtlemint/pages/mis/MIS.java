@@ -266,6 +266,7 @@ public class MIS extends TestBase {
     }
 
     public String policyNumber(){
+        WebCommands.staticSleep(4000);
         policyNo = ReadPolicyNumber.getText();
         return policyNo;
     }

@@ -350,7 +350,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.sendKeys(PolicyNo, policyNumber, "Reg No enter");
         WebCommands.staticSleep(3000);
-        TestUtil.click(SaveDraft, "Save Draft clicked");
+       // TestUtil.click(SaveDraft, "Save Draft clicked");
         TestUtil.click(FetchDetails, "Fetch Details Clicked");
         WebCommands.staticSleep(3000);
         TestUtil.click(SaveDraft, "Save Draft clicked");

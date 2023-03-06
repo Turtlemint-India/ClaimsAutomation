@@ -168,10 +168,10 @@ public class ClaimsHomePG extends TestBase
         TestUtil.waitUntilVisibilityOfElement(PolicyNo);
         TestUtil.sendKeys(PolicyNo,PolicyNumber,"Policy Number is entered");
       //  Thread.sleep(1500);
-        TestUtil.click(SaveDraft, "Save Draft clicked");
+      //  TestUtil.click(SaveDraft, "Save Draft clicked");
         Thread.sleep(3000);
-      //  TestUtil.click(FetchDetail,"Fetching started");
-        js.executeScript("arguments[0].click();", FetchDetail);
+        TestUtil.click(FetchDetail,"Fetching started");
+     //   js.executeScript("arguments[0].click();", FetchDetail);
         Thread.sleep(3000);
         TestUtil.waitUntilVisibilityOfElement(AreYouInj);
         Actions ac3=new Actions(driver);
