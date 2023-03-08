@@ -37,6 +37,10 @@ public class IncidentDetailsTest extends TestBase {
     public void CustomerPineCode_Test() {
         ID.CustomerPinCode();
     }
+    @Test
+    public void WrongPolicyNo_Test() {
+        ID.PolicyNoWrong();
+    }
 
     @Test
     public void MultipleSelection_Test() {
@@ -62,8 +66,6 @@ public class IncidentDetailsTest extends TestBase {
     public void TwoDayBeforDate_Test() {
         ID.TwoDayBeforDate();
     }
-
-
 
     @AfterMethod
     public void Close() {

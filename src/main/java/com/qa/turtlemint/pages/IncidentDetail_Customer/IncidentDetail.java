@@ -46,6 +46,9 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//p[text()='Please enter valid  Mobile Number.']")
     WebElement errorPleaseentervalidMobileNumber;
 
+    @FindBy(xpath = "//div[text()='Vehicle number or policy number is associated with an existing claim with this date of incident']")
+    WebElement errorPolicy;
+
 
     @FindBy(xpath = "//label[text()='Enter Description Of Incident']//parent::div//textarea")
     WebElement EnterDescriptionOfIncident;
@@ -227,6 +230,40 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(SaveDraft, "Save Draft clicked");
         WebCommands.staticSleep(3000);
     }
+    public void PolicyNoWrong() {
+
+        TestUtil.click(AddANewClaim, "Add a New Claim Button");
+        TestUtil.click(Motor, "Motor Button Clicked");
+        TestUtil.click(Car, "Car Button Clicked");
+//        TestUtil.click(Bike,"Bike Button Clicked");
+//        TestUtil.click(CV,"CV Button Clicked");
+        TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
+        TestUtil.sendKeys(CustomerName, "Pin Code Testing", "Customer Name Enter");
+        TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
+        TestUtil.sendKeys(EnterDescriptionOfIncident, "Customer Pin Code Test Testing", "Enter Description Of Incident Enter");
+        TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
+        TestUtil.click(Partner, "Partner Selected");
+        TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
+
+        TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
+        TestUtil.click(Accident, "Partner Selected");
+        TestUtil.click(OwnDamage, "Own Damage Selected");
+        TestUtil.click(No, "No Selected");
+        TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
+//        TestUtil.click(calandericon, "");
+        TestUtil.click(TodayDateSelect, "Today Date Select");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.click(Ok, "Ok clicked");
+        TestUtil.sendKeys(PolicyNo, "12345688557", "Reg No enter");
+        TestUtil.click(FetchDetails, "Fetch Details Clicked");
+        WebCommands.staticSleep(2000);
+        TestUtil.Assertchk("Vehicle number or policy number is associated with an existing claim with this date of incident", errorPolicy, "Error msg shown for policy number");
+
+        WebCommands.staticSleep(3000);
+
+        TestUtil.click(SaveDraft, "Save Draft clicked");
+        WebCommands.staticSleep(3000);
+    }
 
     public void MultipleSelectionForDeleteClaims() {
 
@@ -282,7 +319,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.sendKeys(PolicyNo, "12345656", "Plocy No enter");
         WebCommands.staticSleep(1000);
         TestUtil.click(SaveDraft, "Save Draft clicked");
-
+        WebCommands.staticSleep(6000);
         js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
         WebCommands.staticSleep(4000);
         TestUtil.click(statusdropdown, "Dropdown open");
