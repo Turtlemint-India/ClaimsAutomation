@@ -172,8 +172,8 @@ public class ClaimsHomePG extends TestBase
       //  TestUtil.click(SaveDraft, "Save Draft clicked");
         TestUtil.getScreenShot();
         Thread.sleep(3000);
-     //   FetchDetail.click();
-        ac2.moveToElement(FetchDetail).click().build().perform();
+        FetchDetail.click();
+        TestUtil.click(FetchDetail,"detail fetch");
         WebCommands.staticSleep(500);
         TestUtil.getFullPageScreenShot();
         Thread.sleep(3000);
