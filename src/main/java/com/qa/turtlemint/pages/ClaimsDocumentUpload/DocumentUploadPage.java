@@ -5,6 +5,7 @@ import com.qa.turtlemint.commands.WebCommands;
 import com.qa.turtlemint.util.LogUtils;
 import com.qa.turtlemint.util.TestUtil;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -111,21 +112,23 @@ public class DocumentUploadPage extends TestBase {
     @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
     WebElement rcCopy;
 
-    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='Driving License']//following::img[1]")
     WebElement DrivingLic;
 
-    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='FIR']//following::img[1]")
     WebElement Firimg;
 
-    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='Cancel Cheque of Insured']//following::img[1]")
     WebElement CancelChequeimg;
 
-    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='PAN']//following::img[1]")
     WebElement panimg;
 
-    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='Adhaar']//following::img[1]")
     WebElement Adharimg;
 
+
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
 
     public void DocUpload()
@@ -147,7 +150,9 @@ public class DocumentUploadPage extends TestBase {
         TestUtil.IsDisplayed(PANAddMore, "Add More For PAN card field displayed");
         TestUtil.IsDisplayed(AadhaarAddmore, "Add More for Aadhaar field displayed");
 
-        TestUtil.click(rcCopy," Rc clicked img");
+
+        js.executeScript("arguments[0].click();", rcCopy);
+    //    TestUtil.click(rcCopy," Rc clicked img");
      //   driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")).click();
         WebCommands.staticSleep(1000);
         TestUtil.getScreenShot();
@@ -157,8 +162,9 @@ public class DocumentUploadPage extends TestBase {
         deleteDoc();
 
 
-        TestUtil.click(DrivingLic," DrivingLic clicked img");
-       // driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Driving License']//following::img[1]")).click();
+        js.executeScript("arguments[0].click();", DrivingLic);
+      //  TestUtil.click(DrivingLic," DrivingLic clicked img");
+     //   driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Driving License']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -166,9 +172,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(5000);
         deleteDoc();
 
-
-        TestUtil.click(Firimg," Firimg clicked img");
-      //  driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='FIR']//following::img[1]")).click();
+        js.executeScript("arguments[0].click();", Firimg);
+        //   TestUtil.click(Firimg," Firimg clicked img");
+     //   driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='FIR']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -176,9 +182,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(1000);
         deleteDoc();
 
-
-        TestUtil.click(CancelChequeimg," CancelChequeimg clicked img");
-       // driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Cancel Cheque of Insured']//following::img[1]")).click();
+        js.executeScript("arguments[0].click();", CancelChequeimg);
+     //   TestUtil.click(CancelChequeimg," CancelChequeimg clicked img");
+      //  driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Cancel Cheque of Insured']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -186,9 +192,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(1000);
         deleteDoc();
 
-
-        TestUtil.click(panimg," panimg clicked img");
-      //  driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='PAN']//following::img[1]")).click();
+        js.executeScript("arguments[0].click();", panimg);
+     //   TestUtil.click(panimg," panimg clicked img");
+    //    driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='PAN']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -196,8 +202,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(5000);
         deleteDoc();
 
-        TestUtil.click(Adharimg," Adharimg clicked img");
-      //  driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Adhaar']//following::img[1]")).click();
+        js.executeScript("arguments[0].click();", Adharimg);
+     //   TestUtil.click(Adharimg," Adharimg clicked img");
+     //   driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Adhaar']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
