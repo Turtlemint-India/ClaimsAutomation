@@ -3,6 +3,7 @@ package com.qa.turtlemint.pages.MedWorkINIT;
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.util.LogUtils;
 import com.qa.turtlemint.util.TestUtil;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -40,8 +41,10 @@ public class Medical extends TestBase
 
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::input[@class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq'][2]")
     WebElement HospitalName;
+
     @FindBy(xpath = "//label[text()='Enter Hospital Address']//following::div//textarea[1]")
     WebElement HospitalAddressTap;
+
     @FindBy(xpath = "//p[text()='Medical Assistance']//following::textarea[@class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiInputBase-inputAdornedEnd css-v59wfm'][3]")
     WebElement HospitalAddress;
 
@@ -65,6 +68,9 @@ public class Medical extends TestBase
     @FindBy(xpath = "")
     WebElement a6;
 
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+
+
 
     public void MedicalAsitancePageNavigation()
     {
@@ -78,7 +84,10 @@ public class Medical extends TestBase
     {
         Thread.sleep(4500);
      //   TestUtil.IsDisplayed(EmergencyLocation,"EmergencyLocation field is displayed");
-        TestUtil.click(EmergencyLocation,"Clicked on EmergencyLocation tab");
+
+        js.executeScript("arguments[0].click();", EmergencyLocation);
+
+      //  TestUtil.click(EmergencyLocation,"Clicked on EmergencyLocation tab");
         TestUtil.sendKeys(EmergencyLctSend,"Mumbai","EmergencyLocation is Entered");
         TestUtil.waitUntilVisibilityOfElement(NearEmergencyLocation);
         LogUtils.info("NearEmergencyLocation is visible");
