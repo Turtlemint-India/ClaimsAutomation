@@ -197,7 +197,7 @@ public class MIS extends TestBase {
         PolicyIssuanceDate.click();
         WebCommands.staticSleep(1000);
         PolicyIssuanceDate.sendKeys(Keys.ESCAPE);
-        PolicyIssuanceDate.sendKeys(TestUtil.ninjaPastDate(2));
+        PolicyIssuanceDate.sendKeys(TestUtil.ninjaPastDate(-2));
         WebCommands.staticSleep(1000);
         PolicyIssuanceDate.sendKeys(Keys.RETURN);
         WebCommands.staticSleep(1000);
