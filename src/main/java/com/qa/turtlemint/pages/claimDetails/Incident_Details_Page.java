@@ -58,13 +58,13 @@ public class Incident_Details_Page extends TestBase {
     @FindBy(xpath = "//p[text()='Have you already raised a claim?']//following::input[@value='no']")
     WebElement ClaimRadioNo;
 
-    @FindBy(xpath = "//p[text()='Have you already raised a claim?']//following::input[@value='yes'][1]")
+    @FindBy(xpath = "//p[text()='Have you already raised a claim?']//following::input[@value='yes']")
     WebElement ClaimRadioYes;
 
-    @FindBy(xpath = "//input[@id=':r7:']")
+    @FindBy(xpath = "//input[@aria-label='Choose date']")
     WebElement DateAndTimeBox;
 
-    @FindBy(xpath = "//input[@id=':r9:']")
+    @FindBy(xpath = "//input[@placeholder='dd/mm/yyyy']")
     WebElement DateAndTime;
 
     @FindBy(xpath = "//span[text()='2023']//following::span[@aria-label='2 hours']")
@@ -73,69 +73,47 @@ public class Incident_Details_Page extends TestBase {
     @FindBy(xpath = "//input[@aria-label='Choose date']")
     WebElement Date_and_Timeselector;
 
-    @FindBy(xpath = "//button[@aria-label='Feb 21, 2023']")
-    WebElement DateSelectyes;
-
-    @FindBy(xpath = "(//button[@type='button'][@tabindex='0'])[18]")
-    WebElement OkTime1;
-    @FindBy(xpath = "(//button[@type='button'][@tabindex='0'])[19]")
+    @FindBy(xpath = "//span[@class='MuiTouchRipple-root css-w0pj6f']//following::button[text()='OK']")
     WebElement OkTime;
 
     @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]")
     WebElement DateSelect;
 
-    @FindBy(xpath = "//input[@id=':ra:']")
-    WebElement RegistrationNo;
-
     @FindBy(xpath = "//label[text()='Policy Number']//parent::div//input")
     WebElement PolicyNo;
 
-    @FindBy(xpath = "//input[@id=':rb:']")
-    WebElement RegistrationNoYes;
-    @FindBy(xpath = "//input[@id=':ra:']//following::button[text()='Fetch details'][1]")
+    @FindBy(xpath = "//label[text()='Policy Number']//parent::div//button[text()='Fetch details']")
     WebElement FetchDetail;
-    @FindBy(xpath = "(//button[@type='button'][@tabindex='0'])[9]")
-    WebElement FetchDetailyes;
-    @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='yes'][1]")
+
+    @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='yes']")
     WebElement AreYouInjYes;
 
     @FindBy(xpath = "//p[text()='Do you need ambulance or other help to get to a hospital or doctor?']")
     WebElement need_ambulance_question;
 
-    @FindBy(xpath = "//input[@name=':rc:'][@value='no']")
+    @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='no']")
     WebElement AreYouInjNo;
-
-    @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='no'][1]")
-    WebElement AreYouInjNo1;
     @FindBy(xpath = "//p[text()='Is your vehicle in a condition where you can drive it to the nearest workshop?']")
     WebElement vehicale_in_condition_question;
 
-    @FindBy(xpath = "(//span[text()='Yes'])[3]")
+    @FindBy(xpath = "//p[text()='Is your vehicle in a condition where you can drive it to the nearest workshop?']//following::input[@value='yes']")
     WebElement vehicale_in_condition_yes;
 
-    @FindBy(xpath = "(//span[text()='No'])[3]")
+    @FindBy(xpath = "//p[text()='Is your vehicle in a condition where you can drive it to the nearest workshop?']//following::input[@value='no'][@name=':re:']")
     WebElement vehicale_in_condition_no;
 
-    @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='yes'][2]")
-    WebElement AmbulanceYes;
-
-    @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='yes'][3]")
+    @FindBy(xpath = "//p[text()='We can arrange towing of the vehicle to the nearest workshop. Should we?']//following::span[text()='Yes']")
     WebElement WorkshopYes;
-    @FindBy(xpath = "//p[text()='Are you injured?']//following::input[@value='no'][3]")
+    @FindBy(xpath = "//p[text()='We can arrange towing of the vehicle to the nearest workshop. Should we?']//following::span[text()='No']")
     WebElement WorkshopNO;
 
-    @FindBy(xpath = "(//input[@class='PrivateSwitchBase-input css-1m9pwf3'][@name=':r10:'])[1]")
-    WebElement towing_to_nearest_workshop_yes;
-
-    @FindBy(xpath = "")
-    WebElement towing_to_nearest_workshop_NO;
     @FindBy(xpath = "//button[text()='Save as Draft']")
     WebElement Save_draft;
 
-    @FindBy(xpath = "(//span[text()='Yes'])[2]")
+    @FindBy(xpath = "//p[text()='Have you taken it to the workshop?']//following::span[text()='Yes']")
     WebElement taken_WorkshopYes;
 
-    @FindBy(xpath = "(//span[text()='No'])[2]")
+    @FindBy(xpath = "//p[text()='Have you taken it to the workshop?']//following::span[text()='No']")
     WebElement taken_WorkshopNO;
     @FindBy(xpath = "//input[@aria-invalid='false'][@id=':rf:']")
     WebElement claimno;
@@ -154,6 +132,8 @@ public class Incident_Details_Page extends TestBase {
 
     @FindBy(xpath = "//div[text()='Details Saved successfully']")
     WebElement details_saved_popup;
+
+    Actions Act = new Actions(driver);
 
     public void AddClaim() throws Exception {
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
@@ -191,47 +171,40 @@ public class Incident_Details_Page extends TestBase {
         TestUtil.click(NatureOfIncidence, "Nature of Incidence is selected");
         Thread.sleep(2000);
         TestUtil.click(NatureOfLoss, "Click on Nature of loss");
-        Actions Ac = new Actions(driver);
-        Ac.moveToElement(ClaimRadioNo).click().build().perform();
+        Act.moveToElement(ClaimRadioNo).click().build().perform();
         Thread.sleep(1500);
         TestUtil.click(DateAndTimeBox, "Clicked on date and time box");
         Thread.sleep(1500);
         TestUtil.click(DateSelect, "Clicked on date");
         Thread.sleep(2000);
-        Actions ac2 = new Actions(driver);
-        ac2.moveToElement(Timeselector).click().build().perform();
+        Act.moveToElement(Timeselector).click().build().perform();
         Thread.sleep(2500);
-        TestUtil.click(OkTime1, "Clicked on date and time ");
+        TestUtil.click(OkTime, "Clicked on date and time ");
         Thread.sleep(4500);
         //   TestUtil.sendKeys(RegistrationNo, "MH03RR3333", "Registration Number is entered");
-        TestUtil.sendKeys(PolicyNo, PolicyNumber, "Registration Number is entered");
-        Thread.sleep(1500);
+        TestUtil.sendKeys(PolicyNo,PolicyNumber , "Registration Number is entered");
+      //  TestUtil.sendKeys(PolicyNo, "Dfsf123", "Registration Number is entered");
+        Thread.sleep(2000);
         TestUtil.click(FetchDetail, "Fetching started");
         Thread.sleep(2000);
-        Actions ac22 = new Actions(driver);
-        ac22.moveToElement(AreYouInjYes).click().build().perform();
+        Act.moveToElement(AreYouInjYes).click().build().perform();
         Thread.sleep(2000);
         TestUtil.IsDisplayed(need_ambulance_question, "need ambulance question is displayed");
         Thread.sleep(2000);
-        Actions ac3 = new Actions(driver);
-        ac3.moveToElement(AreYouInjNo1).click().build().perform();
+        Act.moveToElement(AreYouInjNo).click().build().perform();
         Thread.sleep(1500);
         TestUtil.IsDisplayed(vehicale_in_condition_question, "vehicale_in_condition_question is displayed ");
         Thread.sleep(1500);
-        Actions ac41 = new Actions(driver);
-        ac41.moveToElement(vehicale_in_condition_yes).click().build().perform();
+        Act.moveToElement(vehicale_in_condition_yes).click().build().perform();
         Thread.sleep(1500);
-        TestUtil.IsDisplayed(Save_draft, "continue to workshop election");
+        TestUtil.IsDisplayed(Save_draft, "continue to workshop selection displayed");
+        Thread.sleep(2000);
+        Act.moveToElement(vehicale_in_condition_no).click().build().perform();
         Thread.sleep(1500);
-        Actions ac42 = new Actions(driver);
-        ac42.moveToElement(vehicale_in_condition_no).click().build().perform();
-        Thread.sleep(1500);
-        Actions ac5 = new Actions(driver);
-        ac5.moveToElement(WorkshopYes).click().build().perform();
+        Act.moveToElement(WorkshopYes).click().build().perform();
         Thread.sleep(1500);
         Thread.sleep(1500);
-        Actions ac6 = new Actions(driver);
-        ac6.moveToElement(WorkshopNO).click().build().perform();
+        Act.moveToElement(WorkshopNO).click().build().perform();
         Thread.sleep(1500);
         TestUtil.click(Save_draft, "Clicked on continue to workshop selection");
         TestUtil.IsDisplayed(details_saved_popup, "details saved flash displayed ");
@@ -256,30 +229,26 @@ public class Incident_Details_Page extends TestBase {
         TestUtil.click(NatureOfIncidence, "Nature of Incidence is selected");
         Thread.sleep(2000);
         TestUtil.click(NatureOfLoss, "Click on Nature of loss");
-        Actions Ac = new Actions(driver);
-        Ac.moveToElement(ClaimRadioYes).click().build().perform();
+        Act.moveToElement(ClaimRadioYes).click().build().perform();
         Thread.sleep(1500);
-        TestUtil.click(DateAndTimeBox, "Clicked on date and time box");
+        TestUtil.click(DateAndTime, "Clicked on date and time box");
         Thread.sleep(1500);
         TestUtil.click(DateSelect, "Clicked on date");
         Thread.sleep(3000);
-//        Actions ac2 = new Actions(driver);
-//        ac2.moveToElement(Date_and_Timeselector).click().build().perform();
-//        Thread.sleep(2500);
-//        Actions ac20 = new Actions(driver);
-//        ac20.moveToElement(DateSelectyes).click().build().perform();
-//        Thread.sleep(2500);
+        Act.moveToElement(Date_and_Timeselector).click().build().perform();
+        Thread.sleep(2500);
+        Act.moveToElement(DateSelect).click().build().perform();
+        Thread.sleep(2500);
         TestUtil.click(OkTime, "Clicked on date and time ");
         Thread.sleep(2000);
-        TestUtil.sendKeys(PolicyNo, PolicyNumber, "Registration Number is entered");
+        TestUtil.sendKeys(PolicyNo,PolicyNumber , "Registration Number is entered");
+       // TestUtil.sendKeys(PolicyNo, "Dfsf123", "Registration Number is entered");
         Thread.sleep(1500);
-        TestUtil.click(FetchDetailyes, "Fetching started");
+        TestUtil.click(FetchDetail, "Fetching started");
         Thread.sleep(1000);
-        Actions ac22 = new Actions(driver);
-        ac22.moveToElement(taken_WorkshopYes).click().build().perform();
+        Act.moveToElement(taken_WorkshopYes).click().build().perform();
         Thread.sleep(2000);
-        Actions ac23 = new Actions(driver);
-        ac23.moveToElement(taken_WorkshopNO).click().build().perform();
+        Act.moveToElement(taken_WorkshopNO).click().build().perform();
         TestUtil.sendKeys(claimno, "87654256", "claim no entered");
         TestUtil.click(select_cust_query, "query dropdown click");
         Thread.sleep(4000);
