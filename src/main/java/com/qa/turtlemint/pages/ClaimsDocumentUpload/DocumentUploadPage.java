@@ -108,6 +108,26 @@ public class DocumentUploadPage extends TestBase {
     @FindBy(xpath = "//button[text()='Confirm']")
     WebElement confirm;
 
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    WebElement rcCopy;
+
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    WebElement DrivingLic;
+
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    WebElement Firimg;
+
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    WebElement CancelChequeimg;
+
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    WebElement panimg;
+
+    @FindBy(xpath = "//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")
+    WebElement Adharimg;
+
+
+
     public void DocUpload()
     {
         WebCommands.staticSleep(1000);
@@ -127,7 +147,8 @@ public class DocumentUploadPage extends TestBase {
         TestUtil.IsDisplayed(PANAddMore, "Add More For PAN card field displayed");
         TestUtil.IsDisplayed(AadhaarAddmore, "Add More for Aadhaar field displayed");
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")).click();
+        TestUtil.click(rcCopy," Rc clicked img");
+     //   driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='RC Copy']//following::img[1]")).click();
         WebCommands.staticSleep(1000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(4000);
@@ -135,7 +156,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(1000);
         deleteDoc();
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Driving License']//following::img[1]")).click();
+
+        TestUtil.click(DrivingLic," DrivingLic clicked img");
+       // driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Driving License']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -143,7 +166,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(5000);
         deleteDoc();
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='FIR']//following::img[1]")).click();
+
+        TestUtil.click(Firimg," Firimg clicked img");
+      //  driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='FIR']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -151,7 +176,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(1000);
         deleteDoc();
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Cancel Cheque of Insured']//following::img[1]")).click();
+
+        TestUtil.click(CancelChequeimg," CancelChequeimg clicked img");
+       // driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Cancel Cheque of Insured']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -159,7 +186,9 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(1000);
         deleteDoc();
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='PAN']//following::img[1]")).click();
+
+        TestUtil.click(panimg," panimg clicked img");
+      //  driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='PAN']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
@@ -167,7 +196,8 @@ public class DocumentUploadPage extends TestBase {
         WebCommands.staticSleep(5000);
         deleteDoc();
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Adhaar']//following::img[1]")).click();
+        TestUtil.click(Adharimg," Adharimg clicked img");
+      //  driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Adhaar']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
         WebCommands.staticSleep(3000);
