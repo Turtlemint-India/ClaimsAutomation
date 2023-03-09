@@ -169,7 +169,7 @@ public class ClaimsHomePG extends TestBase
         TestUtil.waitUntilVisibilityOfElement(PolicyNo);
         TestUtil.sendKeys(PolicyNo,PolicyNumber,"Policy Number is entered");
       //  Thread.sleep(1500);
-        TestUtil.click(SaveDraft, "Save Draft clicked");
+      //  TestUtil.click(SaveDraft, "Save Draft clicked");
         TestUtil.getScreenShot();
         Thread.sleep(3000);
         TestUtil.click(FetchDetail,"detail fetch");
