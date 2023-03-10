@@ -125,7 +125,7 @@ public class Medical extends TestBase
     {
         Thread.sleep(1500);
         //   TestUtil.IsDisplayed(EmergencyLocation,"EmergencyLocation field is displayed");
-        TestUtil.click(EmergencyLocation,"Clicked on EmergencyLocation tab");
+        js.executeScript("arguments[0].click();", EmergencyLocation);
         TestUtil.sendKeys(EmergencyLctSend,"Mumbai","EmergencyLocation is Entered");
         TestUtil.waitUntilVisibilityOfElement(NearEmergencyLocation);
         LogUtils.info("NearEmergencyLocation is visible");
