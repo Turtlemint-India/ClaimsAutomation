@@ -24,7 +24,9 @@ public class MedWork_Test extends TestBase {
     Initiimate INIT;
     MIS mis;
     public String misPolicy;
-
+    public MedWork_Test() {
+        super();
+    }
     @BeforeMethod()
     public void start() throws Exception {
         initialization();
@@ -40,7 +42,6 @@ public class MedWork_Test extends TestBase {
     public void MedicalAssistanceTest() throws Exception {
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
-
         misPolicy = mis.MISPolicyNumber();
         System.out.println(misPolicy);
         mis.BackTo_Claims();
