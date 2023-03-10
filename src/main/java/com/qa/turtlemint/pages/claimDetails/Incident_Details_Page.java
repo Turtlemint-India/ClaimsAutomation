@@ -184,7 +184,7 @@ public class Incident_Details_Page extends TestBase {
         //   TestUtil.sendKeys(RegistrationNo, "MH03RR3333", "Registration Number is entered");
         TestUtil.sendKeys(PolicyNo,PolicyNumber , "Registration Number is entered");
       //  TestUtil.sendKeys(PolicyNo, "Dfsf123", "Registration Number is entered");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         TestUtil.click(FetchDetail, "Fetching started");
         Thread.sleep(2000);
         Act.moveToElement(AreYouInjYes).click().build().perform();
@@ -243,7 +243,7 @@ public class Incident_Details_Page extends TestBase {
         Thread.sleep(2000);
         TestUtil.sendKeys(PolicyNo,PolicyNumber , "Registration Number is entered");
        // TestUtil.sendKeys(PolicyNo, "Dfsf123", "Registration Number is entered");
-        Thread.sleep(1500);
+        Thread.sleep(1000);
         TestUtil.click(FetchDetail, "Fetching started");
         Thread.sleep(1000);
         Act.moveToElement(taken_WorkshopYes).click().build().perform();

@@ -157,7 +157,7 @@ public class MIS extends TestBase {
     public String policyNo;
     TestUtil tl = new TestUtil();
 
-    public void MISPolicyNumber() {
+    public String MISPolicyNumber() {
         TestUtil.click(AddNewtASale, "Plus Button clicked");
         VerticlDropdown.click();
         TestUtil.click(VerticalList, "");
@@ -186,6 +186,8 @@ public class MIS extends TestBase {
         TestUtil.click(BrokerCheckBox, "Broker Checkbox Clicked");
         randomPolicyNumber = TestUtil.getRandomPhoneNumber();
         TestUtil.sendKeys(PolicyNo,randomPolicyNumber,"Random Policy Number Entered");
+
+
         BusinessType.click();
         BusinessTypeList.click();
         LogUtils.info("Business Type Clicked");
@@ -263,6 +265,7 @@ public class MIS extends TestBase {
         SaveMIS.click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
+        return randomPolicyNumber;
     }
 
     public String policyNumber(){

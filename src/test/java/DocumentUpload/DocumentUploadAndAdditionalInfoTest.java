@@ -50,8 +50,8 @@ public class DocumentUploadAndAdditionalInfoTest extends TestBase {
         mis = new MIS();
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
-        mis.MISPolicyNumber();
-        misPolicy = mis.policyNumber();
+
+        misPolicy = mis.MISPolicyNumber();
         System.out.println(misPolicy);
         mis.BackTo_Claims();
 

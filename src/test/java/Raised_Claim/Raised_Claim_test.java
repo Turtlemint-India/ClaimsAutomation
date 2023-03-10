@@ -33,8 +33,7 @@ public class Raised_Claim_test extends TestBase {
 
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
-        mis.MISPolicyNumber();
-        misPolicy = mis.policyNumber();
+        misPolicy = mis.MISPolicyNumber();
         System.out.println(misPolicy);
         mis.BackTo_Claims();
     }
