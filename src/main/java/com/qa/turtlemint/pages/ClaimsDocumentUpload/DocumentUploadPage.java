@@ -207,7 +207,7 @@ public class DocumentUploadPage extends TestBase {
      //   driver.findElement(By.xpath("//*[@id=\"root\"]//p[text()='Adhaar']//following::img[1]")).click();
         WebCommands.staticSleep(2000);
         TestUtil.getScreenShot();
-        WebCommands.staticSleep(3000);
+        WebCommands.staticSleep(5000);
         TestUtil.click(close, "Aadhaar image is closed");
         WebCommands.staticSleep(1000);
         deleteDoc();
