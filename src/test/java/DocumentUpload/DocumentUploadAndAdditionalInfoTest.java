@@ -58,7 +58,7 @@ public class DocumentUploadAndAdditionalInfoTest extends TestBase {
 
     }
 
-    @Test
+    @Test( retryAnalyzer = RetryAnalyser.class)
     public void AdditionalInfoPage() throws Exception {
         ClaimHm.SetupIncidentDetailPage(misPolicy);
         Med.MedicalAsitancePageNavigation();  // For TC1  Assertion Point
