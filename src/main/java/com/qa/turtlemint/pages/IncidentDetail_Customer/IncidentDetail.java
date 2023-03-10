@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.io.IOException;
+
 public class IncidentDetail extends TestBase {
 
     public IncidentDetail() {
@@ -229,7 +231,7 @@ public class IncidentDetail extends TestBase {
         WebCommands.staticSleep(3000);
     }
 
-    public void PolicyNoWrong() {
+    public void PolicyNoWrong() throws IOException {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
@@ -254,6 +256,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.sendKeys(PolicyNo, "12345688557", "Reg No enter");
         TestUtil.click(FetchDetails, "Fetch Details Clicked");
         WebCommands.staticSleep(2000);
+        TestUtil.getFullPageScreenShot();
         TestUtil.Assertchk("Please enter correct details!", errorPolicy, "Error msg shown for policy number");
         WebCommands.staticSleep(3000);
         TestUtil.click(SaveDraft, "Save Draft clicked");
@@ -288,7 +291,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Cancel, "Cancel Button Clicked");
     }
 
-    public void StatusClosed() {
+    public void StatusClosed() throws IOException {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
@@ -325,7 +328,8 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(TodayDateSettlment, "Settlement date select");
         TestUtil.click(Insured, "Insured clicked ");
         TestUtil.click(MarkAsClosed, "Mark As Closed clicked ");
-        TestUtil.getScreenShot();
+        WebCommands.staticSleep(2000);
+        TestUtil.getFullPageScreenShot();
     }
 
     public void TwoDayBeforDate() {
