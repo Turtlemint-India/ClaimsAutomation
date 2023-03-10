@@ -15,7 +15,6 @@ public class IncidentDetail extends TestBase {
         PageFactory.initElements(driver, this);
     }
 
-
     @FindBy(xpath = "//*[text()='Add A New Claim']")
     WebElement AddANewClaim;
 
@@ -48,7 +47,6 @@ public class IncidentDetail extends TestBase {
 
     @FindBy(xpath = "//div[text()='Vehicle number or policy number is associated with an existing claim with this date of incident']")
     WebElement errorPolicy;
-
 
     @FindBy(xpath = "//label[text()='Enter Description Of Incident']//parent::div//textarea")
     WebElement EnterDescriptionOfIncident;
@@ -93,7 +91,7 @@ public class IncidentDetail extends TestBase {
     WebElement TodayDateSelect;
 
     @FindBy(xpath = "//button[@class=\"MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin MuiPickersDay-today css-wed0tz\"]//parent::div//parent::div//div")
-    WebElement  TwoDayBeforedate;
+    WebElement TwoDayBeforedate;
 
     @FindBy(xpath = "//p[text()='The delta for raising this claim is 2 days, please specify the reason for the delay.']")
     WebElement DeltaMsg;
@@ -230,6 +228,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(SaveDraft, "Save Draft clicked");
         WebCommands.staticSleep(3000);
     }
+
     public void PolicyNoWrong() {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
@@ -244,13 +243,11 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(ClaimRequester, "Claim Requester Button Clicked");
         TestUtil.click(Partner, "Partner Selected");
         TestUtil.sendKeys(PineCode, "411001", "Pine Code Enter");
-
         TestUtil.sendKeys(Citywhereaccidenthappened, "Pune", "City where accident happened enter");
         TestUtil.click(Accident, "Partner Selected");
         TestUtil.click(OwnDamage, "Own Damage Selected");
         TestUtil.click(No, "No Selected");
         TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
-//        TestUtil.click(calandericon, "");
         TestUtil.click(TodayDateSelect, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
@@ -258,9 +255,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(FetchDetails, "Fetch Details Clicked");
         WebCommands.staticSleep(2000);
         TestUtil.Assertchk("Vehicle number or policy number is associated with an existing claim with this date of incident", errorPolicy, "Error msg shown for policy number");
-
         WebCommands.staticSleep(3000);
-
         TestUtil.click(SaveDraft, "Save Draft clicked");
         WebCommands.staticSleep(3000);
     }
@@ -312,7 +307,6 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(OwnDamage, "Own Damage Selected");
         TestUtil.click(No, "No Selected");
         TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
-//        TestUtil.click(calandericon, "");
         TestUtil.click(TodayDateSelect, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
@@ -353,7 +347,6 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(OwnDamage, "Own Damage Selected");
         TestUtil.click(No, "No Selected");
         TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
-//        TestUtil.click(calandericon, "");
         TestUtil.click(TwoDayBeforedate, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
@@ -362,7 +355,8 @@ public class IncidentDetail extends TestBase {
         TestUtil.sendKeys(Reasonfordelay, "Two Day before Date enter Testing", "Reason entered for Delay");
         TestUtil.click(SaveDraft, "Save Draft clicked");
     }
-    public void MIS_Policy_Fetch(String  policyNumber) {
+
+    public void MIS_Policy_Fetch(String policyNumber) {
 
         TestUtil.click(AddANewClaim, "Add a New Claim Button");
         TestUtil.click(Motor, "Motor Button Clicked");
@@ -381,13 +375,11 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(OwnDamage, "Own Damage Selected");
         TestUtil.click(No, "No Selected");
         TestUtil.click(DateAndTimeForIncident, "Date And Time For Incident Clicked");
-//        TestUtil.click(calandericon, "");
         TestUtil.click(TodayDateSelect, "Today Date Select");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.click(Ok, "Ok clicked");
         TestUtil.sendKeys(PolicyNo, policyNumber, "Reg No enter");
-        WebCommands.staticSleep(3000);
-       // TestUtil.click(SaveDraft, "Save Draft clicked");
+        WebCommands.staticSleep(2000);
         TestUtil.click(FetchDetails, "Fetch Details Clicked");
         WebCommands.staticSleep(3000);
         TestUtil.click(SaveDraft, "Save Draft clicked");

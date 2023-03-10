@@ -37,6 +37,7 @@ public class Customer_Details_Test extends TestBase {
     public void CustomerPineCode_Test() {
         ID.CustomerPinCode();
     }
+
     @Test
     public void WrongPolicyNo_Test() {
         ID.PolicyNoWrong();

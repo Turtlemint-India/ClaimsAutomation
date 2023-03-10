@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import util.iTestListener;
 
 @Listeners(iTestListener.class)
-@Test(groups = {"Workshop", "ClaimsFull"})
+@Test(groups = {"Medwork", "ClaimsFull"})
 
 public class MedWork_Test extends TestBase {
     LoginPage Loginpage;
@@ -44,10 +44,7 @@ public class MedWork_Test extends TestBase {
     }
 
 
-    @Test(description = "Tc1:-To verify if the user is able to navigate to 'Medical Assistance' page, after clicking on Yes in 'Are you Injured' section " +
-            "Tc2:-To verify if the user is able to move forward after filling the required fields " +
-            "Tc3:-To verify the visibility of Continue to Workshop button."
-            , enabled = true)
+    @Test(enabled = true)
     public void MedicalAssistanceTest() throws Exception {
         ClaimHm.SetupIncidentDetailPage(misPolicy);
         Med.MedicalAsitancePageNavigation();  // For TC1  Assertion Point
@@ -55,11 +52,7 @@ public class MedWork_Test extends TestBase {
         Med.VerifyWorkShopButton(); // For Tc3 Assertion Point
     }
 
-    @Test(description = "Tc1:-To verify if the user is able to navigate to 'Workshop Selection' page" +
-            "Tc2:-To verify the functionality of checkbox present on Workshop Selection page" +
-            "Tc3:-To Verify the Select Workshop field functionality" +
-            "Tc4:-To verify the functionality of  'Save & Proceed' button"
-            , enabled = true)
+    @Test( enabled = true)
     public void WorkshopSelectionTest() throws Exception {
 
         ClaimHm.SetupIncidentDetailPage(misPolicy);
@@ -70,11 +63,7 @@ public class MedWork_Test extends TestBase {
         Wrk.SaveAndProceedVerify();// For Tc4 Assertion Point.
     }
 
-    @Test(description = "Tc1:-To verify the functionality of  'Intimate Insurer' page." +
-            "Tc2:-Functionality of the \"Submit Claim Request to Insurer\" button present on the 'Intimate Insurer'- 'Quick Preview' page." +
-            "Tc3:-Functionality of the \"Save & Proceed\" button present on the 'Intimate Insurer'- 'Quick Preview' page." +
-            "Tc4:-Functionality of the \"Skip and Continue\" button present on the 'Intimate Insurer'- 'Quick Preview' page."
-            , enabled = true)
+    @Test( enabled = true)
     public void IntiMateInsurerTest() throws Exception {
 
         ClaimHm.SetupIncidentDetailPage(misPolicy);
