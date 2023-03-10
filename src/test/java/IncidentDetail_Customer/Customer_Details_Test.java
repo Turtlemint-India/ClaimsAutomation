@@ -10,6 +10,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import util.iTestListener;
 
+import java.io.IOException;
+
 @Listeners(iTestListener.class)
 @Test(groups = {"CustomerIncident", "ClaimsFull"},retryAnalyzer = RetryAnalyser.class)
 
@@ -40,7 +42,7 @@ public class Customer_Details_Test extends TestBase {
     }
 
     @Test
-    public void WrongPolicyNo_Test() {
+    public void WrongPolicyNo_Test() throws IOException {
         ID.PolicyNoWrong();
     }
 
@@ -60,7 +62,7 @@ public class Customer_Details_Test extends TestBase {
     }
 
     @Test
-    public void StatusClosed_Test() {
+    public void StatusClosed_Test() throws IOException {
         ID.StatusClosed();
     }
 
