@@ -4,6 +4,7 @@ import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.claimDetails.Incident_Details_Page;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
+import com.qa.turtlemint.util.RetryAnalyser;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -11,7 +12,8 @@ import org.testng.annotations.Test;
 import util.iTestListener;
 
 @Listeners(iTestListener.class)
-@Test(groups = {"RaisedClaim", "ClaimsFull"})
+@Test(groups = {"RaisedClaim", "ClaimsFull"},retryAnalyzer = RetryAnalyser.class)
+
 public class Raised_Claim_test extends TestBase {
 
 

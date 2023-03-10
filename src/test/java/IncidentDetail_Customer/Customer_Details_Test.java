@@ -3,6 +3,7 @@ package IncidentDetail_Customer;
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.IncidentDetail_Customer.IncidentDetail;
 import com.qa.turtlemint.pages.login.LoginPage;
+import com.qa.turtlemint.util.RetryAnalyser;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 import util.iTestListener;
 
 @Listeners(iTestListener.class)
-@Test(groups = {"CustomerIncident", "ClaimsFull"})
+@Test(groups = {"CustomerIncident", "ClaimsFull"},retryAnalyzer = RetryAnalyser.class)
 
 public class Customer_Details_Test extends TestBase {
     public Customer_Details_Test() {

@@ -5,10 +5,12 @@ import com.qa.turtlemint.pages.IncidentDetail_Customer.IncidentDetail;
 import com.qa.turtlemint.pages.TestCase15to19Page.TrackFunctionalityPage;
 import com.qa.turtlemint.pages.login.LoginPage;
 import com.qa.turtlemint.pages.mis.MIS;
+import com.qa.turtlemint.util.RetryAnalyser;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import util.iTestListener;
+
 
 @Listeners(iTestListener.class)
 @Test(groups = {"Track", "ClaimsFull"})
@@ -33,6 +35,12 @@ public class TrackFunctionalityTest extends TestBase {
         mis = new MIS();
         ID = new IncidentDetail();
 
+
+    }
+
+    @Test( retryAnalyzer = RetryAnalyser.class)
+    public void Track() throws Exception {
+
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
 
@@ -40,10 +48,6 @@ public class TrackFunctionalityTest extends TestBase {
         System.out.println(misPolicy);
         mis.BackTo_Claims();
         ID.MIS_Policy_Fetch(misPolicy);
-    }
-
-    @Test
-    public void Track() throws Exception {
         Track.DropDownHOLD_PENDING(misPolicy);
         Track.DropDownClosed();
         Track.ViewClaim();

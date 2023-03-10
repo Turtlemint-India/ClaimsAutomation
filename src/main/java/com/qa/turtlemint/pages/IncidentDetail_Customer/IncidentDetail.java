@@ -335,7 +335,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Car, "Car Button Clicked");
 //        TestUtil.click(Bike,"Bike Button Clicked");
 //        TestUtil.click(CV,"CV Button Clicked");
-        TestUtil.sendKeys(ZendeskID, "TestClosed1234", "Zendesk ID ");
+        TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
         TestUtil.sendKeys(CustomerName, "Closed Status Test", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
         TestUtil.sendKeys(EnterDescriptionOfIncident, "Automation Testing Closed Status Checking", "Enter Description Of Incident Enter");
