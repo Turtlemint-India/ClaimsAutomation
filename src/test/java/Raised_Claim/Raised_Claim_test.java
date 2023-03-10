@@ -1,4 +1,4 @@
-package Claim_deatails;
+package Raised_Claim;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.claimDetails.Incident_Details_Page;
@@ -12,11 +12,11 @@ import util.iTestListener;
 
 @Listeners(iTestListener.class)
 @Test(groups = {"RaisedClaim", "ClaimsFull"})
-public class Incident_Details_Test extends TestBase {
+public class Raised_Claim_test extends TestBase {
 
 
     com.qa.turtlemint.pages.claimDetails.Incident_Details_Page Incident_Details_Page;
-    public Incident_Details_Test() {
+    public Raised_Claim_test() {
         super();
     }
 

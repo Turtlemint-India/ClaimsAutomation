@@ -12,8 +12,8 @@ import util.iTestListener;
 @Listeners(iTestListener.class)
 @Test(groups = {"CustomerIncident", "ClaimsFull"})
 
-public class IncidentDetailsTest extends TestBase {
-    public IncidentDetailsTest() {
+public class Customer_Details_Test extends TestBase {
+    public Customer_Details_Test() {
         super();
     }
 

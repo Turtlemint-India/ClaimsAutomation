@@ -1,4 +1,4 @@
-package MEDWORKINIT_TC;
+package MedWork;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.MedWorkINIT.ClaimsHomePG;
@@ -15,7 +15,7 @@ import util.iTestListener;
 @Listeners(iTestListener.class)
 @Test(groups = {"Workshop", "ClaimsFull"})
 
-public class INIT_TC extends TestBase {
+public class MedWork_Test extends TestBase {
     LoginPage Loginpage;
     ClaimsHomePG ClaimHm;
     Medical Med;

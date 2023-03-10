@@ -1,4 +1,4 @@
-package ClaimsDocumentUpload;
+package DocumentUpload;
 
 import com.qa.turtlemint.base.TestBase;
 import com.qa.turtlemint.pages.ClaimsDocumentUpload.AdditionalInfoPage;
