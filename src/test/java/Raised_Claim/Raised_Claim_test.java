@@ -40,12 +40,12 @@ public class Raised_Claim_test extends TestBase {
         mis.BackTo_Claims();
     }
 
-    @Test
+    @Test( retryAnalyzer = RetryAnalyser.class)
     public void Incident_Details_ClaimsNo() throws Exception {
         Incident_Details_Page.incidentDetails_raised_claimNO(misPolicy);
     }
 
-    @Test
+    @Test( retryAnalyzer = RetryAnalyser.class)
     public void Incident_Details_ClaimsYes() throws Exception {
 
         Incident_Details_Page.incidentDetails_raised_claimYes(misPolicy);

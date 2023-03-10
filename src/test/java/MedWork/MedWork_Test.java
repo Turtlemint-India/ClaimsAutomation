@@ -38,7 +38,7 @@ public class MedWork_Test extends TestBase {
         mis = new MIS();
     }
 
-    @Test(enabled = true)
+    @Test( retryAnalyzer = RetryAnalyser.class)
     public void MedicalAssistanceTest() throws Exception {
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
@@ -51,7 +51,7 @@ public class MedWork_Test extends TestBase {
         Med.VerifyWorkShopButton(); // For Tc3 Assertion Point
     }
 
-    @Test( enabled = true)
+    @Test( retryAnalyzer = RetryAnalyser.class)
     public void WorkshopSelectionTest() throws Exception {
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
@@ -66,7 +66,7 @@ public class MedWork_Test extends TestBase {
         Wrk.SaveAndProceedVerify();// For Tc4 Assertion Point.
     }
 
-    @Test( enabled = true)
+    @Test( retryAnalyzer = RetryAnalyser.class)
     public void IntiMateInsurerTest() throws Exception {
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
