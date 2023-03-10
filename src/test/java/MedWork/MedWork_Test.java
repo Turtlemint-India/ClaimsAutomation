@@ -34,17 +34,16 @@ public class MedWork_Test extends TestBase {
         Med = new Medical();
         Wrk = new Workshop();
         mis = new MIS();
+    }
 
+    @Test(enabled = true)
+    public void MedicalAssistanceTest() throws Exception {
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
 
         misPolicy = mis.MISPolicyNumber();
         System.out.println(misPolicy);
         mis.BackTo_Claims();
-    }
-
-    @Test(enabled = true)
-    public void MedicalAssistanceTest() throws Exception {
         ClaimHm.SetupIncidentDetailPage(misPolicy);
         Med.MedicalAsitancePageNavigation();  // For TC1  Assertion Point
         Med.MoveForwardTest();  // For Tc2 Assertion Point
@@ -53,7 +52,11 @@ public class MedWork_Test extends TestBase {
 
     @Test( enabled = true)
     public void WorkshopSelectionTest() throws Exception {
-
+        Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
+        Loginpage.ninja_MIS();
+        misPolicy = mis.MISPolicyNumber();
+        System.out.println(misPolicy);
+        mis.BackTo_Claims();
         ClaimHm.SetupIncidentDetailPage(misPolicy);
         Med.MedicalAsitancePage();
         Wrk.WorkshopPageVerify();// For TC1  Assertion Point.
@@ -64,7 +67,11 @@ public class MedWork_Test extends TestBase {
 
     @Test( enabled = true)
     public void IntiMateInsurerTest() throws Exception {
-
+        Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
+        Loginpage.ninja_MIS();
+        misPolicy = mis.MISPolicyNumber();
+        System.out.println(misPolicy);
+        mis.BackTo_Claims();
         ClaimHm.SetupIncidentDetailPage(misPolicy);
         Med.MedicalAsitancePage();
         Wrk.WorkShopPageFill();
