@@ -45,7 +45,7 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//p[text()='Please enter valid  Mobile Number.']")
     WebElement errorPleaseentervalidMobileNumber;
 
-    @FindBy(xpath = "//div[text()='Vehicle number or policy number is associated with an existing claim with this date of incident']")
+    @FindBy(xpath = "//div[text()='Please enter correct details!']\n")
     WebElement errorPolicy;
 
     @FindBy(xpath = "//label[text()='Enter Description Of Incident']//parent::div//textarea")
@@ -254,7 +254,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.sendKeys(PolicyNo, "12345688557", "Reg No enter");
         TestUtil.click(FetchDetails, "Fetch Details Clicked");
         WebCommands.staticSleep(2000);
-        TestUtil.Assertchk("Vehicle number or policy number is associated with an existing claim with this date of incident", errorPolicy, "Error msg shown for policy number");
+        TestUtil.Assertchk("Please enter correct details!", errorPolicy, "Error msg shown for policy number");
         WebCommands.staticSleep(3000);
         TestUtil.click(SaveDraft, "Save Draft clicked");
         WebCommands.staticSleep(3000);

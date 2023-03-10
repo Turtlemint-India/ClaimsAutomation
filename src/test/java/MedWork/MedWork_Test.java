@@ -34,7 +34,6 @@ public class MedWork_Test extends TestBase {
         Wrk = new Workshop();
         mis = new MIS();
 
-
         Loginpage.NinjaLogin(prop.getProperty("ninjaemail"), prop.getProperty("ninjapass"));
         Loginpage.ninja_MIS();
         mis.MISPolicyNumber();
@@ -42,7 +41,6 @@ public class MedWork_Test extends TestBase {
         System.out.println(misPolicy);
         mis.BackTo_Claims();
     }
-
 
     @Test(enabled = true)
     public void MedicalAssistanceTest() throws Exception {
@@ -78,5 +76,4 @@ public class MedWork_Test extends TestBase {
     public void teardown() {
         driver.quit();
     }
-
 }
