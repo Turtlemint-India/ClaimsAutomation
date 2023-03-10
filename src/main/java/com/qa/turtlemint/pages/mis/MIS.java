@@ -123,7 +123,7 @@ public class MIS extends TestBase {
 //    @FindBy(xpath = "//span[@data-auto='intermediaryName-mr automation test-autocomplete']")
 //    WebElement DpNameSelect;
 
-    @FindBy(xpath = "//span[@title=\"automation testing - [DP - 1585924]\"]")
+    @FindBy(xpath = "//span[contains(text(),\"DP\")]")
     WebElement DpNameSelect;
 
     @FindBy(xpath = "//input[@id='intermediaryLoginId']")
@@ -213,7 +213,7 @@ public class MIS extends TestBase {
         RandomCarNumber = tl.GenerateRegNo();
         TestUtil.sendKeys(CarRegistrationNo,RandomCarNumber,"Registration Number Entered");
         WebCommands.staticSleep(2000);
-        TestUtil.sendKeys(DpName,"automation test","DP Name entered");
+        TestUtil.sendKeys(DpName,"automation testi","DP Name entered");
         TestUtil.sendKeys(DPLoginID,"5c90df45e4b0f2135296ddd7","Dp Login ID Entered");
         TestUtil.sendKeys(DPNumber,"DP - 402392","DP Number entered");
         WebCommands.staticSleep(1000);
