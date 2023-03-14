@@ -240,6 +240,7 @@ public class IncidentDetail extends TestBase {
         TestUtil.click(Car, "Car Button Clicked");
 //        TestUtil.click(Bike,"Bike Button Clicked");
 //        TestUtil.click(CV,"CV Button Clicked");
+        WebCommands.staticSleep(2000);
         TestUtil.sendKeys(ZendeskID, "Test1234", "Zendesk ID ");
         TestUtil.sendKeys(CustomerName, "Pin Code Testing", "Customer Name Enter");
         TestUtil.sendKeys(CustomerContactNumber, "6999912345", "Customer Contact Number Enter");
@@ -276,10 +277,13 @@ public class IncidentDetail extends TestBase {
     }
 
     public void DeleteClaims() {
+        WebCommands.staticSleep(10000);
         TestUtil.click(ClickOnViewClaims,"view on claims selected");
         TestUtil.click(KababMenu, "Kabab Menu Button clicked");
         TestUtil.click(deleteClaims, "Delete Button Clicked");
-        TestUtil.click(CheckBox, "Check Box Button Clicked");
+        WebCommands.staticSleep(2000);
+       // TestUtil.click(CheckBox, "Check Box Button Clicked");
+        CheckBox.click();
         LogUtils.info("Multiple selections");
         TestUtil.click(DeleteClaimsButton, "Delete Claims Button Clicked");
         TestUtil.click(Delete, "Delete Button Clicked");
