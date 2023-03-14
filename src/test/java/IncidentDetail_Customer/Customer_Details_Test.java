@@ -52,7 +52,8 @@ public class Customer_Details_Test extends TestBase {
     }
 
     @Test
-    public void DeleteClaims_Test() {
+    public void DeleteClaims_Test() throws IOException {
+        ID.PolicyNoWrong();
         ID.DeleteClaims();
     }
 

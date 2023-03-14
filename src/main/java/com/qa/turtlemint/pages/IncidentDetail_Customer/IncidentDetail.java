@@ -128,10 +128,10 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//*[text()=\"Delete Claims\"]")
     WebElement deleteClaims;
 
-    @FindBy(xpath = "//input[@type=\"checkbox\"]//parent::span")
+    @FindBy(xpath = "//p[text()='Automation Testing']//parent::em//parent::div//parent::div//parent::div//span//input[@type=\"checkbox\"]")
     WebElement CheckBox;
 
-    @FindBy(xpath = "(//input[@type=\"checkbox\"]//parent::span)[1]")
+    @FindBy(xpath = "(//p[text()='Automation Testing']//parent::em//parent::div//parent::div//parent::div//span//input[@type=\"checkbox\"])[2]")
     WebElement CheckBox2;
 
     @FindBy(xpath = "//button[text()='Delete Claims']")
@@ -173,6 +173,8 @@ public class IncidentDetail extends TestBase {
     @FindBy(xpath = "//button[text()=\"Mark Status Closed\"]")
     WebElement MarkAsClosed;
 
+    @FindBy(xpath = "//button[normalize-space()='View Claims']")
+    WebElement ClickOnViewClaims;
 
     @FindBy(xpath = "//button[text()='Closed']")
     WebElement Closedbtn;
@@ -274,6 +276,7 @@ public class IncidentDetail extends TestBase {
     }
 
     public void DeleteClaims() {
+        TestUtil.click(ClickOnViewClaims,"view on claims selected");
         TestUtil.click(KababMenu, "Kabab Menu Button clicked");
         TestUtil.click(deleteClaims, "Delete Button Clicked");
         TestUtil.click(CheckBox, "Check Box Button Clicked");
